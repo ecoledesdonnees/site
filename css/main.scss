@@ -1357,7 +1357,7 @@ html.mm-background .mm-page,
 
         @include media($medium-screen) {
           position:static;
-          padding-top:30px;
+	  padding-top:30px;
           font-size:42px;
         }
       }
@@ -1368,7 +1368,8 @@ html.mm-background .mm-page,
 
         @include media($medium-screen) {
           font-size:21px;
-          margin-bottom:30px;
+          margin-top: 235px;
+          /*padding-top:30px;*/
           opacity:0.7;
           white-space: pre-line;
         }

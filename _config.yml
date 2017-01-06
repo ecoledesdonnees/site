@@ -1,9 +1,8 @@
 # Site settings
-title: Site Long Title
-short_title: Site Title
+title: 
+short_title: École des Données 
 description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend metus eget justo tincidunt, nec consequat turpis pretium. Etiam varius tellus tortor, in mattis ex convallis vel.
-baseurl: ""
+    Est-ce qu'on met une petite description ici ?
 url: "http://opendatahandbook.org" # the base hostname & protocol for your site
 github_username:  okfn
 github_repo:  opendatahandbook

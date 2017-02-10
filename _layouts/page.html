@@ -1,6 +1,7 @@
 ---
 layout: default
 wide: true
+edit: true
 ---
 
 {% assign section = page.section %}
@@ -12,7 +13,7 @@ wide: true
     <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.authors %}
-    <div class="author">Written by
+    <div class="author">Rédigé par 
       <ul>
       {% for author in page.authors %}
         <li>{{ author }}</li>

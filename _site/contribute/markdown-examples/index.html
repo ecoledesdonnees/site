@@ -1,0 +1,388 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Markdown Examples</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/contribute/markdown-examples/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/pages/">Cours</a>
+      <ul>
+        <li >
+          <a href="/pages/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/pages/savoir-faire/">Fondamentaux</a>
+                </li>
+                  <ul>
+                    <li >
+                      <a href="/pages/savoir-faire/">index.md</a>
+                    </li>
+                  </ul>
+              </ul>
+        </li>
+            <li >
+          <a href="/pages/thematiques/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+</nav>
+
+
+        <div class="page-content">
+          
+<div class="docs">
+  <article class="post-content">
+    <a href="/contribute/" class="pre-header">contribute</a>
+    <h1 class="post-title">Markdown Examples</h1>
+    
+    <ul id="markdown-toc">
+  <li><a href="#header-1">Header 1</a>    <ul>
+      <li><a href="#header-2">Header 2</a></li>
+    </ul>
+  </li>
+  <li><a href="#header-1-1">Header 1</a>    <ul>
+      <li><a href="#header-2-1">Header 2</a>        <ul>
+          <li><a href="#header-3">Header 3</a>            <ul>
+              <li><a href="#header-4">Header 4</a>                <ul>
+                  <li><a href="#header-5">Header 5</a>                    <ul>
+                      <li><a href="#header-6">Header 6</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#this-is-a-header">This is a header.</a></li>
+    </ul>
+  </li>
+</ul>
+
+<pre><code>* TOC
+{:toc}
+</code></pre>
+
+<p>This is a paragraph.</p>
+
+<pre><code>This is a paragraph.
+</code></pre>
+
+<h1 id="header-1">Header 1</h1>
+
+<h2 id="header-2">Header 2</h2>
+
+<pre><code>Header 1
+========
+
+Header 2
+--------
+</code></pre>
+
+<h1 id="header-1-1">Header 1</h1>
+
+<h2 id="header-2-1">Header 2</h2>
+
+<h3 id="header-3">Header 3</h3>
+
+<h4 id="header-4">Header 4</h4>
+
+<h5 id="header-5">Header 5</h5>
+
+<h6 id="header-6">Header 6</h6>
+
+<pre><code># Header 1
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+##### Header 5
+
+###### Header 6
+</code></pre>
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+</blockquote>
+
+<pre><code>&gt; Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+</code></pre>
+
+<blockquote>
+  <h2 id="this-is-a-header">This is a header.</h2>
+  <ol>
+    <li>This is the first list item.</li>
+    <li>This is the second list item.</li>
+  </ol>
+
+  <p>Here’s some example code:</p>
+
+  <pre><code>Markdown.generate();
+</code></pre>
+</blockquote>
+
+<pre><code>&gt; ## This is a header.
+&gt; 1. This is the first list item.
+&gt; 2. This is the second list item.
+&gt;
+&gt; Here's some example code:
+&gt;
+&gt;     Markdown.generate();
+</code></pre>
+
+<ul>
+  <li>Red</li>
+  <li>Green</li>
+  <li>Blue</li>
+</ul>
+
+<pre><code>* Red
+* Green
+* Blue
+</code></pre>
+
+<ol>
+  <li>Buy flour and salt</li>
+  <li>Mix together with water</li>
+  <li>Bake</li>
+</ol>
+
+<pre><code>1. Buy flour and salt
+1. Mix together with water
+1. Bake
+</code></pre>
+
+<p>Paragraph:</p>
+
+<pre><code>Code
+</code></pre>
+
+<!-- -->
+
+<pre><code>Paragraph:
+
+    Code
+</code></pre>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<hr />
+
+<pre><code>* * *
+
+***
+
+*****
+
+- - -
+
+---------------------------------------
+</code></pre>
+
+<p>This is <a href="http://datahub.io/">an example</a> link.</p>
+
+<p><a href="/en/introduction/">This link</a> is internal.</p>
+
+<p>This is <a href="https://okfn.org/">an example</a> reference-style link.</p>
+
+<pre><code>This is [an example](http://datahub.io/) link.
+
+[This link](/en/introduction/) is internal.
+
+This is [an example] [ok] reference-style link.
+
+[ok]: https://okfn.org/
+</code></pre>
+
+<p><em>single asterisks</em></p>
+
+<p><em>single underscores</em></p>
+
+<p><strong>double asterisks</strong></p>
+
+<p><strong>double underscores</strong></p>
+
+<pre><code>*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+</code></pre>
+
+<p>This paragraph has some <code>code</code> in it.</p>
+
+<pre><code>This paragraph has some `code` in it.
+</code></pre>
+
+<p><img src="http://placehold.it/200x50" alt="Alt Text" title="Image Title" /></p>
+
+<pre><code>![Alt Text](http://placehold.it/200x50 "Image Title")
+</code></pre>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre><code>| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+</code></pre>
+
+<p>I bet you’d like more information about this sentence <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<pre><code>    I bet you'd like more information about this sentence [^1].
+    [^1]: Well lucky for you, I've included more information in a footnote.
+</code></pre>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Well lucky for you, I’ve included more information in a footnote. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+  
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/contribute/markdown-examples/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Markdown Examples: http://ecoledesdonnees.org/contribute/markdown-examples/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/contribute/markdown-examples/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

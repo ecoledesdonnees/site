@@ -1,0 +1,293 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adding a page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/contribute/adding/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/pages/">Cours</a>
+      <ul>
+        <li >
+          <a href="/pages/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/pages/savoir-faire/">Fondamentaux</a>
+                </li>
+                  <ul>
+                    <li >
+                      <a href="/pages/savoir-faire/">index.md</a>
+                    </li>
+                  </ul>
+              </ul>
+        </li>
+            <li >
+          <a href="/pages/thematiques/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+</nav>
+
+
+        <div class="page-content">
+          
+<div class="docs">
+  <article class="post-content">
+    <a href="/contribute/" class="pre-header">contribute</a>
+    <h1 class="post-title">Adding a page</h1>
+    
+    <div class="author">Written by
+      <ul>
+      
+        <li>Sam Smith</li>
+      
+      </ul>
+    </div>
+    
+    <p class="lead">Most of what you need to know to add a new page is covered under ‘<a href="/contribute/editing/">Editing a page</a>’, so make sure you have first read through that section.</p>
+
+<p>Adding a page follows a similar process to editing. Instead of locating your page, your first step is to locate your new page’s parent directory.</p>
+
+<h2>1: Create the page</h2>
+
+<p>First locate the parent directory, or folder, in which your file will live. If you are adding a page to the English language Handbook, for example, you should be in the '<strong>en</strong>' directory, where you’ll see a list of all the Handbook pages.</p>
+
+<p>Above the list of pages is a breadcrumb trail <code>ecoledesdonnees / guide / en /</code>, to the right of which is a plus symbol <code><strong>+</strong></code>. Click the plus symbol to create your new page.</p>
+
+<h2>2: Name your file</h2>
+
+<p>You should now have a new file editor page open. The first editable section you are presented with is the ‘<em>Name your file</em>’ field. As we touched upon when looking at <a href="/contribute/editing/">editing files</a>, the file name corresponds to the URL of the page on the site. There are a few of rules to follow here:</p>
+
+<ul>
+  <li>The file name should reflect the title of the new page</li>
+  <li>Must be unique</li>
+  <li>Should be all lowercase</li>
+  <li>Words should be separated by hyphens (-)</li>
+  <li>File name should end with the extension '<em>.md</em>' (the .md extension indicates a markdown file)</li>
+</ul>
+
+<p>As an example, if you were creating a page titled '<em>My Cool Page</em>', you would use a file name of:</p>
+
+<pre>
+<code>my-cool-page.md</code>
+</pre>
+
+<p>Assuming you are creating this in the '<em>en</em>' directory, this would result in a URL of <em>http://ecoledesdonnees.org/en/my-cool-page</em></p>
+
+<div class="note">
+  <h6>Note</h6>
+  <p>The actual words used in your file name are not crucial. It’s fine to use a more succinct version of your page title, for example.</p>
+</div>
+
+<h2>3: Formatting your content</h2>
+
+<p>This step is the same as when editing a page. You need to start your file with the Front Matter, then add your content, formatting it using Markdown. Here is a template to get you started:</p>
+
+<pre>
+<code>---
+title: My Cool Page
+authors:
+ - Fred Bloggs
+---
+
+##A large introductory paragraph.
+
+Regular paragraphs, separated by empty lines.
+
+###A heading
+
+Another paragraph.
+
+ * Maybe
+ * a
+ * list</code>
+</pre>
+
+<p>When you’re done, click ‘<em>Propose new file</em>’.</p>
+
+<h2>4: Make a pull request</h2>
+
+<p>Once you have created your page(s) and updated the contents document, you're ready to make your pull request. Click the pull request icon to the right of the screen <code class="icon-git-pull-request"><span>[git pull-request icon]</span></code>, then click ‘<em>New pull request</em>’.</p>
+
+<p>At the top of the resulting comparison screen, you’ll see a row of select boxes. You want to make sure these are configured like so:</p>
+
+</article>
+
+<div class="github panel">
+  <div class="range-editor">
+    <span class="icon-git-compare range-editor-icon"></span>
+    <div class="range">
+
+      <div class="range-cross-repo-pair">
+        <div class="select-menu js-menu-container js-select-menu fork-suggester">
+          <span class="minibutton select-menu-button js-menu-target" role="button" aria-label="Choose a Base Repository" aria-haspopup="true">
+            <i>base fork:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="base: ckan/ckan">okfn/ecoledesdonnees</span>
+          </span>
+        </div>
+
+        <div class="select-menu js-menu-container js-select-menu commitish-suggester">
+          <span class="minibutton select-menu-button js-menu-target branch" role="button" aria-label="Choose a base branch" aria-haspopup="true">
+            <i>base:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="base: master">gh-pages</span>
+          </span>
+        </div>
+      </div>
+
+      <span class="dots">...</span>
+
+      <div class="range-cross-repo-pair">
+        <div class="select-menu js-menu-container js-select-menu fork-suggester">
+          <span class="minibutton select-menu-button js-menu-target" role="button" aria-label="Choose a Head Repository" aria-haspopup="true">
+            <i>head fork:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="head: mintcanary/ckan"><em>username</em>/ecoledesdonnees</span>
+          </span>
+        </div>
+
+        <div class="select-menu js-menu-container js-select-menu commitish-suggester">
+          <span class="minibutton select-menu-button js-menu-target branch" role="button" aria-label="Choose a head branch" aria-haspopup="true">
+            <i>compare:</i>
+            <span class="js-select-button css-truncate css-truncate-target" title="compare: master"><em>branch</em></span>
+          </span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<article class="post-content">
+<p><em><strong>username</strong> being your github username, <strong>branch</strong> being the branch you have been working on.</em></p>
+
+<p>You should now be able to see listed below, all the changes that you wish to contribute. If everything looks as it should, click ‘<em>Create pull request</em>’.</p>
+
+<p>Give your pull request a title and description, then click ‘<em>Create pul request</em>’. You have now contributed your pages to the Handbook :)</p>
+
+  </article>
+  
+</div>
+
+<div class="page-tools">
+ 
+  <ul class="pagination">
+    
+    <li class="start tooltip-item">
+      Début
+      <span class="tooltip">
+        <a href="/contribute/">Contribute</a>
+      </span>
+    </li>
+    
+    
+    <li class="previous tooltip-item">
+      Suivant
+      <span class="tooltip">
+        <a href="/contribute/editing/">Editing a page</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/contribute/adding/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Adding a page: http://ecoledesdonnees.org/contribute/adding/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/contribute/adding/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

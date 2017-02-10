@@ -2,37 +2,33 @@
 {% assign url_last = url_parts |last  %}
 
 <header class="site-header">
-  <a href="#menu" class="show-menu"><span class="text">Open the menu</span></a>
-  <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="{{ site.baseurl }}/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="École des données"></a>
 </header>
 
 <nav id="menu">
   <ul>
     <li>
-      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/">Accueil</a>
     </li>
-
     <li>
-      <a href="{{ site.baseurl }}/pages/">Pages</a>
+      <a href="{{ site.baseurl }}/pages/">Cours</a>
       <ul>
         <li {% if url_last == 'pages' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/">Page One</a>
+          <a href="{{ site.baseurl }}/pages/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li {% if url_last == 'pages' %}class="Selected"{% endif %}>
+                  <a href="{{ site.baseurl }}/pages/savoir-faire/">Fondamentaux</a>
+                </li>
+              </ul>
         </li>
-        <li {% if url_last == 'page-two' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/page-two/">Page Two</a>
-        </li>
-        <li {% if url_last == 'page-three' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/page-three/">Page Three</a>
+            <li {% if url_last == 'page-two' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/pages/thematiques/">Thématiques</a>
         </li>
       </ul>
     </li>
     
     <li {% if url_parts contains 'posts' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/posts/">Posts</a>
+      <a href="{{ site.baseurl }}/posts/">Blog</a>
     </li>
-    
-    <li {% if url_last ==  'credits' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/credits/">Credits</a>
-    </li>
-
 </nav>

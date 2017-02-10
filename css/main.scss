@@ -467,7 +467,7 @@ pre,
 
       &.mm-selected {
         a {
-          border-left:solid 5px $base-accent-color;
+          border-left:solid 5px #00aff0;
           padding-left:15px;
         }
       }
@@ -489,7 +489,7 @@ pre,
           margin:0;
 
           &:focus {
-            border-color:$base-accent-color;
+            border-color:#00aff0;
           }
         }
       }
@@ -592,10 +592,10 @@ body:not( .filters ) {
 //////////////////////////////////////////////////////////////////////////////////
 
 .site-header {
-  border-bottom: solid 1px $medium-gray;
-  background-color:#fff;
+  background-color:#00aff0;
   width:100%;
   z-index:1;
+  height:60px;
 
   .show-menu {
     @include icon-font();
@@ -611,11 +611,11 @@ body:not( .filters ) {
       margin-top:12px;
       margin-left:12px;
       display:inline-block;
-      color: $dark-gray;
+      color: #fff;
     }
 
     .mm-opened & {
-      background-color:$base-accent-color;
+      background-color: #00aff0;
 
       &:before {
         color:#fff;
@@ -637,7 +637,6 @@ body:not( .filters ) {
   .site-title {
     color:$base-font-color;
     font-size:rem(19);
-    line-height:60px;
     text-transform:uppercase;
     font-weight:700;
     display:block;
@@ -650,7 +649,6 @@ body:not( .filters ) {
       .icon {
         @include icon-font();
         font-size:rem(32);
-        float:left;
         height:60px;
         line-height:55px;
         margin-right:5px;
@@ -1116,19 +1114,20 @@ body:not( .filters ) {
 html,
 html.mm-background .mm-page,
 .site-footer {
-  background-color:$medium-gray;
+  background-color: #00aff0;
 }
 
 
 .site-footer {
   padding:$base-spacing;
+  color: white;
 
   & > div {
     @include outer-container(100%);
   }
 
   a {
-    color:$base-font-color;
+    color: white;
   }
 
   ul {
@@ -1192,7 +1191,6 @@ html.mm-background .mm-page,
     }
 
     .supporters {
-      margin-bottom:10px;
 
       h6 {
         font-size:11px;
@@ -1280,7 +1278,7 @@ html.mm-background .mm-page,
 
       & > div,
       & > ul {
-        border-top:solid 1px rgba($dark-gray, .5);
+        border-top:solid 1px white;
       }
       & > :first-child {
         @include span-columns(11);
@@ -1293,7 +1291,7 @@ html.mm-background .mm-page,
 
             &:before {
               content:'\00a0\007C\00a0';
-              color:rgba( $base-font-color, .5 );
+              color: white;
             }
 
             &:first-of-type:before {
@@ -1333,18 +1331,18 @@ html.mm-background .mm-page,
 .home {
 
   .banner {
-    background-image:url(../img/EDD_horiz_blanc_sur_bleu.png);
+    background-image:url(../img/home-banner.jpg);
     background-repeat: no-repeat;
-    background-size: 1314px 333px;
+    background-size: 102%;
     background-position: center;
     position: relative;
     /* z-index: 0; */
     overflow: hidden;
-    text-align: center;
+   
 
 
     .wrapper {
-      padding: 20px $base-spacing 115px $base-spacing;
+      padding: 160px $base-spacing 15px $base-spacing;
       max-height:333px;
 
       h1 {
@@ -1365,10 +1363,11 @@ html.mm-background .mm-page,
       p {
         font-family:$serif;
         font-style:italic;
+        text-shadow: 2px 2px 4px #000000;
 
         @include media($medium-screen) {
-          font-size:21px;
-          margin-top: 235px;
+          font-size:36px;
+          margin-top: 0px;
           /*padding-top:30px;*/
           opacity:0.7;
           white-space: pre-line;

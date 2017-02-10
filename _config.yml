@@ -1,13 +1,11 @@
 # Site settings
 title: 
 short_title: École des Données 
-description: |
-    Est-ce qu'on met une petite description ici ?
-url: "http://opendatahandbook.org" # the base hostname & protocol for your site
+url: "http://ecoledesdonnees.org" # the base hostname & protocol for your site
 github_username:  okfn
-github_repo:  opendatahandbook
-paypal: admin@okfn.org
-contact: https://discuss.okfn.org/c/network-and-community/open-data-handbook
+github_repo:  ecoledesdonnees
+paypal: 
+contact: 
 
 devs:
   -
@@ -20,16 +18,8 @@ contributors:
       link: http://rufuspollock.org/
 
 supporters:
-  -
-    name: Shuttleworth Foundation
-    logo: shuttleworth.png
-    footer_logo: shuttleworth-footer.png
-    url: https://www.shuttleworthfoundation.org/
-  -
-    name: The World Bank
-    logo: worldbank.png
-    footer_logo: worldbank-footer.png
-    url: http://www.worldbank.org/
+
+
 
 
 #googleanalytics: UA-XXXXX-X
@@ -55,23 +45,12 @@ defaults:
 
 related_projects:
   -
-      name: OpenGovernmentData.org
-      link: http://opengovernmentdata.org/
-  -
-      name: The DataHub
-      link: http://datahub.io/
-  -
-      name: DataCatalogs.org
-      link: http://datacatalogs.org/
+      name: SchoolOfData.org
+      link: http://schoolofdata.org/
   -
       name: OpenSpending.org
       link: http://openspending.org/
   -
-      name: SchoolOfData.org
-      link: http://schoolofdata.org/
-  -
       name: OpenDefinition.org
       link: http://opendefinition.org/
-  -
-      name: Introducing Open Data
-      link: http://okfn.org/opendata/
+

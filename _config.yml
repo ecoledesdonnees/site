@@ -1,11 +1,7 @@
 # Site settings
-title: 
 short_title: École des Données 
 url: "http://ecoledesdonnees.org" # the base hostname & protocol for your site
-github_username:  okfn
-github_repo:  ecoledesdonnees
-paypal: 
-contact: 
+github_repo: ecoledesdonnees
 
 devs:
   -
@@ -16,12 +12,6 @@ contributors:
   -
       name: Rufus Pollock
       link: http://rufuspollock.org/
-
-supporters:
-
-
-
-
 #googleanalytics: UA-XXXXX-X
 
 markdown: kramdown

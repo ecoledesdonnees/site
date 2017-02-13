@@ -7,28 +7,5 @@
 </header>
 
 <nav id="menu">
-  <ul>
-    <li>
-      <a href="{{ site.baseurl }}/">Accueil</a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/pages/">Cours</a>
-      <ul>
-        <li {% if url_last == 'pages' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/savoir-faire/">Savoir-Faire</a>
-              <ul>
-                <li {% if url_last == 'pages' %}class="Selected"{% endif %}>
-                  <a href="{{ site.baseurl }}/pages/savoir-faire/">Fondamentaux</a>
-                </li>
-              </ul>
-        </li>
-            <li {% if url_last == 'page-two' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/thematiques/">Thématiques</a>
-        </li>
-      </ul>
-    </li>
-    
-    <li {% if url_parts contains 'posts' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/posts/">Blog</a>
-    </li>
+
 </nav>

@@ -4,28 +4,8 @@ wide: true
 edit: true
 ---
 
-{% assign section = page.section %}
-
-{% assign section_base = site.baseurl | append: section | append: '/' %}
-
 <div class="post">
-  <article class="post-content{% if page.lead %} lead-paragraph{% endif %}">
-    <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>
-    <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.authors %}
-    <div class="author">Rédigé par 
-      <ul>
-      {% for author in page.authors %}
-        <li>{{ author }}</li>
-      {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
-
-    {{ content }}
-  </article>
-
+<h1 class="post-title">LES COURS</h1>
 </div>
 
-{% include page-tools.html %}
 

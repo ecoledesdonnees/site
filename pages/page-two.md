@@ -1,11 +1,7 @@
 ---
-layout: default
-wide: true
-edit: true
+layout: post
 ---
-
-<div class="post">
 <h1 class="post-title">LES COURS</h1>
-</div>
+
 
 

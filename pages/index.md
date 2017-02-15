@@ -1,6 +1,6 @@
 ---
 layout: default
-wide: true
-edit: true
 title: Les cours
 ---
+
+<h1>A propos de l’École des Données</h1>

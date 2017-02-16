@@ -1342,6 +1342,7 @@ Styles pour les donnees dans le footer
 
 
 .home {
+    background-color: #f6f6f6;
 
   .banner {
     background-image:url(../img/home-banner.jpg);
@@ -1357,7 +1358,6 @@ Styles pour les donnees dans le footer
 
     .wrapper {
       padding: 160px $base-spacing 15px $base-spacing;
-      background-color: #f6f6f6;
       max-height:333px;
 
       h1 {

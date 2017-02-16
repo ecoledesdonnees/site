@@ -4,7 +4,7 @@ title:  5 - Des données aux diagrammes: Une introduction aux diagrammes
 date:   2017-02-02
 author : Pierre Chrzanowski	
 categories: fondamentaux
-description: "La visualisation de données est une compétence importante et si elle est mise en oeuvre correctement elle apporte une grande plus-value. Dans ce tutoriel nous avons comme missions de comprendre quel type de graphique est le plus approprié pour présenter vos données et d'apprendre la procédure de base afin d'insérer des graphiques dans une feuille de calcul Google."
+description: "La visualisation de données est une compétence importante et si elle est mise en oeuvre correctement elle apporte une grande plus-value. Dans ce tutoriel nous avons comme missions de comprendre quel type de graphique est le plus approprié pour présenter vos données."
 tags: [fondamentaux, visualisation, introduction]
 published: true
 ---

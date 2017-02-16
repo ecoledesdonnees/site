@@ -1,6 +1,6 @@
 ---
 layout: post
-title:   5 - Des données aux diagrammes: Une introduction aux diagrammes
+title:   5 - Des données aux diagrammes, une introduction aux diagrammes
 date:   2017-02-07
 author : Pierre Chrzanowski	
 categories: fondamentaux

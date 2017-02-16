@@ -1,0 +1,18 @@
+---
+layout: post
+title: Cours
+---
+
+<div class="resources posts">
+    <div class="banner">
+        <div class="wrapper">
+            <h1>{{ post.title }}</h1>
+            <p>{{ post.description }}</p>
+        </div>
+    </div>
+    <div class="post-list">
+        {% for post in site.posts %}
+        {% include post-list-item.html %}
+        {% endfor %}
+    </div>
+</div>

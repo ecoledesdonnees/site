@@ -1,6 +1,6 @@
 ---
 layout: post
-title:   Qu'est-ce qu'une donnée ?
+title:   Où trouver des données ? 
 date:   2017-02-02
 author : Pierre Chrzanowski	
 categories: fondamentaux

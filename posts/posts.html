@@ -1,0 +1,33 @@
+---
+layout: default
+title: Cours
+---
+<div class="cours">
+    <div class="banner">
+        <div class="wrapper">
+            <span>
+                <h1>{{ page.title }}</h1>
+            </span>
+        </div>
+    </div>
+    <div class="post-list">
+        {% for post in paginator.posts %}
+        {% include post-list-item.html %}
+        {% endfor %}
+    </div>
+
+    <ul class="pagination animated-buttons custom-icons">
+        {% if paginator.previous_page %}
+        <li class="button"><a href="{{ paginator.previous_page_path }}"><i>Prev</i></a></li>
+        {% else %}
+        <li class="button"><a class="disabled"><i>Prev</i></a></li>
+        {% endif %}
+
+        {% if paginator.next_page %}
+        <li class="button"><a href="{{ paginator.next_page_path }}"><i>Next</i></a></li>
+        {% else %}
+        <li class="button"><a class="disabled"><i>Next</i></a></li>
+        {% endif %}
+    </ul>
+
+</div>

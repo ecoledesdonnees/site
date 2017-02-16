@@ -1383,9 +1383,13 @@ html.mm-background .mm-page,
       }
 
       p {
-        font-family:$serif;
+        /** font-family:$serif; **/
+	font-family: OpenSans,sans-serif;
         font-style:italic;
         text-shadow: 2px 2px 4px #000000;
+	    font-weight: 400;
+	    font-size: 40pt;
+            line-height: 43pt;
 
         @include media($medium-screen) {
           font-size:36px;

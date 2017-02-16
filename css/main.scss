@@ -595,7 +595,7 @@ body:not( .filters ) {
   background-color:#00aff0;
   width:100%;
   z-index:1;
-  height:60px;
+  height:100px;
 
   .show-menu {
     @include icon-font();

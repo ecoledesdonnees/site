@@ -2,6 +2,7 @@
 layout: post
 title:   Qu'est-ce qu'une donnée ?
 date:   2017-01-16
+author : Pierre
 categories: fondamentaux
 ---
 

@@ -4,7 +4,7 @@ title:  5 - Des données aux diagrammes: Une introduction aux diagrammes
 date:   2017-02-02
 author : Pierre Chrzanowski	
 categories: fondamentaux
-description: "La visualisation de données est une compétence importante et si elle est mise en oeuvre correctement elle apporte une grande plus-value. Dans ce tutoriel nous avons comme mission de comprendre quel type de graphique est le plus approprié pour présenter vos données et d'apprendre la procédure de base afin d'insérer des graphiques dans une feuille de calcul Google."
+description: "La visualisation de données est une compétence importante et si elle est mise en oeuvre correctement elle apporte une grande plus-value. Dans ce tutoriel nous avons comme missions de comprendre quel type de graphique est le plus approprié pour présenter vos données et d'apprendre la procédure de base afin d'insérer des graphiques dans une feuille de calcul Google."
 tags: [fondamentaux, visualisation, introduction]
 published: true
 ---
@@ -60,31 +60,23 @@ C'est un choix arbitraire et vous pouvez très bien regarder l'ensemble des pays
 Ce faisant, vous pourriez découvrir des choses cachées dans les données.
 
 1. Pour ce faire, filtrer le jeu de données de la Banque Mondiale sur une seule année (ex: 2009).
-
 2. Trier le jeu de données filtré sur la colonne “Health care expenditure total per person (US$)” qui est 
    l'une des colonnes créée lors de l'exercice précédent.
    N'oubliez pas de sélectionner toute la feuille de calcul et pas seulement la colonne que vous triez.
-
-3. Sélectionnez les 10 premiers pays (les 11 premières lignes en incluant la ligne d'entête) et copiez les dans une autre feuille de calcul.
-   (Pour cela, appuyez sur CTRL + C pour copier puis insérez une nouvelle feuille de calcul et appuyez sur CTRL + V dans celle-ci pour coller)
-
+3. Sélectionnez les 10 premiers pays (les 11 premières lignes en incluant la ligne d'entête) et copiez les dans une autre feuille de calcul. (Pour cela, appuyez sur CTRL + C pour copier puis insérez une nouvelle feuille de calcul et appuyez sur CTRL + V dans celle-ci pour coller)
 4. Du fait de la façon dont fonctionne Google Docs, nous devons maintenant associer les colonnes
    qui nous intéressent pour la suite avec les noms de pays (colonne A)
-
 5. Cliquez sur le libellé gris pour le sélectionner.
    Relâchez le bouton de la souris puis cliquez et glissez le jusqu'à ce qu'il soit positionné.
    Votre colonne A doit maintenant être "Country Names", la colonne B "Healthcare expenditure per person total US$".
    Votre feuille de calcul devrait ressembler à ceci:
    ![Feuille de calcul à l'étape 5](http://farm9.staticflickr.com/8314/7982157782_0384c5c2d5_o_d.jpg)
-
 6. Maintenant, sélectionnez les deux premières colonnes et ouvrez le graphique... depuis le menu insérer.
 
    ![](http://farm9.staticflickr.com/8189/8079297402_11385187fe_o_d.png)
-
 7. L'un des graphiques proposé devrait être un histogramme
 
    ![](http://farm9.staticflickr.com/8189/8079306740_de45bdca7c_o_d.png)
-
 8. Cliquez dessus et vous verrez un aperçu. Avez-vous remarqué l'intervalle de l'axe y ?
 
    ![](http://farm9.staticflickr.com/8297/7982162404_1a5c6502ef_o_d.png)
@@ -108,8 +100,7 @@ Ce faisant, vous pourriez découvrir des choses cachées dans les données.
     Sélectionnez Editer le diagramme pour changer ses réglages.
     Pouvez-vous le transformer en diagramme en bâton ?
 
-Exercice : Créez un histogramme avec d'autres données de la Banque Mondiale.
-
+### Exercice : Créez un histogramme avec d'autres données de la Banque Mondiale.
 
 Vous savez maintenant comment créer un histogramme -- sentez vous libre d'expérimenter avec d'autres types de graphiques en utilisant les recettes du Manuel pour vous guider. Les sections suivantes vous enseigneront quand sélectionner un type spécifique de graphique et à quelles données il est adapté. Nous traiterons des graphiques les plus communs : les courbes, les cartes choroplèthes (cartes thématiques colorées) et les diagrammes de dispersion. Pour chacun de ceux-là, vous pouvez trouver une recette pratique correspondante dans le manuel.
 
@@ -120,7 +111,7 @@ parfois vous n'avez pas seulement des catégories comme des pays, mais vous avez
 
 Sur l'axe des y nous avons toujours nos valeurs et sur l'axe des x nous avons la mesure du temps. Ce graphique fonctionne bien si tous les intervalles de temps sont égaux (bien sûr les courbes ne sont pas réservées aux séries temporelles). Pour mémoire, il est important, quand nous comparons plusieurs catégories, de démarrer votre axe des y à 0. Il est possible de ne pas partir de 0 mais seulement quand il n'y a qu'une seule courbe -- et toujours en mentionnant clairement les valeurs minimales et maximales.
 
-Exercice : comparez le Luxembourg aux autres pays les plus dépensiers -- créez un graphique en courbes avec les différents pays sur un seul graphique.
+### Exercice : comparez le Luxembourg aux autres pays les plus dépensiers -- créez un graphique en courbes avec les différents pays sur un seul graphique.
 
 Représenter des données géographiques -- cartographier
 Dans notre cas nous n'avons pas seulement des données numériques mais aussi des données numériques reliées à des lieux géographiques. Vite une carte ! Quand vous avez un grand nombre de pays ou de régions, représenter des données sur une carte est pertinent. Si vous avez des pays ou des régions vous créez une carte choroplèthe. Ce type particulier de carte représente à l'aide de couleurs des valeurs données pour une région spécifique. Voici un exemple de carte choroplèthe à partir de nos données :

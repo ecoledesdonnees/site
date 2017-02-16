@@ -7,6 +7,7 @@ categories: fondamentaux
 description: "La visualisation de données est une compétence importante et si elle est mise en oeuvre correctement elle apporte une grande plus-value. Dans ce tutoriel nous avons comme missions de comprendre quel type de graphique est le plus approprié pour présenter vos données."
 tags: [fondamentaux,données, introduction]
 published: true
+permalink: /site/fondamentaux/2017/02/08/V-une-introduction-aux-diagrammes/
 ---
 
 ## Introduction
@@ -14,8 +15,8 @@ published: true
 Le tutoriel précédent n'était fait que de texte et de tableaux, rajoutons un peu d'éclat au monde de la donnée : la Data Visualisation. Faire de la visualisation de données ne se réduit pas à rendre joli ce que vous avez trouvé. C'est souvent un moyen pour donner de la perspicacité votre donnée.
 Il est plus facile de comprendre des informations traitées sous une forme de graphique que sous forme de chiffres et de tableaux. Regardez l'exemple ci dessous : combien de temps faut il pour voir la tendance dans le tableau et maintenant dans le graphique. 
 
-http://farm9.staticflickr.com/8305/7982104847_5a4be76fc7_o_d.png
-http://farm9.staticflickr.com/8458/7982109326_463cede881_o_d.png
+![](http://farm9.staticflickr.com/8305/7982104847_5a4be76fc7_o_d.png)
+![](http://farm9.staticflickr.com/8458/7982109326_463cede881_o_d.png)
 
 La visualisation de données est une compétence importante et si elle est mise en oeuvre correctement elle apporte une grande plus-value. En revanche, si elle est mal utilisée, vous allez égarer les lecteurs et les envoyer vers des idées erronées. 
 Souvenez vous : de grands pouvoirs sont accompagnés de grandes responsabilités. 

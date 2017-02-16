@@ -7,6 +7,10 @@ wide: true
 
 {% assign section_base = site.baseurl | append: section | append: '/' %}
 
+{% include head.html %}
+
+{% include header.html %}
+
 <div class="post">
   <article class="post-content">
     <a href="/{{ section_base }}" class="pre-header">{{ section }}</a>

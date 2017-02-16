@@ -1357,6 +1357,7 @@ Styles pour les donnees dans le footer
 
     .wrapper {
       padding: 160px $base-spacing 15px $base-spacing;
+      background-color: #f6f6f6;
       max-height:333px;
 
       h1 {
@@ -1420,7 +1421,6 @@ Styles pour les donnees dans le footer
 
   @media (min-width: 1020px) {
     padding-bottom:$base-spacing;
-    background-color: #f6f6f6;
   }
 
   & > .wrapper {

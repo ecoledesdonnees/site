@@ -6,7 +6,6 @@ author : Pierre Chrzanowski
 categories: fondamentaux
 description: "Dans ce tutoriel nous allons parler des plus fréquentes idées fausses et des pièges à éviter quand on commence à analyser et visualiser des données. C'est seulement quand on connaît les erreurs habituelles qu'on peut les éviter dans son propre travail et les détecter quand elles sont citées par erreur dans le travail des autres."
 tags: [fondamentaux, visualisation, introduction]
-permalink: /site/fondamentaux/:year/:month/:day/:title/
 ---
 
 Il est important de bien documenter la provenance des données (l'origine et l'historique d'un jeu de données). Chaque utilisateur qui a modifié un jeu de données doit pouvoir être identifié. Il est responsable des traitements et des nettoyages des données qu'il a effectué. Pour un fichier Excel, il faut indiquer toutes les étapes de transformation des données. Les outils avancés de traitement des données (comme Open Refine, anciennement Google Refine) permettent eux d'exporter directement cet historique de traitement avec le jeu de données lui-même. Si des programmes (logiciels) ont été écrits spécifiquement pour traiter les données, ils doivent être fournis en même temps que les résultats de vos traitements. Le code source de ces programmes doit être ouvert et partagé, par exemple sur Github.

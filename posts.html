@@ -3,6 +3,8 @@ layout: post
 title: Liste des cours disponibles
 ---
 
+<p syle="font-size: 30pt; font-weight: 700; font-family: OpenSans,Helvetica Neue,sans-serif;">Les compétences clés pour comprendre, gérer et travailler avec les données.</p>
+
 {% for post in site.posts %}
 	
     <article class="posts">
@@ -12,10 +14,10 @@ title: Liste des cours disponibles
           {% if post.imageURL %} 
             <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }} headline">
           {% endif %}
-      	  <h1 style="color: #00aff0; font-size: 30px; font-weight: 400; font-family: OpenSans,Helvetica Neue,sans-serif;">{{ post.title }}</h1>
+      	  <h1 style="color: #00aff0; font-size: 40px; font-weight: 400; font-family: OpenSans,Helvetica Neue,sans-serif;">{{ post.title }}</h1>
         </a>
         <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-        <p> Catégorie : {{ post.categories }}</p>
+        <p style="font-weight: 800;"> Catégorie : {{ post.categories }}</p>
         <p>{{ post.description }}</p>
     	 </div>
     </article>

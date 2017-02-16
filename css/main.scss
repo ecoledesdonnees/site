@@ -1123,6 +1123,26 @@ html.mm-background .mm-page,
   padding:$base-spacing;
   color: white;
 
+.footer-data {
+
+    font-size: 16px;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: block;
+    color: #00aff0;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.data-block {
+
+	margin-right: 20px;
+	font-weight: 700;
+}
+	
   & > div {
     @include outer-container(100%);
   }

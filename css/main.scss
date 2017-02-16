@@ -601,7 +601,7 @@ body:not( .filters ) {
     @include icon-font();
     position:absolute;
     border-right:solid 1px $medium-gray;
-    height:60px;
+    height:105px;
     width:60px;
 
     &:before {
@@ -652,6 +652,7 @@ body:not( .filters ) {
         height:60px;
         line-height:55px;
         margin-right:5px;
+	margin-top:25px;
         text-align:center;
 
         &:before {

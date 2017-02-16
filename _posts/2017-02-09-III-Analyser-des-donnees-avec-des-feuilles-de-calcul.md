@@ -4,7 +4,7 @@ title:   4 - Analyser des données avec des feuiles de calcul
 date:   2017-02-09
 author : Pierre Chrzanowski	
 categories: fondamentaux
-description: "Dans ce tutoriel, nous nous concentrons sur les données qui sont déjà disponibles en ligne. D'autres modules de l'Ecole des Données abordent les autres moyens évoqués ici (réclamer des données, faire sa propre collecte)."
+description: "Une fois votre jeu de données nettoyé et filtré, il faudra passer à son analyse. Analyser des données nous aidera à comprendre ce que nos données pourraient signifier et nous aider à trouver des réponses à nos questions à l'aide du jeu de données."
 tags: [fondamentaux,données, introduction]
 published: true
 ---

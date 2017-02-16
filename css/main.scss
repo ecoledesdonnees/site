@@ -1429,6 +1429,10 @@ Styles pour les donnees dans le footer
         @include span-columns(4);
         position:relative;
         padding-top: $base-spacing * 2;
+	      padding: 1.5em;
+      background-color: #f6f6f6;
+      margin-top: 25px;
+      border-radius: 5px;
 
         &:after {
           content:'';

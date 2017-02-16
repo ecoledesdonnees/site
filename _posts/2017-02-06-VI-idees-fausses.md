@@ -1,0 +1,125 @@
+---
+layout: post
+title:   6 - Faites attention. Idées fausses et comment les éviter
+date:   2017-02-06
+author : Pierre Chrzanowski	
+categories: fondamentaux
+description: "Dans ce tutoriel nous allons parler des plus fréquentes idées fausses et des pièges à éviter quand on commence à analyser et visualiser des données. C'est seulement quand on connaît les erreurs habituelles qu'on peut les éviter dans son propre travail et les détecter quand elles sont citées par erreur dans le travail des autres."
+tags: [fondamentaux, visualisation, introduction]
+published: true
+---
+
+## Introduction
+
+Connaissez-vous l'expression populaire : « Il y a trois sortes de mensonges : les mensonges, les sacrés mensonges et les statistiques » ? Elle illustre la méfiance usuelle envers les données numériques et la façon dont elles sont affichées. Et elle contient une part de vérité : trop longtemps, l'illustration des données numériques a servi à manipuler la compréhension des "faits" par les personnes. Il y a une première explication à cela. L'information se trouve d'abord sous forme de donnée brute, mais avant que la donnée brute soit retraitée, elle reste trop complexe à comprendre pour nos cerveaux.
+
+Chaque calcul ou visualisation, qu'il soit aussi simple que le calcul de la moyenne ou aussi complexe que la production d'un diagramme 3D, implique de perdre une certaine quantité de données afin que nous puissions l'appréhender. C'est quand les gens perdent des données qui sont vraiment importantes et ensuite essayent de faire de grandes déclarations sur l'ensemble des données que la plupart des erreurs sont faites. Bien souvent ce qu'ils disent est "vrai", mais ils ne racontent pas toute l'histoire.
+
+Dans ce tutoriel nous allons parler des plus fréquentes idées fausses et des pièges à éviter quand on commence à analyser et visualiser des données. C'est seulement quand on connaît les erreurs habituelles qu'on peut les éviter dans son propre travail et les détecter quand elles sont citées par erreur dans le travail des autres.
+
+
+## Le piège classique
+
+Avez-vous jamais lu une phrase comme: « l'européen moyen boit 1 litre de bière par jour » ? Vous-êtes vous jamais demandé qui était ce mystérieux « européen moyen », et où vous pourriez le rencontrer ? Mauvaise nouvelle : vous ne pouvez pas. Il ou elle n'existe pas. Dans certains pays, les gens boivent plus de vin que de bière. Qu'en est-il des gens qui ne boivent pas du tout d'alcool ? Et les enfants ? En boivent-ils aussi 1 litre par jour ? Cette affirmation est clairement trompeuse. Alors, comment ce nombre est-il apparu ?
+
+Les gens qui font ce genre de d'affirmations s'appuient généralement sur des grands nombres : par exemple chaque année 109 milliards de litres de bière sont consommés en Europe. Il leur suffit de diviser ce nombre par le nombre de jours par an et l'ensemble de la population de l'Europe et puis de claironner cette nouvelle excitante. Nous avons fait la même chose deux modules plus haut, quand nous avons divisé les dépenses de santé par la population. Cela signifie-t-il que tous les gens dépensent autant d'argent ? Non, cela signifie que certains dépensent moins et certains dépensent plus, ce que nous faisions était de trouver la moyenne. La moyenne a beaucoup de sens, si les données sont distribuées normalement. La distribution normale est la cloche classique en forme de courbe.
+
+![](http://farm9.staticflickr.com/8301/7899098946_4839cc2ed3_b_d.jpg)
+
+L'image ci-dessus montre trois distributions normales différentes. Elles ont toutes la même moyenne. Et pourtant, elles sont clairement différentes. Ce que la moyenne ne vous dit pas c'est comment sont réparties les données.
+
+La plupart du temps, nous ne manipulons pas non plus des distributions normales : prenez par exemple le revenu. Le revenu moyen (quelque chose de fréquemment utilisée) suggère que la moitié de la population gagnerait plus et l'autre moitié gagnerait moins que la moyenne. C'est faux. Dans la plupart des pays, il y a beaucoup plus de personnes gagnant moins que le salaire moyen, que de personnes gagnant plus.
+Les revenus ne sont pas distribués suivant une loi normale. Ils montrent un pic autour d'un certain niveau et ensuite une longue queue vers les gros salaires.
+
+![](http://farm9.staticflickr.com/8320/7995322063_5c8b05b458_o_d.png)
+
+Le graphique montre la répartition des revenus réels en $US pour les ménages ayant jusqu'à 200 000 $US de revenu, d'après le recensement américain de 2011. Vous pouvez voir qu'un grand nombre de ménages ont des revenus autour de 15 000 à 65 000 $US, mais il y a une longue queue, qui tire la moyenne vers le haut.
+
+Si le revenu moyen augmente, cela peut être parce que la plupart des gens gagnent plus. Mais cela pourrait aussi être que quelques personnes dans le groupe de revenu supérieur gagnent beaucoup plus. Les deux cas déplaceraient la moyenne.
+
+Exercice : Si vous avez besoin de quelques chiffres pour vous aider à comprendre cela, essayez ce qui suit :
+
+Imaginez 10 personnes. La première gagne 1€, la deuxième gagne 2€, la troisième gagne 3€... jusqu'à 10€. Calculez le salaire moyen.
+
+Maintenant, ajoutez 1€ à chacun de leurs salaires (2€, 3€... 11€). Quelle est la nouvelle moyenne ?
+
+Maintenant, revenez aux salaires initiaux (1€, 2€, 3€, etc.) et ajouter 10€ seulement au plus haut salaire (vous avez donc 1€, 2€, 3€... 9€, 20€). Quelle est maintenant la moyenne ?
+
+Les économistes reconnaissent cela et ont ajouté une autre valeur. Le « Coefficient de GINI » vous dit quelque chose sur la répartition des revenus. Le « Coefficient de GINI » est un peu compliqué à calculer et dépasse le cadre de cette initiation. Toutefois, il est bon de savoir qu'il existe. Beaucoup d'information se perd lorsqu'on se contente de calculer une moyenne. Gardez les yeux ouverts quand vous lisez les nouvelles et naviguez sur le web.
+
+Exercice : Pouvez-vous trouver des exemples où l'utilisation de la moyenne est problématique ?
+
+
+## Plus que seulement votre moyenne…
+
+Donc si nous ne pouvons pas utiliser la moyenne, que devrions-nous utiliser ? Il existe diverses autres mesures qui permettent de donner plus de context à un chiffre moyen.
+
+- Accompagnez le chiffre moyen de l'étendue ; par exemple dites : un intervalle de 20 à 5000 avec une moyenne de 50. Prenons notre exemple de bière : il serait un peu mieux dire de 0 à 5 litres par jour avec une moyenne de 1 litre.
+
+- Utilisez la médiane : la médiane est la valeur telle que 50 % des valeurs sont au-dessus et 50 % des valeurs sont inférieures. Pour le revenu médian, il est vrai que 50 % des gens gagnent moins et 50 % gagnent plus.
+
+- Utilisez les quartiles ou percentiles : Les quartiles sont comme la médiane mais pour 25, 50 et 75 %. Les percentiles sont la même chose mais pour diverses variations du pourcentage (généralement par pas de 10 %). Cela nous donne beaucoup plus d'informations que la moyenne ; cela nous dit aussi quelque chose sur la distribution des données (par exemple, est-ce que 1 % de la population détient vraiment 80 % de la richesse ?)
+
+## La taille est importante
+
+Dans la visualisation de données, la taille compte. Regardez les deux histogrammes ci-dessous :
+
+![](http://farm9.staticflickr.com/8459/7899190314_bf9dae849b_b_d.jpg)
+
+Imaginez les titres des journaux pour ces deux graphiques. Pour le graphique de gauche, vous pourriez lire « Les dépenses de santé en Finlande explosent ! ». Le graphique de droite pourrait venir sous le titre « Les dépenses de santé en Finlande restent principalement stables ». Maintenant, regardez les données. Ce sont les mêmes données présentées de deux façons différentes (et incorrectes).
+
+Exercice : Pouvez-vous trouver pourquoi les données sont trompeuses ?
+
+Dans le graphique de gauche, les données ne commencent pas à 0 $, mais aux environs de 3000 $. Cela fait que les différences apparaissent proportionnellement beaucoup plus importantes. Par exemple, les dépenses de 2001 à 2002 semblent avoir au moins triplé ! En réalité, ce n'était pas le cas. L'aspect carré du graphique  (le graphique a la même hauteur et la même largeur) aggrave encore plus l'effet.
+
+Le graphique de droite commence à 0 $ mais va jusqu'à 30 000 $, même si les données s'étendent seulement jusqu'à 9000 $. Il est plus précis que le graphique de gauche, mais il est tout aussi déroutant. Il n'est pas étonnant que les gens considèrent les statistiques comme des mensonges, si elles sont utilisées pour les tromper sur les données.
+
+Cet exemple montre à quel point il est important de représenter les données de manière appropriée. Voici quelques règles simples à suivre :
+
+Utilisez toujours un intervalle qui convient à vos données
+Notez-les correctement sur leurs axes respectifs !
+Les changements de taille que nous voyons dans un graphique devraient refléter fidèlement le changement de taille dans vos données. Donc si vos données montrent que B vaut 2 fois A, B devrait être 2 fois plus grand que A dans votre visualisation.
+La règle simple de « tenir compte de la taille » devient encore plus difficile en 2 dimensions, quand vous avez à vous soucier de la superficie totale. À un moment donné, les médias ont commencé à remplacer les colonnes par des photos et ont conservé l'échelle de dimensionnement des images. Le problème : Si vous réglez la hauteur afin de refléter le changement et la largeur augmente automatiquement avec elle, la surface augmente encore plus et deviendra complètement fausse ! C'est confus ? Regardez ces bulles :
+
+![](http://farm9.staticflickr.com/8037/7899435168_e13622dc8f_b_d.jpg)
+
+Exercice : Nous voulons montrer que B a le double de la taille de A. Quelle représentation est correcte ? Pourquoi ?
+
+Solution : Le diagramme de droite.
+
+Vous rappelez-vous la formule de calcul de l'aire d'un cercle ? (Aire = πr² Si cela ne nous semble pas familier, regardez ici). Dans le diagramme de gauche, le rayon de A a été doublé. Cela signifie que l'aire totale a été multipliée par 4 ! C'est faux. Si B doit représenter un nombre double de A, il faut que la surface de B soit le double de la surface de A. Pour la calculer correctement, nous devons ajuster la longueur du rayon par un facteur ⎷2. Cela nous donne un changement réaliste de taille.
+
+Le temps le dira ?
+Les courbes chronologiques sont également essentielles lors de l'affichage des données. Regardez le diagramme ci-dessous :
+
+![](http://farm9.staticflickr.com/8178/7899506212_29a422c92c_o_d.png)
+
+Une augmentation nette et continue des frais de santé depuis 2002 ? Pas tout à fait. Remarquez comment avant 2004, il y a des pas de 1 an. Après, il ya un écart entre 2004 et 2007, puis entre 2007 et 2009. Cette présentation nous fait croire que les dépenses de santé augmentent de façon continue au même rythme depuis 2002 - mais en réalité ce n'est pas le cas. Donc, si vous utilisez des échelles chronologiques, faites en sorte que la distance entre les points des  données sont corrects ! C'est alors seulement que vous serez en mesure de voir correctement les tendances.
+
+### Corrélation n'est pas causalité
+![](http://imgs.xkcd.com/comics/correlation.png)
+_par XKCD_
+
+Ce malentendu est si commun et si bien connu qu'il a son propre article dans Wikipedia. Il n'y a rien de plus à dire à ce sujet. Tout simplement, ce n'est pas parce que deux points de données montrent des changements qui peuvent être corrélés, que cela signifie que l'un entraîne l'autre.
+
+Le context, le contexte, le contexte
+Le contexte est très important pour les données : Un nombre ou une qualité ne signifie rien si vous ne fournissez pas le contexte. Alors, expliquez ce que vous montrez, expliquez comment le lire, expliquez d'où proviennent les données et expliquez ce que vous avez fait avec elles. Si vous donnez le bon contexte la conclusion devrait émerger directement des données.
+
+Variation en pourcentage par rapport à variation en points de pourcentage
+C'est un écueil commun pour beaucoup d'entre nous. Si une valeur passe de 5% à 10%, de combien de pour-cents est le changement?
+
+Si vous avez répondu 5%, je suis désolé mais vous avez tort ! La réponse est 100 % (10% est 200% de 5%). C'est un changement de 5 points de pourcentage. Alors, faites attention la prochaine fois que des gens essaient d'analyser les élections, les sondages et autres. pourrez-vous repérer leurs erreurs ?
+
+Besoin d'un cours de recyclage sur la façon de calculer la variation en pourcentage ? Regardez la page de "Maths en s'amusant" qui lui est consacrée.
+
+Attraper le voleur - sensibilité et grands nombres
+Imaginez que vous êtes propriétaire d'une boutique et vous venez d'installer un système électronique de détection des vols. Le système détecte les vols avec une précision de 99%. L'alarme se déclenche, quelle est la probabilité que la personne qui vient de passer soit un voleur ?
+Il est tentant de répondre à cette question qu'il ya une chance de 99% que cette personne ait volé quelque chose. Mais en réalité, ce n'est pas nécessairement le cas.
+
+Dans votre magasin, vous aurez des clients honnêtes et des voleurs à l'étalage. Cependant, les clients honnêtes sont plus nombreux que les voleurs : il y a 10 000 clients honnêtes et seulement 1 voleur. Si chacun d'entre eux passe devant votre alarme, l'alarme sonnera 101 fois. 1% du temps, elle désignera à tort un client honnête comme un voleur, elle sonnera donc 100 fois. 99% du temps elle reconnaîtra à juste titre qu'un voleur est un voleur.
+Donc elle sonnera probablement quand votre voleur passera devant. Mais sur les 101 fois qu'elle sonnera, 1 fois seulement il s'agira réellement d'un voleur. Ainsi, la chance qu'une personne soit réellement un voleur quand l'alarme se déclenche est inférieure à 1% (0,99%, si vous voulez être pointilleux).
+
+Surestimer la probabilité que quelque chose est signalé comme positif dans un tel scénario est appelé l'illusion du taux de base. Cela explique pourquoi les portiques d'aéroport et d'autres méthodes de dépistage de masse signalent toujours beaucoup de faux positifs.
+
+### Résumé
+Dans ce module, nous avons examiné quelques erreurs couramment faites lors de la présentation des données, lors de l'utilisation de données comme un outil pour raconter des histoires ou pour partager questions et résultats. Alors que nous avons besoin de simplification pour comprendre ce que les données signifient, le faire mal peut nous induire en erreur. Lorsque nous présentons des preuves graphique, essayons de rester fidèle aux données elles-mêmes. Si possible, ne diffusez pas seulement votre analyse, libérez aussi les données brutes !

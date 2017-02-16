@@ -1334,9 +1334,10 @@ html.mm-background .mm-page,
   .banner {
     background-image:url(../img/home-banner.jpg);
     background-repeat: no-repeat;
-    background-size: 102%;
-    background-position: center;
+    background-size: 110%;
+    background-position: top;
     position: relative;
+	height: 370px;  
     /* z-index: 0; */
     overflow: hidden;
    

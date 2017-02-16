@@ -6,7 +6,7 @@ author : Pierre Chrzanowski
 categories: fondamentaux
 description: "Dans ce tutoriel, nous nous concentrons sur les données qui sont déjà disponibles en ligne. D'autres modules de l'Ecole des Données abordent les autres moyens évoqués ici (réclamer des données, faire sa propre collecte)."
 tags: [fondamentaux,données, introduction]
-published: true
+permalink: site/date
 ---
 
 ### Introduction 

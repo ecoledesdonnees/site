@@ -1,18 +1,23 @@
 ---
-layout: post
+layout: default
 title: Liste des cours disponibles
 ---
 
-<div class="resources posts">
-    <div class="banner">
-        <div class="wrapper">
-            <h1>{{ post.title }}</h1>
-            <p>{{ post.description }}</p>
-        </div>
-    </div>
-    <div class="post-list">
-        {% for post in site.posts %}
-        {% include post-list-item.html %}
-        {% endfor %}
-    </div>
-</div>
+{% for post in site.posts %}
+	
+    <article class="posts">
+<div class="banner">
+    	
+        <a href="{{ post.url }}">
+          {% if post.imageURL %} 
+            <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }} headline">
+          {% endif %}
+      	  <h1>{{ post.title }}</h1>
+        </a>
+        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+            <p>{{ post.author }}</p>
+        <p>{{ post.description }}</p>
+    	 </div>
+    </article>
+
+{% endfor %}

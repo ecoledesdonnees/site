@@ -5,8 +5,7 @@ date:   2017-02-06
 author : Pierre Chrzanowski	
 categories: fondamentaux
 description: "Dans ce tutoriel nous allons parler des plus fréquentes idées fausses et des pièges à éviter quand on commence à analyser et visualiser des données. C'est seulement quand on connaît les erreurs habituelles qu'on peut les éviter dans son propre travail et les détecter quand elles sont citées par erreur dans le travail des autres."
-tags: [fondamentaux, visualisation, introduction]
-published: true
+permalink: /site/fondamentaux/:year/:month/:day/:title/
 ---
 
 ## Introduction

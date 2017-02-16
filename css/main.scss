@@ -1123,16 +1123,17 @@ html.mm-background .mm-page,
   padding:$base-spacing;
   color: white;
 
+/** 
+Styles pour les donnees dans le footer
+	
 .footer-data {
     color: #00aff0;
     font-size: 21px;
-    align-items: center;
-}
-
-.data-block {
+    align-items: center; }
+ .data-block {
         margin-right: 20px;
-	font-weight: 700;
-}
+	font-weight: 700; }
+**/
 	
   & > div {
     @include outer-container(100%);

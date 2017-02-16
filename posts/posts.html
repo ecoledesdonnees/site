@@ -2,6 +2,15 @@
 layout: default
 title: Cours
 ---
+
+{% include head.html %}
+
+{% include header.html %}
+
+{% assign section = page.section %}
+
+{% assign section_base = site.baseurl | append: section | append: '/' %}
+
 <div class="cours">
     <div class="banner">
         <div class="wrapper">

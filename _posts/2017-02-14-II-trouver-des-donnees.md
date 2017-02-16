@@ -1,7 +1,7 @@
 ---
 layout: post
-title:   Où trouver des données ? 
-date:   2017-02-02
+title:  2 - Où trouver des données ? 
+date:   2017-02-14
 author : Pierre Chrzanowski	
 categories: fondamentaux
 description: "Dans ce tutoriel, nous nous concentrons sur les données qui sont déjà disponibles en ligne. D'autres modules de l'Ecole des Données abordent les autres moyens évoqués ici (réclamer des données, faire sa propre collecte)."

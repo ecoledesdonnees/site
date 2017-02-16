@@ -1445,7 +1445,8 @@ html.mm-background .mm-page,
     }
 
     & > a {
-      @extend button;
+      /** @extend button; **/
+      background-color: #00aff0;
     }
   }
 

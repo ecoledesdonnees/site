@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 3 - Trier et filtrer : Les bases des feuilles de calcul
-date:  2017-02-13
+title: 3 - Trier et filtrer Les bases des feuilles de calcul
+date:  2017-02-09
 author : Pierre Chrzanowski
 categories: fondamentaux
 description: "A la fin de ce module, vous aurez appris comment télécharger des données, les importer dans une feuille de calcul, comment les nettoyer et les interpréter avec les fonctions "trier" et "filtrer."

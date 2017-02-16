@@ -6,7 +6,7 @@ title: Liste des cours disponibles
 {% for post in site.posts %}
 	
     <article class="posts">
-<div class="banner">
+<div class="liste-cours">
     	
         <a href="{{ post.url }}">
           {% if post.imageURL %} 
@@ -15,7 +15,7 @@ title: Liste des cours disponibles
       	  <h1>{{ post.title }}</h1>
         </a>
         <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-            <p>{{ post.author }}</p>
+            <p>{{ post.author }}</p><p>{{ post.categories }}</p><p>{{ post.tags }}</p>
         <p>{{ post.description }}</p>
     	 </div>
     </article>

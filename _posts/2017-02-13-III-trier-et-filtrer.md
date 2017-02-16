@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 3 - Trier et filtrer Les bases des feuilles de calcul
-date:  2017-02-09
-author : Pierre Chrzanowski
+date:   2017-02-08
+author : Pierre Chrzanowski	
 categories: fondamentaux
-description: "A la fin de ce module, vous aurez appris comment télécharger des données, les importer dans une feuille de calcul, comment les nettoyer et les interpréter avec les fonctions "trier" et "filtrer."
+description: "Une fois votre jeu de données nettoyé et filtré, il faudra passer à son analyse. Analyser des données nous aidera à comprendre ce que nos données pourraient signifier et nous aider à trouver des réponses à nos questions à l'aide du jeu de données."
 tags: [fondamentaux, données, introduction]
 published: true
 ---

@@ -5,6 +5,7 @@ authors:
  - Mor Rubinstein
  - Traduction de Cecile Le Guen
 lang: fr
+edit: true
 ---
 
 <p class="lead">Notre page de ressources est enrichie de contributions volontaires émanant de la communauté. Tout le monde peut rajouter et partager un lien, une vidéo, une ressource. Voici comment faire.</p>

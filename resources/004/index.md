@@ -8,6 +8,6 @@ Language: Français
 Link: https://ecoledesdonnees.github.io/site/fondamentaux/2017/02/09/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/
 MediaType: Articles
 Notes: ''
-Title: 4 - Analyser des données avec des feuilles de calcul
+Title: Analyser des données avec des feuilles de calcul
 Topic: The Basics
 ---

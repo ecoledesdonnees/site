@@ -9,5 +9,5 @@ Link: https://ecoledesdonnees.github.io/site/fondamentaux/2017/02/14/II-trouver-
 MediaType: Articles
 Notes: ''
 Title: https://okfn.org/opendata/
-Topic: Basics
+Topic: The Basics
 ---

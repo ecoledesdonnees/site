@@ -6,7 +6,6 @@ author : Pierre Chrzanowski
 categories: fondamentaux
 description: "Une fois votre jeu de données nettoyé et filtré, il faudra passer à son analyse. Analyser des données nous aidera à comprendre ce que nos données pourraient signifier et nous aider à trouver des réponses à nos questions à l'aide du jeu de données."
 tags: [fondamentaux,données, introduction]
-permalink: /site/fondamentaux/2017/02/09/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/
 ---
 
 ## Introduction

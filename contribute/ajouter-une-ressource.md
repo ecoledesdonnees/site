@@ -1,4 +1,5 @@
 ---
+section: contribuer
 title: Contribuer au site et ajouter une ressource
 authors:
  - Mor Rubinstein
@@ -6,8 +7,6 @@ authors:
 lang: fr
 edit: true
 ---
-
-<p class="pre-header">Contribuer</p>
 
 <p class="lead">Notre page de ressources est enrichie de contributions volontaires émanant de la communauté. Tout le monde peut rajouter et partager un lien, une vidéo, une ressource. Voici comment faire.</p>
 

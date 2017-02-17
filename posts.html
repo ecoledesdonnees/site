@@ -1,0 +1,24 @@
+---
+layout: post
+title: Liste des cours disponibles
+---
+
+<p style="font-size: 14pt; font-weight: 600; font-family: OpenSans,Helvetica Neue,sans-serif; line-height: 150%;">Les compétences clés pour comprendre, manipuler et travailler avec les données.</p>
+
+{% for post in site.posts %}
+	
+    <article class="posts">
+<div class="liste-cours">
+    	
+        <a href="{{ post.url }}">
+          {% if post.imageURL %} 
+            <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }} headline">
+          {% endif %}
+      	  <h1 style="color: #00aff0; font-size: 30px; font-weight: 400; font-family: OpenSans,Helvetica Neue,sans-serif;">{{ post.title }}</h1>
+        </a>
+        <p class="pre-header" style="margin-top: -1rem;"> Catégorie : {{ post.categories }}</p>
+        <p>{{ post.description }}</p>
+    	 </div>
+    </article>
+
+{% endfor %}

@@ -10,13 +10,35 @@ devs:
 
 contributors:
   -
-      name: Rufus Pollock
-      link: http://rufuspollock.org/
+      name: Pierre Chrzanowski 
+      link: https://ecoledesdonnees.github.io/site/
+  -
+      name: Cécile Le Guen
+      link: https://ecoledesdonnees.github.io/site/
+  -
+      name: Samuel Goëta
+      link: https://ecoledesdonnees.github.io/site/
+  -
+      name: Sylvia Fredriksson
+      link: https://ecoledesdonnees.github.io/site/
+      
 #googleanalytics: UA-XXXXX-X
 
 markdown: kramdown
 
 permalink: pretty
+
+meta:
+  resources:
+    label: resources
+    output: true
+    has_translation: false
+    title: Cours
+    filters:
+      - Topic
+      - Language
+      - Region
+      - MediaType
 
 defaults:
   -

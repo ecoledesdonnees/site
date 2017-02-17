@@ -1,0 +1,49 @@
+---
+layout: post
+title:   7 - Raconte-moi une histoire. Travailler sur ce qui est intéressant dans vos données
+date:   2017-02-06
+author : Pierre Chrzanowski	
+categories: fondamentaux
+description: "Afin d'écrire une histoire avec vos données vous avez besoin de répondre à certaines questions. Pourquoi une personne s'intéresserait-elle à votre histoire ? Qui est cette personne ? Comment cette personne est-elle liée ou entre en intéraction avec ces données ?"
+---
+
+## Introduction
+ 
+ La donnée en soi n'est pas si compréhensible. Il s'agit cependant d'une très bonne base sur laquelle s'appuyer. Pour créer de l'information depuis des données, il faut les rendre palpables. Raconter une histoire avec ces données est le moyen le plus simple d'y parvenir.
+ 
+ Afin d'écrire une histoire avec vos données vous avez besoin de répondre à certaines questions. Pourquoi une personne s'intéresserait-elle à votre histoire ? Qui est cette personne ? Comment cette personne est-elle liée ou entre en intéraction avec ces données ?
+ 
+ ## Le processus
+ Le processus visant à raconter l'histoire est tout à fait similaire à cette leçon. Il s'agit de :
+ 
+ - Trouver les données : Celles qui vous permettront de répondre à votre question
+ - Manipuler les données : Les convertir dans un format utilisable
+ - Combiner les jeux de données : Rassembler les différents jeux de données
+ - Filtrer et trier les données : Sélectionner uniquement les données intéressantes
+ - Analyser les données : Que peut-on y trouver ?
+ - Visualiser les données : Si les données présentent des aspects intéressants comment les mettre en avant pour vos lecteurs ?
+ 
+ Trouver une histoire dans les données
+ 
+ Parfois vous commencerez par explorer un jeu de données avec une question précise en tête. Parfois vous n'aurez pas cette question précise et vous voudrez trouver une histoire qui s'y cache. Dans les deux cas, visualiser les données vous aidera à en tirer les aspects intéressants. Un bon moyen de dénicher ces aspects est d'avoir un outil intéractif de visualisation. Un diagramme intéractif à bulles est un bon exemple puisque cela nous permet de comparer plusieurs valeurs en même temps.
+ Choisir les données pertinentes et proches des problèmes des gens est un des enjeux les plus durs à maîtriser, et le meilleur moyen d'apprendre est de s'inspirer des gens qui excellent sur le sujet. Voici une courte liste pour commencer à y réfléchir :
+ 
+ - Argumenter un point de vue politique avec verve : Hans Rosling a fait une carrière de son talent théatral à donner vie aux données sur le développement mondial. Sa présentation est une des vidéos TED les plus vues. Dans la section des recettes, vous apprendrez comment faire des diagrammes intéractifs à bulles comme celui qu'il présente dans cette vidéo.
+ 
+ - Data-Journalisme: Si vous voulez passer maître dans l'art de raconter des histoires avec les données, il faut naturellement prendre exemple sur les journalistes. Le Guide du Datajournalisme met en avant certaines des meilleurs histoires racontées avec des données et détaille comment et pourquoi celles-ci ont été écrites par les mots des Datajournalistes les plus reconnus de part le monde.
+ 
+ - Campagnes de communication narrative : Tactical Technology Collective a rédigé un excellent guide sur comment choisir les informations visuelles afin de répandre votre message et cibler correctement votre audience. Drawing By Numbers nous apprend à identifier le niveau de détail souhaité ou requis par le lecteur, de sorte qu'il ne soit pas submergé ou qu'il ne s'ennuie pas avec la quantité de données présentée. Les auteurs regroupent la conception de l'information autour de trois principaux élements. Votre approche doit dépendre de ce que votre audience souhaite : Comprendre l'idée, Comprendre la situation, Comprendre les détails. Ils donnent également des exemples pertinents de campagnes de communication avec un réel impact visuel.
+ 
+ - Appropriation des données : A qui essayez-vous de vous adresser dans la présentation de vos données ? Le niveau de compréhension des citoyens permet-il de parler des dépenses du gouvernement britannique en milliards ou est-il préférable d'utiliser une échelle qu'ils peuvent se représenter ou qui signifie quelque chose pour eux ? Par exemple, "Where Does My Money Go ?" montre aux utilisateurs, sur une base journalière, comment les impôts qu'ils versent sont répartis en différents champs d'action et montre au public des chiffres qu'ils peuvent mieux se représenter. 
+ 
+ Raconter l'histoire
+ Tout d'abord passez par les étapes suivantes : 
+ Comment déterminez-vous vos donnnées ? Comment définissez-vous le contexte ?  Quel format allez-vous choisir ? Cela peut être un article, un billet de blog, une infographie, ou un site interactif qui traite uniquement de cette question. La manière dont vous allez racontrer l'histoire dépend autant du format que vous allez choisir. Etes-vous une ONG et souhaitez-vous utiliser des données dans une campagne d'information ? Etes-vous un journaliste qui veut s'appuyer sur des données pour un article ? Etes-vous un chercheur qui souhaite donner du sens à des données de terrain ? Ou êtes-vous juste un bloggueur curieux qui cherche des sujets intéressants ? Vos publics seront différents et le sens de votre histoire ne sera pas le même. N'hésitez pas à partager très tôt votre travail avec vos amis ou vos collègues - ils peuvent vous donner un avis éclairé sur la manière d'améliorer votre présentation ou votre histoire.
+ 
+ ### Tâche : Quelles histoires peuvent être racontées à partir des données de la Banque Mondiale ? Pouvez-vous identifier des informations complémentaires ou d'autres données pour améliorer votre histoire ?
+ 
+ ## Publier vos résultats en ligne
+ Une fois que vous avez tiré le meilleur parti de vos données, vous êtes prêt à les publier en ligne. Plusieurs services vous permettent d'incruster des visualisations et des données, comme par exemple les iframes que vous pouvez copier-coller dans votre blog ou site web. Dans tous les cas, s'il vous est difficile de mettre votre publication en ligne, nous vous proposons quelques démarches rapides pour vous aider à publier vos résultats directement en ligne.
+ 
+ ### Résumé
+ Tout au long de ce cours sur "Les Fondamentaux des Données", nous avons commençé à collecter et sauvegarder un jeu de données dans une feuille de calcul, en faire l'exploration et les calculs complémentaires, et visualiser le tout pour enfin raconter une histoire. Bien sûr, il y a encore bien plus à apprendre sur les données que ce cours de base. Ne vous inquiétez pas, l'Ecole des Données ne sera jamais loin et pourra vous aider. Maintenant foncez : allez voir ce que d'autres ont réalisé et surtout n'hésitez pas à explorer le monde des données !

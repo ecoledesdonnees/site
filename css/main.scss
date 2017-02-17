@@ -45,7 +45,8 @@ p {
 }
 
 a {
-  color: $base-link-color;
+  /** color: $base-link-color; **/
+  color:#00aff0;
   text-decoration: none;
 }
 
@@ -595,20 +596,20 @@ body:not( .filters ) {
   background-color:#00aff0;
   width:100%;
   z-index:1;
-  height:60px;
+  height:80px;
 
   .show-menu {
     @include icon-font();
     position:absolute;
     border-right:solid 1px $medium-gray;
-    height:60px;
+    height:105px;
     width:60px;
 
     &:before {
       content: "\e120";
       font-size:22px;
       padding:6px;
-      margin-top:12px;
+      margin-top:28px;
       margin-left:12px;
       display:inline-block;
       color: #fff;
@@ -652,6 +653,7 @@ body:not( .filters ) {
         height:60px;
         line-height:55px;
         margin-right:5px;
+	margin-top:12px;
         text-align:center;
 
         &:before {
@@ -1114,7 +1116,7 @@ body:not( .filters ) {
 html,
 html.mm-background .mm-page,
 .site-footer {
-  background-color: #00aff0;
+  background-color: #333333;
 }
 
 
@@ -1122,6 +1124,18 @@ html.mm-background .mm-page,
   padding:$base-spacing;
   color: white;
 
+/** 
+Styles pour les donnees dans le footer
+	
+.footer-data {
+    color: #00aff0;
+    font-size: 21px;
+    align-items: center; }
+ .data-block {
+        margin-right: 20px;
+	font-weight: 700; }
+**/
+	
   & > div {
     @include outer-container(100%);
   }
@@ -1329,13 +1343,15 @@ html.mm-background .mm-page,
 
 
 .home {
+    background-color: #f6f6f6;
 
   .banner {
     background-image:url(../img/home-banner.jpg);
     background-repeat: no-repeat;
-    background-size: 102%;
-    background-position: center;
+    background-size: 130%;
+    background-position: top;
     position: relative;
+    height: 370px;  
     /* z-index: 0; */
     overflow: hidden;
    
@@ -1361,9 +1377,13 @@ html.mm-background .mm-page,
       }
 
       p {
-        font-family:$serif;
+        /** font-family:$serif; **/
+	font-family: OpenSans,sans-serif;
         font-style:italic;
         text-shadow: 2px 2px 4px #000000;
+	    font-weight: 400;
+	    font-size: 40pt;
+            line-height: 43pt;
 
         @include media($medium-screen) {
           font-size:36px;
@@ -1382,10 +1402,10 @@ html.mm-background .mm-page,
         left:50%;
         bottom:0;
         margin-left:-658px;
-        @include retina-image('../img/home-banner', auto 215px, jpg);
+        @include retina-image('../img/home-banner', auto 370px, jpg);
         background-repeat:no-repeat;
         background-position:center bottom;
-        height:215px;
+        height:370px;
         z-index:-1;
       }
     }
@@ -1411,10 +1431,14 @@ html.mm-background .mm-page,
         @include span-columns(4);
         position:relative;
         padding-top: $base-spacing * 2;
+	      padding: 1.5em;
+      background-color: #fff;
+      margin-top: 25px;
+      border-radius: 5px;
 
         &:after {
           content:'';
-          background-color:$medium-gray;
+          background-color:#f6f6f6;
           display: block;
           position: absolute;
           top:$base-spacing;
@@ -1443,7 +1467,14 @@ html.mm-background .mm-page,
     }
 
     & > a {
-      @extend button;
+      /** @extend button; **/
+      background-color: #00aff0;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #FFF;
+      border-radius: 2px;
+      padding: 10px 20px;
+      font-weight: 700;
     }
   }
 

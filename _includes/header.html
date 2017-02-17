@@ -3,7 +3,7 @@
 
 <header class="site-header">
   <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
-  <a class="site-title" href="{{ site.baseurl }}/"><img class="icon" src="img/EDD_horiz_blanc_sur_bleu.png" alt="École des données"></a>
+  <a class="site-title" href="{{ site.baseurl }}/"><img class="icon" src="/site/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
 </header>
 
 <nav id="menu">
@@ -12,23 +12,27 @@
       <a href="{{ site.baseurl }}/">Accueil</a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/pages/">Cours</a>
+      <a href="{{ site.baseurl }}/posts/">Cours</a>
       <ul>
         <li {% if url_last == 'pages' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/savoir-faire/">Savoir-Faire</a>
+          <a href="{{ site.baseurl }}/pages/savoir-faire/">Fondamentaux</a>
               <ul>
                 <li {% if url_last == 'pages' %}class="Selected"{% endif %}>
                   <a href="{{ site.baseurl }}/pages/fondamentaux/">Fondamentaux</a>
+                  <a href="{{ site.baseurl }}/pages/savoir-faire/">Dataviz cardgame</a>
                 </li>
               </ul>
         </li>
             <li {% if url_last == 'page-two' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/thematiques/">Thématiques</a>
+          <a href="{{ site.baseurl }}/resources/">Thématiques</a>
         </li>
       </ul>
     </li>
     
     <li {% if url_parts contains 'posts' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/posts/">Blog</a>
+    </li>
+        <li {% if url_parts contains 'contribute' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/contribute/ajouter-une-ressource/">Contribuer</a>
     </li>
 </nav>

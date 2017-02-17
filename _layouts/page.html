@@ -4,6 +4,10 @@ wide: true
 edit: true
 ---
 
+{% include head.html %}
+
+{% include header.html %}
+
 {% assign section = page.section %}
 
 {% assign section_base = site.baseurl | append: section | append: '/' %}
@@ -28,3 +32,5 @@ edit: true
 </div>
 
 {% include page-tools.html %}
+
+{% include footer.html %}

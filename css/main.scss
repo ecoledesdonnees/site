@@ -1350,7 +1350,7 @@ Styles pour les donnees dans le footer
     background-size: 110%;
     background-position: top;
     position: relative;
-	height: 370px;  
+    height: 370px;  
     /* z-index: 0; */
     overflow: hidden;
    
@@ -1401,10 +1401,10 @@ Styles pour les donnees dans le footer
         left:50%;
         bottom:0;
         margin-left:-658px;
-        @include retina-image('../img/home-banner', auto 215px, jpg);
+        @include retina-image('../img/home-banner', auto 370px, jpg);
         background-repeat:no-repeat;
         background-position:center bottom;
-        height:215px;
+        height:370px;
         z-index:-1;
       }
     }

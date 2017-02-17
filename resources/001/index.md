@@ -8,6 +8,6 @@ Language: Français
 Link: https://ecoledesdonnees.github.io/site/fondamentaux/2017/02/15/I-qu_est_ce_qu_une_donnee/
 MediaType: Articles
 Notes: ''
-Title: 1 - Qu'est-ce qu'une donnée ?
+Title: Qu'est-ce qu'une donnée ?
 Topic: The Basics
 ---

@@ -88,7 +88,7 @@ js:
   <ul class="results">
     <li>
       <a name="basics"></a>
-      <h2>The Basics</h2>
+      <h2>Les fondamentaux</h2>
     {% for resource in site.pages %}
     {% if resource.section == 'resources' and resource.Topic contains 'Basics' %}
       <aside>
@@ -120,7 +120,7 @@ js:
 
         {% if resource.MediaType == 'Articles' %}
         {% assign icon = 'world' %}
-        {% assign link_word = 'Website' %}
+        {% assign link_word = 'plus' %}
         {% elsif resource.MediaType == 'Presentations' %}
         {% assign icon = 'file-pdf' %}
         {% assign link_word = 'Presentation' %}
@@ -135,7 +135,7 @@ js:
         {% assign link_word = 'Link' %}
         {% endif %}
 
-        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>Open {{ link_word }}</span></a>
+        <a href={{ resource.Link }}><span class="icon-{{ icon }}"></span> <span>En savoir {{ link_word }}</span></a>
       </article>
     {% endif %}
     {% endfor %}

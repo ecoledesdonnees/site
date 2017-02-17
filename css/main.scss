@@ -595,7 +595,7 @@ body:not( .filters ) {
   background-color:#00aff0;
   width:100%;
   z-index:1;
-  height:100px;
+  height:80px;
 
   .show-menu {
     @include icon-font();
@@ -608,7 +608,7 @@ body:not( .filters ) {
       content: "\e120";
       font-size:22px;
       padding:6px;
-      margin-top:35px;
+      margin-top:28px;
       margin-left:12px;
       display:inline-block;
       color: #fff;
@@ -652,7 +652,7 @@ body:not( .filters ) {
         height:60px;
         line-height:55px;
         margin-right:5px;
-	margin-top:25px;
+	margin-top:12px;
         text-align:center;
 
         &:before {

@@ -1,6 +1,5 @@
 ---
 section: contribute
-layout: page
 title: Contribuer au site et ajouter une ressource
 authors:
  - Mor Rubinstein

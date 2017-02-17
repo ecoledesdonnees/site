@@ -6,7 +6,7 @@ author : Pierre Chrzanowski
 categories: fondamentaux
 description: "Bienvenue sur le cours d'introduction de L'École des données. Dans ce cours nous allons apprendre les rudiments de la manipulation et de la visualisation de données. Dans ce module, vous allez apprendre à appréhender la recherche de données. Nous commencerons par une introduction aux fondamentaux - les termes clés tels que des données qualitatives, quantitatives, lisibles par machine, discrètes et continues, auxquels nous sommes confrontés régulièrement durant les processus de manipulation de données."
 tags: [fondamentaux,données, introduction]
-permalink: site/fondamentaux/2017/02/15/I-qu_est_ce_qu_une_donnee/
+permalink: /site/fondamentaux/2017/02/15/I-qu_est_ce_qu_une_donnee/
 ---
 
 

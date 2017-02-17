@@ -1,10 +1,10 @@
 ---
 section: contribute
-layout: post
+layout: page
 title: Contribuer au site et ajouter une ressource
 authors:
  - Mor Rubinstein
- - Traduction Cecile Le Guen
+ - Traduction de Cecile Le Guen
 lang: fr
 ---
 

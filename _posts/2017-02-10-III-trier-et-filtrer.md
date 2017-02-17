@@ -6,7 +6,6 @@ author : Pierre Chrzanowski
 categories: fondamentaux
 description: "A la fin de ce module, vous aurez appris comment télécharger des données, les importer dans une feuille de calcul, comment les nettoyer et les interpréter avec les fonctions trier et filtrer."
 tags: [fondamentaux, données, introduction]
-permalink: site/fondamentaux/:year/:month/:day/:title/
 ---
 
 ## Introduction

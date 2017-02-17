@@ -45,7 +45,8 @@ p {
 }
 
 a {
-  color: $base-link-color;
+  /** color: $base-link-color; **/
+  color:#00aff0;
   text-decoration: none;
 }
 

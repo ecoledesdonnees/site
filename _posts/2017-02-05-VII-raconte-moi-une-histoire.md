@@ -5,8 +5,6 @@ date:   2017-02-06
 author : Pierre Chrzanowski	
 categories: fondamentaux
 description: "Afin d'écrire une histoire avec vos données vous avez besoin de répondre à certaines questions. Pourquoi une personne s'intéresserait-elle à votre histoire ? Qui est cette personne ? Comment cette personne est-elle liée ou entre en intéraction avec ces données ?"
-tags: [fondamentaux, visualisation, introduction]
-permalink: /site/fondamentaux/:year/:month/:day/:title/
 ---
 
 ## Introduction

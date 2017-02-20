@@ -1,6 +1,6 @@
 ---
 layout: post
-title:   Nettoyer, explorer, cartographier : l’atelier cinéma de l’Ecole des données
+title:   Nettoyer, explorer, cartographier. L’atelier cinéma de l’Ecole des données
 date:   2015-04-12
 author : Cédric Lombion	
 categories: Blog Post

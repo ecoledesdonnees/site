@@ -3,7 +3,7 @@ layout: post
 title:   Nettoyer, explorer, cartographier. L’atelier cinéma de l’Ecole des données
 date:   2015-04-12
 author : Cédric Lombion	
-categories: Blog Post
+categories: blogpost
 description: "Le samedi 7 mars l’Ecole des données, en partenariat avec Silicon Banlieue, a organisé un nouvel atelier gratuit, cette fois-ci autour des données du cinéma."
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:   Astuce. Copier tous les éléments d’une liste de plusieurs pages
 date:   2015-05-08
 author : Jérémie Poiroux
-categories: Blog Post
+categories: blogpost
 description: "Une technique très simple, mais qui peut toujours dépanner ! Sur le web, on tombe souvent sur des sites avec des listes comprenant plusieurs pages. Plus agréables pour naviguer, elles facilitent également le chargement. Mais quand il s’agit de “scraper” leur contenu, c’est plus embêtant."
 ---
 

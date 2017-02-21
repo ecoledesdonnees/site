@@ -15,28 +15,48 @@ js:
 
   <div class="wrapper">
 
-      <div>
-        <h2>A propos de l’École des Données</h2>
-        <p>School of Data est un projet de l’Open Knowledge Foundation lancé en mai 2012 qui a pour but de donner plus de pouvoir à la société civile en enseignant les compétences nécessaires pour réutiliser des données.</p>
+    <div class="post-section">  
+        <h2>À propos</h2>
+        <div class="post-wrap" style=" background-color: #fff; border-radius: 5px; padding-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 25px;">
+        <h3><a href="#">L'École des Données</a></h3>
+         <p>L'École des Données est un projet de l’Open Knowledge Foundation lancé en mai 2012 qui a pour but de donner plus de pouvoir à la société civile en enseignant les compétences nécessaires pour réutiliser des données. Nous proposons des cours gratuits en ligne ainsi que des expéditions de données pour explorer en détails une thématique.</p>
         <a href="{{ "/pages/" | prepend: site.baseurl }}">En savoir plus</a>
-      </div>
+      </div> <!-- end div post-wrap -->
+     </div> <!-- end div post-section -->
 
-      <div>
-        <div>
-          <h2>Les cours et les ressources</h2>
-          <p>Retrouvez ici les cours et ressources en libre réutilisation.</p>
-          <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
-       </div>
-      </div>
-      <div>
-        <div>
-          <h2>Événements</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.</p>
-          <a href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
-        </div>
-      </div>
+     <div class="post-section">
+     <h2>Les cours et les ressources</h2>
+       <div class="post-wrap" style=" background-color: #fff; border-radius: 5px; padding-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 25px;">
+          {% for post in site.categories.fondamentaux limit:1  %}
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            {% if post.author %}
+            <span class="auteur">
+              Published by {{ post.author }}{% if post.author_affiliation %}{% endif %}
+            </span>
+            {% endif %}
+            <span>{{ post.description | truncate: 250 | markdownify }}</span>
+            <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
+          {% endfor %}
+       </div> <!-- end div post-wrap -->
+      </div>  <!-- end div post-section -->
+   
+      <div class="post-section">
+       <h2>Dernier Blogpost</h2>
+        <div class="post-wrap" style=" background-color: #fff; border-radius: 5px; padding-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 25px;">
+          {% for post in site.categories.blogpost limit:1  %}
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            {% if post.author %}
+            <span class="authorhome">
+              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
+            </span>
+            {% endif %}
+            <span>{{ post.description | truncate: 250 | markdownify }}</span>
+            <a href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
+          {% endfor %}
+       </div> <!-- end div post-wrap -->
+      </div>  <!-- end div post-section -->
 
-  </div>
+  </div> <!-- end div class.wrapper -->
 <!-- </div> -->
 <!-- {% include footer.html %} -->
 

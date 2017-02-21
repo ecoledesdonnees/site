@@ -1456,8 +1456,13 @@ Styles pour les donnees dans le footer
 
   div {
     h2 {
-      font-size:rem(24);
-      margin-bottom:rem(6);
+      /** font-size:rem(24); **/
+      /** margin-bottom:rem(6); **/
+    margin-bottom: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 18pt;
+    color: #00aff0;
     }
 
     p {

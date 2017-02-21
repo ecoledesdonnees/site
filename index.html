@@ -31,7 +31,7 @@ js:
               Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}.
             </p>
             {% endif %}
-            <span>{{ post.description | truncate: 500 | markdownify }}</span>
+            <span>{{ post.description | truncate: 250 | markdownify }}</span>
             <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
           {% endfor %}
        </div>
@@ -49,7 +49,7 @@ js:
               Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}.
             </p>
             {% endif %}
-            <span>{{ post.description | truncate: 500 | markdownify }}</span>
+            <span>{{ post.description | truncate: 250 | markdownify }}</span>
             <a href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
           {% endfor %}
         </div>

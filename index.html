@@ -24,18 +24,28 @@ js:
       <div>
         <div>
           <h2>Les cours et les ressources</h2>
-          <p>Retrouvez ici les cours et ressources en libre réutilisation.</p>
-          <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
+          {% for post in site.categories.fondamentaux limit:1  %}
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            {% if post.author %}
+            <p class="author" style="height: 20px;">
+              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}.
+            </p>
+            {% endif %}
+            <span>{{ post.description | truncate: 500 | markdownify }}</span>
+            <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
+          {% endfor %}
        </div>
       </div>
+   
       <div>
        
+       <h2>Dernier Blogpost</h2>
+       
         <div>
-          <h2>Latest publication</h2>
           {% for post in site.categories.blogpost limit:1  %}
             <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             {% if post.author %}
-            <p class="author">
+            <p class="author" style="height: 20px;">
               Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}.
             </p>
             {% endif %}
@@ -44,9 +54,9 @@ js:
           {% endfor %}
         </div>
        
-      </div> <!-- end div class.wrapper -->
+      </div> 
 
-  </div>
+  </div> <!-- end div class.wrapper -->
 <!-- </div> -->
 <!-- {% include footer.html %} -->
 

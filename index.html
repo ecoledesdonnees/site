@@ -28,10 +28,10 @@ js:
             <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             {% if post.author %}
             <p class="authorhome">
-              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}.
+              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
             </p>
             {% endif %}
-            <span>{{ post.description | truncate: 170 | markdownify }}</span>
+            <span>{{ post.description | truncate: 250 | markdownify }}</span>
             <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
           {% endfor %}
        </div>
@@ -46,10 +46,10 @@ js:
             <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             {% if post.author %}
             <p class="authorhome">
-              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}.
+              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
             </p>
             {% endif %}
-            <span>{{ post.description | truncate: 170 | markdownify }}</span>
+            <span>{{ post.description | truncate: 250 | markdownify }}</span>
             <a href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
           {% endfor %}
         </div>

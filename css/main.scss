@@ -1491,8 +1491,8 @@ Styles pour les donnees dans le footer
     p {
       font-weight:300;
       font-size:rem(16);
-      /** margin-bottom:rem(15); **/
-     margin-bottom: 1rem;
+      margin-bottom:rem(15); 
+    /** margin-bottom: 1rem; **/
     }
 
     & > a {

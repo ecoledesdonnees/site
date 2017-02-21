@@ -45,9 +45,9 @@ js:
           {% for post in site.categories.blogpost limit:1  %}
             <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             {% if post.author %}
-            <p class="authorhome">
+            <span class="authorhome">
               Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
-            </p>
+            </span>
             {% endif %}
             <span>{{ post.description | truncate: 250 | markdownify }}</span>
             <a href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>

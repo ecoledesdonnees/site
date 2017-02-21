@@ -1435,6 +1435,15 @@ Styles pour les donnees dans le footer
       background-color: #fff;
       margin-top: 25px;
       border-radius: 5px;
+	      
+    .post-wrap {
+    background-color: blue;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    }
 
         &:after {
           content:'';
@@ -1465,10 +1474,17 @@ Styles pour les donnees dans le footer
     color: #00aff0;
     }
 
+    h3 a {
+      /** font-size:rem(24); **/
+      /** margin-bottom:rem(6); **/
+    color: #000;
+    }
+
     p {
       font-weight:300;
       font-size:rem(16);
-      margin-bottom:rem(15);
+      /** margin-bottom:rem(15); **/
+     margin-bottom: 4rem;
     }
 
     & > a {

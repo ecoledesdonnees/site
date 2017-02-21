@@ -27,9 +27,9 @@ js:
           {% for post in site.categories.fondamentaux limit:1  %}
             <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             {% if post.author %}
-            <p class="auteur">
-              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{{ post.date | date: "%b %-d, %Y" }}</em>{% endif %}
-            </p>
+            <span class="auteur">
+              Published by {{ post.author }}{% if post.author_affiliation %}{% endif %}
+            </span>
             {% endif %}
             <span>{{ post.description | truncate: 250 | markdownify }}</span>
             <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>

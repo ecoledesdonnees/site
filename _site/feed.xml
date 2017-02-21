@@ -5,35 +5,910 @@
     <description></description>
     <link>http://ecoledesdonnees.org/</link>
     <atom:link href="http://ecoledesdonnees.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Feb 2017 09:31:15 +0100</pubDate>
-    <lastBuildDate>Fri, 10 Feb 2017 09:31:15 +0100</lastBuildDate>
+    <pubDate>Tue, 21 Feb 2017 16:10:28 +0100</pubDate>
+    <lastBuildDate>Tue, 21 Feb 2017 16:10:28 +0100</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Section 3. La potion magique</title>
+        <description>&lt;h1 id=&quot;section-3-la-potion-magique&quot;&gt;Section 3: La potion magique&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8075/8408290470_cf9905fb04_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8075/8408290470_cf9905fb04_d.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.wpclipart.com/fictional_characters/witches/witches_with_cauldron.jpg&quot;&gt;Source de l’image&lt;/a&gt; (avec adaptations) &lt;a href=&quot;http://www.wpclipart.com/terms.html&quot;&gt;dans le domaine public&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;« Trois » n’est pas un nombre. « Un million » non plus. Du moins, pas quand ils sont tapés en forme de texte dans une cellule de feuille de calcul. « 3 » ou « 1 000 000 » sont par contre des nombres. N’oubliez jamais que votre feuille de calcul est un outil particulièrement simplet qui impose que vous soyez précis, structuré et cohérent. Si vous ne l’êtes pas et que vos données ne le sont pas, votre feuille de calcul va devenir incompréhensible et vous jeter de mauvais sorts. Voici quelques exemples qui montrent comment vous et votre feuille de calcul peuvent voir les choses différemment :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8514/8408290492_c3cd31ba41_o_d.png&quot; alt=&quot;http://farm9.staticflickr.com/8514/8408290492_c3cd31ba41_o_d.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Si les sorcières de Macbeth selon Shakespeare (voir acte IV, scènes 14-15) avaient une feuille de calcul, cela ressemblerait à l’image ci-haut).&lt;/p&gt;
+
+&lt;p&gt;Avec les feuilles de calcul, il existe trois formes de données de base. Ou, en d’autres termes, trois façons dont vous pouvez entrer des données dans une cellule de feuille de calcul:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sous forme de &lt;strong&gt;nombre&lt;/strong&gt; : « 100 ».&lt;/li&gt;
+  &lt;li&gt;Sous forme de &lt;strong&gt;texte&lt;/strong&gt; : « cent ».&lt;/li&gt;
+  &lt;li&gt;Sous forme de &lt;strong&gt;formule&lt;/strong&gt; : = SOMME (99+1), ce qui crée une valeur calculée.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour éviter de créer un mélange explosif digne d’une sorcière dans votre feuille de calcul, suivez les deux règles basiques suivantes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Soyez cohérent et &lt;strong&gt;ne mélangez pas les données&lt;/strong&gt; dans les colonnes&lt;/li&gt;
+  &lt;li&gt;Faîtes en sorte que le tableur reconnaisse &lt;strong&gt;le type de données&lt;/strong&gt; dans chaque colonne&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si vous passez outre ces règles de base, votre feuille de calcul aura du mal à réaliser toutes les actions utiles et intéressantes que vous auriez pu réaliser à la base, comme additionner, soustraire, calculer, trier, filtrer, etc. Après avoir réalisé les tâches de cette section, vous aurez appris à:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comprendre les différents types de données qui peuvent être utilisés dans une feuille de calcul&lt;/li&gt;
+  &lt;li&gt;Trier les données pour découvrir les erreurs potentielles&lt;/li&gt;
+  &lt;li&gt;Standardiser la saisie des données et utiliser des formules pour détecter les erreurs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;un-peu-de-travail&quot;&gt;Un peu de travail&lt;/h2&gt;
+
+&lt;p&gt;Pour réaliser aussi bien les actions rapide et longue ci-dessous, vous aurez besoin de :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;un tableur du type Excel ou Calc de Libre Office&lt;/li&gt;
+  &lt;li&gt;une copie du jeu de données du cours, qui est le jeu de GRAIN sur “&lt;a href=&quot;http://datahub.io/dataset/grain-landgrab-data/resource/af57b7b2-f4e7-4942-88d3-83912865d116&quot;&gt;l’accaparement des terres&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;une-action-rapide-15-minutes&quot;&gt;Une action rapide (15 minutes)&lt;/h3&gt;
+
+&lt;p&gt;Téléchargez une copie du jeu de données GRAIN sur l’accaparement des terres sur votre ordinateur. Ouvrez la feuille de calcul et réalisez les actions suivantes :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;D’après vous, quels sont les types de données auxquels correspondent chaque colonne ?&lt;/strong&gt; Découvrez le type de données auquel le tableur pense par un simple clic droit sur ​​l’en-tête des colonnes, puis sélectionnez « Format de cellule » et regardez l’onglet « Nombres ». Que voyez-vous? Essayez de choisir d’autres options dans les listes Catégorie et Format et regardez ce qu’il advient des données.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Là où il y a des chiffres dans les colonnes, vous pouvez les additionner et voir ce qu’il se passe&lt;/strong&gt;. Utilisez votre bon sens : la somme a l’air trop grande ou trop petite ? S’est-il produit une erreur ? Cela peut vous indiquer qu’il y a quelque chose qui ne va pas avec les données.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Là où il y a du texte ou des chiffres, essayez le tri dans l’ordre croissant, et regardez ce qu’il se passe&lt;/strong&gt;. Est-ce que ça s’est passé comme vous vouliez ?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Utilisez l’Auto-Filtre pour afficher les valeurs distinctes dans une colonne, de sorte à ce que vous puissiez voir quel type de données est dans la colonne&lt;/strong&gt;. Est-ce que quelque chose se démarque, vous paraît étrange, voire incohérent ? Pouvez-vous voir le mélange de différents types de données?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Après avoir explorer les données de ces quatre manières différentes, quelle est votre impression sur la facilité avec laquelle les données peuvent être analysées en utilisant un tableur ? Comment pourriez-vous améliorer les données?&lt;/p&gt;
+
+&lt;p&gt;Utilisez la zone de discussion pour nous faire savoir ce que vous en pensez.&lt;/p&gt;
+
+&lt;h3 id=&quot;une-action-plus-longue-1-heure&quot;&gt;Une action plus longue (1 heure)&lt;/h3&gt;
+
+&lt;p&gt;En vous appuyant sur le livre des recettes (section nettoyage des données), parcourez &lt;a href=&quot;http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-4-fixing-numbers-that-arent-numbers&quot;&gt;le problème 4: Corriger les nombres qui ne sont pas des nombres&lt;/a&gt; sur le jeu de données de GRAIN. Cet exercice explique pas-à-pas comment des données sur la taille des investissements dans les différentes transactions foncières ont été enregistrées dans le jeu de données correspondant. Il explique aussi comment vous pouvez détecter et résoudre les problèmes en utilisant des formules, et comment vous pouvez utiliser des fonctionnalités telles que les tableaux croisés dynamiques pour vérifier que vos solutions fonctionnent. Il vous donnera une idée de la façon de combiner différentes fonctions et fonctionnalités des tableurs.&lt;/p&gt;
+
+&lt;h2 id=&quot;lectures-complementaires&quot;&gt;Lectures complémentaires&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Voici une série détaillée de &lt;a href=&quot;http://office.microsoft.com/en-us/excel-help/available-number-formats-HP001173902.aspx&quot;&gt;fonctionnalités propres&lt;/a&gt; aux tableurs (Excel, Calc de LibreOffice, Google spreadsheet…)&lt;/li&gt;
+  &lt;li&gt;Ces fonctionnalités de base des tableurs sont utiles pour explorer et tester les données :
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/adding-numbers-using-sum-formula/&quot;&gt;Ajout d’une colonne de chiffres&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/sorting-results/&quot;&gt;Tri des données&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://office.microsoft.com/en-us/excel-help/filter-data-in-a-range-or-table-HP010073941.aspx&quot;&gt;Auto- filtre&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Les fondamentaux &lt;a href=&quot;http://schoolofdata.org/handbook/courses/sort-and-filter/&quot;&gt;dans les filtres et classements des données&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Beaucoup de personnes sont confrontées à des problèmes de type de données lorsqu’ils commencent à utiliser des formes de chiffres spécifiques, telles que les numéros SIREN, numéro de sécurité sociale ou numéro national d’identité, numéros de téléphone, informations de localisation, latitude et longitude… Sachez que les feuilles de calcul peuvent créer des « formats de nombre personnalisés ». Voici un peu de lecture à leur sujet :
+    &lt;ul&gt;
+      &lt;li&gt;Un exemple simple de TechRepublic sur comment &lt;a href=&quot;http://www.techrepublic.com/blog/msoffice/use-a-custom-format-in-excel-to-display-easier-to-read-millions/7544&quot;&gt;gérer les problèmes &lt;/a&gt;de formats numériques personnalisés&lt;/li&gt;
+      &lt;li&gt;Une note détaillée sur comment fonctionnent l&lt;a href=&quot;http://www.ozgrid.com/Excel/CustomFormats.htm&quot;&gt;es formats numériques personnalisés&lt;/a&gt;, par OzGrid.&lt;/li&gt;
+      &lt;li&gt;Une introduction sur &lt;a href=&quot;http://simoncpage.co.uk/blog/2008/09/excel-custom-and-conditional-number-formatting/&quot;&gt;les formats numériques personnalisés&lt;/a&gt; dans Excel, par Simon Page.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reposez-vous-et-reflechissez&quot;&gt;Reposez-vous et réfléchissez&lt;/h2&gt;
+
+&lt;p&gt;Cela a été un exercice délicat. Comment cela s’est-il passé pour vous? Est-il facile d’utiliser une feuille de calcul pour vous aider à trouver et corriger les erreurs existantes ?&lt;/p&gt;
+
+&lt;p&gt;La longue tâche était assez difficile aussi. Avez-vous tenu le coup ?&lt;/p&gt;
+
+&lt;p&gt;Utilisez la zone de discussion pour partager vos retours sur cette section.&lt;/p&gt;
+
+&lt;p&gt;Si vous êtes désireux de plus d’informations, dirigez-vous vers la quatrième section de ce cours, intitulée « La mauvaise valise ».&lt;/p&gt;
+
+&lt;h3 id=&quot;note&quot;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;Ce cours a été conçu pour le projet École des données par &lt;a href=&quot;http://tacticaltech.org/&quot;&gt;Tactical Technology Collective&lt;/a&gt;. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.  &lt;/p&gt;
+
+&lt;p&gt;Article d’origine : &lt;a href=&quot;http://schoolofdata.org/handbook/courses/data-cleaning-witchs-brew/&quot;&gt;Section 3: your data is a witch’s brew&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Oct 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-potion-magique/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-potion-magique/</guid>
+        
+        
+        <category>fondamentaux</category>
+        
+      </item>
+    
+      <item>
+        <title>Section 4. Vous avez pris la mauvaise valise (encore une fois) ?</title>
+        <description>&lt;h1 id=&quot;section-4-vous-avez-pris-la-mauvaise-valise-encore-une-fois-&quot;&gt;Section 4: Vous avez pris la mauvaise valise (encore une fois) ?&lt;/h1&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Tout ce que notre tableau exige de nous est que chaque cellule de données soit comme une mallette d’argent prête à être déposée par un banquier dans un paradis fiscal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8071/8413876946_529bb56d80_z_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8071/8413876946_529bb56d80_z_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image de &lt;a href=&quot;http://hairinthegate-ajuk.blogspot.co.uk/2012/06/suitcase-full-of-money.html&quot;&gt;Hair in the Gate&lt;/a&gt;. Licence non spécifiée&lt;/p&gt;
+
+&lt;p&gt;Il contient un seul type d’objet, parfaitement rangé, et de manière prévisible en unités standards. Et peut-être même qu’il sent bon. Le tableau est heureux dans cette situation et peut-être nous récompensera-t-il en comptant, triant, livrant des graphes, etc. Cependant ce que nous donnons souvent à notre tableau ressemble plus à un choix enfantin de choses essentielles à emmener à la plage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8372/8412778391_56424a2a10_o_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8372/8412778391_56424a2a10_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image de &lt;a href=&quot;http://serc.carleton.edu/details/images/26933.html&quot;&gt;Science Education Resource Centre&lt;/a&gt;. Licence CC-NC-SA 3.0.&lt;/p&gt;
+
+&lt;p&gt;Mais notre tableau nous punira de ce genre de bazar : beaucoup d’objets, avec des caractéristiques différentes, tous mélangés dans le même espace étroit. Que peut-on faire pour organiser ce bazar ?&lt;/p&gt;
+
+&lt;p&gt;A la fin de cette section, vous aurez :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;analysé les données pour mettre en évidence les problèmes de structure&lt;/li&gt;
+  &lt;li&gt;changé la structure des données afin de rendre le tableau plus utile&lt;/li&gt;
+  &lt;li&gt;des idées sur ce qu’il faut éviter dans votre propre travail avec les données&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;un-peu-de-travail&quot;&gt;Un peu de travail&lt;/h2&gt;
+
+&lt;p&gt;Pour faire à la fois les tâches rapide et longue ci-dessous, vous aurez besoin de :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;un tableur comme Excel ou Libre Office&lt;/li&gt;
+  &lt;li&gt;une copie du jeu de données du cours : les données de GRAIN sur “&lt;a href=&quot;http://datahub.io/dataset/grain-landgrab-data/resource/af57b7b2-f4e7-4942-88d3-83912865d116&quot;&gt;l’accaparement de terre&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;une-tache-rapide-15-minutes&quot;&gt;Une tâche rapide (15 minutes)&lt;/h3&gt;
+
+&lt;p&gt;Téléchargez cette &lt;a href=&quot;http://datahub.io/dataset/data-structures&quot;&gt;feuille de calcul&lt;/a&gt; et suivez les étapes qui suivent. Cette section utilise des fonctionnalités des feuilles de calcul pour lesquelles de l’aide peut être trouvée plus loin, dans les lectures complémentaires. Mais essayez d’abord !&lt;/p&gt;
+
+&lt;p&gt;Pour commencer, appliquez un AutoFiltre aux données. Continuez de revenir sur l’Autofiltre pour voir comment les données changent à chaque étape.&lt;/p&gt;
+
+&lt;p&gt;Pour illustrer ce problème, disons que vous collectez les données des participants aux réunions dans votre entreprise, pour vérifier l’activité de vos collègues. (On espère que votre organisation n’a pas atteint un tel niveau de confiance !) La manière la plus intuitive de faire serait de faire comme dans cette feuille de calcul :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8352/8413876968_4c80101fd5_o_d.png&quot; alt=&quot;http://farm9.staticflickr.com/8352/8413876968_4c80101fd5_o_d.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mais les feuilles de calcul ne sont pas intuitives&lt;/strong&gt;. Vous ne pouvez pas utiliser ces données pour produire un simple rapport de participation avec des outils pratiques comme AutoFiltre ou un tableau croisé dynamique. La raison : le tableur voit le texte dans chaque cellule comme un paquet de données, comme si une seule personne “Allan, Rastus, Carl, Tito” avait participé au rendez-vous de lundi. Pour utiliser plus facilement les données que vous avez en face de vous, la situation idéale est d’avoir &lt;strong&gt;une seule information du même type dans une cellule&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Alors, séparons les données, d’abord dans différentes colonnes. Cela peut être fait automatiquement en utilisant la fonctionnalité de conversion de « Texte à Colonnes ». Sélectionnez les données dans la colonne B, et cliquez sur Données –&amp;gt; Texte à colonnes. Sélectionnez la virgule comme « séparateur ». Vous obtiendrez quelque chose comme ceci (vous devez donner un nom aux colonnes vous-même) :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8331/8413876976_7cf07b0fbb_o_d.png&quot; alt=&quot;http://farm9.staticflickr.com/8331/8413876976_7cf07b0fbb_o_d.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Après avoir fait cela, vous allez avoir des espaces blancs (invisibles). Révisez ce problème dans l’exercice précédent « &lt;a href=&quot;https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-homme-invisible/&quot;&gt;L’Homme Invisible&lt;/a&gt;« …)&lt;/p&gt;
+
+&lt;p&gt;Eclatez le paquet de données entre différentes colonnes améliore les chances d’analyser les données, mais pas tant que ça. Si votre équipe est plus grande, cette feuille de calcul peut devenir difficile à utiliser. Pourquoi ne pas prendre les données et les mettre sous une forme verticale ? On appelle cela « transposer ». Vous pouvez faire cela manuellement ou essayer automatiquement en utilisant la fonctionnalité « Collage spécial » :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8213/8412778355_1dfb32daef_o_d.png&quot; alt=&quot;http://farm9.staticflickr.com/8213/8412778355_1dfb32daef_o_d.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C’est bien mieux comme ça ! Pour donner du sens aux données, nous avons du ajouter de la mise en forme, mais désormais des données manquent dans la colonne du jour de la réunion. C’est une très mauvaise idée (pour savoir pourquoi, regardez la section 1 : « &lt;a href=&quot;https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-noix-et-gum/&quot;&gt;Noix et chewing gum&lt;/a&gt;« ). Il nous faudra ajouter des données dans la colonne A comme ici :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8351/8412778335_22c13b66d6_o_d.png&quot; alt=&quot;http://farm9.staticflickr.com/8351/8412778335_22c13b66d6_o_d.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette approche permet de trier, filtrer et créer un tableau croisé dynamique. Essayez-le ! Vous pouvez maintenant facilement produire des reports de participation aux réunions.&lt;/p&gt;
+
+&lt;h3 id=&quot;une-tache-longue-30-minutes--2-heures&quot;&gt;Une tâche longue (30 minutes – 2 heures)&lt;/h3&gt;
+
+&lt;p&gt;Dans le chapitre relatif au nettoyage des données dans le livre des recettes, parcourez le Problème 5 : « &lt;a href=&quot;http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-5-structural-problems-data-in-inconvenient-places&quot;&gt;problèmes de structure – des données à des places inappropriées&lt;/a&gt;” utilisant le jeu de données de GRAIN. C’est un exercice plus détaillé qui se penche sur ce que des investisseurs fonciers ont dit de l’utilisation qu’ils feraient de ces terres. Il montre comment le problème est catégorisé et fait remonter les difficultés à enregistrer les multiples usages de terres dans un tableau. Il vous montre comment utiliser le filtrage pour surmonter les difficultés liées à des données mal structurées.&lt;/p&gt;
+
+&lt;p&gt;Si vous vous sentez très courageux, essayez aussi le Problème 6 : « &lt;a href=&quot;http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-6-from-banabas-to-bananas-dealing-with-inconsistencies-in-data&quot;&gt;des babanes aux bananes » ou comment traiter les incohérences dans les données&lt;/a&gt;”. C’est un exercice avancé qui vous mènera à travers le processus d’éclatement, de correction et de reconstitution d’un jeu de données volontairement erroné, pour vous permettre d’en tirer de la valeur. Il fait appel à une série de fonctionnalités de tableur incluant des colonnes au format texte, des expressions régulières, des tableaux croisés dynamiques, la mise en forme conditionnelle, la validation et la concaténation de données. C’est un chemin escarpé, mais à la fin, vous verrez les données différemment.&lt;/p&gt;
+
+&lt;h2 id=&quot;lectures-complementaires&quot;&gt;Lectures complémentaires&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dans le court exercice, nous avons utilisé les fonctions suivantes :
+    &lt;ul&gt;
+      &lt;li&gt;La fonction &lt;strong&gt;« texte à colonnes »&lt;/strong&gt;, qui est extrêmement utile pour le traitement de la question de la « mauvaise valise ». Voici un &lt;a href=&quot;http://office.microsoft.com/en-gb/excel-help/split-names-by-using-the-convert-text-to-columns-wizard-HA010342911.aspx&quot;&gt;tutoriel&lt;/a&gt; pour utiliser cette fonction dans Excel, &lt;a href=&quot;http://www.oooninja.com/2008/01/text-columns-calc-convert-openoffice.html&quot;&gt;un autre pour Open Office&lt;/a&gt; (et Libre Office). Il se peut que vous soyez contrarié par le fait que Google Spreadsheet n’a pas à proprement parler de fonction « texte à colonnes » ! Cependant, la &lt;a href=&quot;http://support.google.com/drive/bin/answer.py?hl=en&amp;amp;answer=155358&quot;&gt;fonction « SPLIT »&lt;/a&gt; fait la même chose, comme décrit dans &lt;a href=&quot;http://googledocstips.com/2011/03/11/how-to-split-the-contents-of-a-cell/&quot;&gt;ce tutoriel&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;La fonctionnalité « &lt;strong&gt;transposer&lt;/strong&gt;« , qui échange les lignes et les colonnes, est parfaitement décrite pour Excel dans le &lt;a href=&quot;http://www.techrepublic.com/blog/msoffice/transpose-excel-data-from-rows-to-columns-or-vice-versa/630&quot;&gt;tutoriel de Tech Republic&lt;/a&gt;, et pour &lt;a href=&quot;http://openoffice.blogs.com/openoffice/2007/02/very_cool_featu.html&quot;&gt;Open Office par Solveig Haugland&lt;/a&gt; sur son « Open Office Training Blog » (blog d’entraînement à Open Office)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Le Guide de la Data et du Design du Tactical Technology Collective comporte un court chapitre nommé « Growing out of Spreadsheets », qui traite principalement du problème de la « mauvaise valise ». Il se penche sur les difficultés de l’utilisation de feuilles de calcul lorsque vous avez &lt;a href=&quot;http://drawingbynumbers.org/data-design-basics/note-2-data-basics#anchor-4&quot;&gt;des données qui décrivent des relations dynamiques et complexes.&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reposez-vous-et-reflechissez&quot;&gt;Reposez-vous et réfléchissez&lt;/h2&gt;
+
+&lt;p&gt;Qu’est-ce que le problème de la « mauvaise valise » nous révèle des enregistrements de données dans les tableurs ?&lt;/p&gt;
+
+&lt;h3 id=&quot;note&quot;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;Ce cours a été conçu pour le projet École des données par &lt;a href=&quot;http://tacticaltech.org/&quot;&gt;Tactical Technology Collective&lt;/a&gt;. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.  &lt;/p&gt;
+
+&lt;p&gt;Article d’origine : &lt;a href=&quot;http://schoolofdata.org/handbook/courses/data-cleaning-wrong-suitcase/&quot;&gt;Section 4: Did you bring the wrong suitcase (again)?&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Oct 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-mauvaise-valise/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-mauvaise-valise/</guid>
+        
+        
+        <category>fondamentaux</category>
+        
+      </item>
+    
+      <item>
+        <title>Section 2. L’Homme Invisible est dans votre tableur</title>
+        <description>&lt;h1 id=&quot;section-2-lhomme-invisible-est-dans-votre-tableur-jouant-avec-vos-donnees&quot;&gt;Section 2: l’Homme Invisible est dans votre tableur, jouant avec vos données&lt;/h1&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Il y a quelque chose d’effrayant dans votre feuille de calcul, et ce n’est pas sympathique.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8092/8402327514_10a8f622fd_n_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8092/8402327514_10a8f622fd_n_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Illustration 1: Le poster du film de l’Homme invisible, 1933. Source de l’image. Reproduit sous licence [Fair Use].&lt;/p&gt;
+
+&lt;p&gt;“Même la Lune est effrayée par moi”, hurle l’Homme invisible, connu sous le nom de Dr Griffen, un génie devenu fou après une expérimentation sur lui-même! Si vous avez le temps, regardez &lt;a href=&quot;http://www.youtube.com/watch?v=pb3n0g2NenI&quot;&gt;la bande-annonce du film de 1933&lt;/a&gt;. Des choses effrayantes commencent à arriver aux gens dans une petite ville: de mystérieuses traces de pas dans la neige, des objets de maison qui semblent voler dans les airs, des gens qui sont poussés dans les escaliers (et depuis les collines !). Et dans notre cas, des changements impromptus dans votre feuille de calcul.&lt;/p&gt;
+
+&lt;p&gt;Nous ne pouvons pas voir l’Homme invisible lui-même (évidemment, sinon il ne serait pas invisible). Mais nous arrivons à trouver des traces de son travail dans notre feuille de calcul, comme nous pouvons voir ses empreintes dans la neige :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8086/8402327534_fb1e33e0a7_o_d.png&quot; alt=&quot;http://farm9.staticflickr.com/8086/8402327534_fb1e33e0a7_o_d.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez clairement voir une erreur qu’il a insérée, mais d’autres l’identifieront plus difficilement à l’oeil nu:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Des espaces en trop à la fin des insertions&lt;/li&gt;
+  &lt;li&gt;Des tabulations insérées à la fin des lignes&lt;/li&gt;
+  &lt;li&gt;Des retours à la ligne et des ‘retours chariot’, que vous insérez en appuyant sur Entrée (ou Ctrl-Entrée).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ces élements sont appelés des caractères non-imprimables, et ne sont pas affichés tout le temps dans les feuilles de calcul. Mais vous sentirez toujours leur sinistre présence qui gêne beaucoup l’analyse des données. C’est parce que les feuilles de calcul traitent ces types de caractères comme de véritables données. En ignorant la colonne d’étiquette, dans les données ci-dessus, vous pouvez voir quatre termes qui sont essentiellement les mêmes. La feuille de calcul, cependant, voit quatre morceaux de données différents et distincts. Si vous essayiez de compter le nombre de fois que “Your Data” est mentionné, une feuille de calcul vous montrerait seulement une seule entrée.&lt;/p&gt;
+
+&lt;p&gt;Dans le film, la police déploie un piège pour attraper l’Homme invisible. Nous pouvons faire la même chose dans nos feuilles de calcul. A la fin de la section, vous aurez :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;quelques connaissances sur les caractères non-imprimables qui sont source d’erreurs dans les données&lt;/li&gt;
+  &lt;li&gt;essayé différentes fonctions et caractéristiques de votre tableur capable de les enlever&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;un-peu-de-travail&quot;&gt;Un peu de travail&lt;/h2&gt;
+
+&lt;p&gt;Pour faire les tâches rapide et plus longue ci-dessous, vous aurez besoin :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;d’un outil de manipulation de feuilles de calcul, comme Excel ou Libre Office.&lt;/li&gt;
+  &lt;li&gt;d’une copie de &lt;a href=&quot;http://datahub.io/dataset/theinvisibleman&quot;&gt;la feuille de calcul exemple&lt;/a&gt; pour cette section.&lt;/li&gt;
+  &lt;li&gt;d’une copie du jeu de données du cours, celui de GRAIN sur “&lt;a href=&quot;http://datahub.io/dataset/grain-landgrab-data&quot;&gt;l’accaparement des terres&lt;/a&gt;”.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;une-tache-rapide-15-minutes&quot;&gt;Une tâche rapide (15 minutes)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Téléchargez et ouvrez &lt;a href=&quot;http://datahub.io/dataset/theinvisibleman&quot;&gt;la feuille de calcul exemple&lt;/a&gt; sur votre ordinateur. Dans la colonne A, on trouve les données présentées dans l’image ci-dessus, avec différent types de caractères non-imprimables. Dans les colonnes B à E on trouve quatres méthodes simples pour enlever les caractères non-imprimables de vos données: &amp;gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py la fonction TRIM (dans la colonne B) &amp;gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py la fonction CLEAN (dans la colonne C) &amp;gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py les fonctions TRIM et CLEAN …. ensemble (dans la colonne D) &amp;gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py la fonction “Collage Spécial” (dans la colonne E)&lt;/li&gt;
+  &lt;li&gt;Appliquez un “AutoFiltre” sur la donnée (Données → Filtre → AutoFiltre). Cliquez sur les petites flèches descendantes dans l’en-tête des colonnes et une liste de sélection va apparaître en se déroulant, affichant le nombre d’entrées distinctes dans chaque colonne. Si vous cliquez sur l’autofiltre pour chacune des colonnes A jusqu’à E, vous pouvez voir l’effet des différentes méthodes pour enlever les caractères non-imprimables.&lt;/li&gt;
+  &lt;li&gt;Double-cliquez sur les cellules pour voir les formules et comment les fonctions marchent en pratique. Il y a plus d’informations sur chacune d’elles dans la partie ‘Etudes’ ci-dessous.&lt;/li&gt;
+  &lt;li&gt;Maintenant, essayez par vous-même. Créez ou trouvez une colonne de données uniques par vous-même. Appliquez ces quatre méthodes dans le même format que notre jeu de données dans votre feuille de calcul.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Utilisez les commentaires ci-dessous pour partager votre travail et des observations sur cette tâche.&lt;/p&gt;
+
+&lt;h3 id=&quot;une-tache-plus-longue-30-60-minutes&quot;&gt;Une tâche plus longue (30-60 minutes)&lt;/h3&gt;
+
+&lt;p&gt;Depuis le livre des recettes sur le Nettoyage des données, parcourez le problème 2 : &lt;a href=&quot;http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-2-whitespace-and-new-lines-data-that-shouldnt-be-there&quot;&gt;« Espaces-blancs et nouvelles lignes » – des données qui ne devraient pas être présentes&lt;/a&gt; en utilisant le jeu de données GRAIN. Ce cours rentre plus dans les détails des fonctions CLEAN et TRIM.&lt;/p&gt;
+
+&lt;h2 id=&quot;lectures-complementaires&quot;&gt;Lectures complémentaires&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Regardez cette vidéo YouTube très utile intitulée « &lt;a href=&quot;http://www.youtube.com/watch?v=o-dBCS2wgO4&amp;amp;feature=plcp&quot;&gt;Excel is Fun&lt;/a&gt; » à propos de l’utilisation de CLEAN et TRIM.&lt;/li&gt;
+  &lt;li&gt;Lisez la page d’aide de Microsoft, étonnamment très utile, sur la suppression des espaces en trop et les caractères non-imprimables, &lt;a href=&quot;http://office.microsoft.com/en-us/excel-help/top-ten-ways-to-clean-your-data-HA010221840.aspx#BMremoving_spaces_and_nonprinting_chara&quot;&gt;ici&lt;/a&gt;. La majorité des instructions fonctionnera dans LibreOffice et les feuilles de calcul Google, même si il y a quelques différences. Jetez un oeil sur la documentation des fonctions: TRIM (Excel, &lt;a href=&quot;https://help.libreoffice.org/Calc/Text_Functions#TRIM&quot;&gt;Libre Office&lt;/a&gt;, Google Docs) et CLEAN (Excel, &lt;a href=&quot;https://help.libreoffice.org/Calc/Text_Functions#CLEAN&quot;&gt;Libre Office&lt;/a&gt;, Google Docs).&lt;/li&gt;
+  &lt;li&gt;Lisez les fonctionnalités de la documentation: Collage Spécial (Excel, &lt;a href=&quot;https://help.libreoffice.org/Common/Paste_Special&quot;&gt;Libre Office&lt;/a&gt;, Google Docs), Auto-filtre (Excel, &lt;a href=&quot;https://help.libreoffice.org/Calc/Applying_AutoFilter&quot;&gt;Libre Office&lt;/a&gt;, Google Docs)&lt;/li&gt;
+  &lt;li&gt;Pour les chasseurs d’Homme invisible, vous pouvez en lire plus sur l’usage des expressions régulières dans LibreOffice, &lt;a href=&quot;http://www.oooninja.com/2007/12/example-regular-expressions-for-writer.html&quot;&gt;ici&lt;/a&gt;. Nous couvrons aussi ceci dans la tâche plus longue ci-dessus, mais ce n’est pas vraiment simple et direct.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reposez-vous-et-reflechissez&quot;&gt;Reposez-vous et réfléchissez&lt;/h2&gt;
+
+&lt;p&gt;L’Homme invisible peut apparaître à n’importe quel moment, c’est pourquoi, nous devons être vigilant.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comment cet espace blanc a été introduit dans notre donnée ?&lt;/li&gt;
+  &lt;li&gt;Pouvez-vous penser à d’autres manières d’aborder le problème ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Partagez vos idées dans les commentaires.&lt;/p&gt;
+
+&lt;p&gt;Maintenant, passons à la troisième section dans ce cours sur le nettoyage des données : Vos données sont une potion magique !&lt;/p&gt;
+
+&lt;h3 id=&quot;note&quot;&gt;Note&lt;/h3&gt;
+&lt;p&gt;Ce cours a été conçu pour le projet École des données par &lt;a href=&quot;http://tacticaltech.org/&quot;&gt;Tactical Technology Collective&lt;/a&gt;. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.  &lt;/p&gt;
+
+&lt;p&gt;Article d’origine : &lt;a href=&quot;http://schoolofdata.org/handbook/courses/data-cleaning-invisible-man-in-spreadsheets/&quot;&gt;Section 2: the Invisible Man is in your spreadsheet, messing with your data&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 10 Jun 2015 20:39:02 +0200</pubDate>
-        <link>http://ecoledesdonnees.org/jekyll/update/2015/06/10/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://ecoledesdonnees.org/jekyll/update/2015/06/10/welcome-to-jekyll/</guid>
+        <pubDate>Sat, 03 Oct 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/fondamentaux/2015/10/03/nettoyage-des-donnees-homme-invisible/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/fondamentaux/2015/10/03/nettoyage-des-donnees-homme-invisible/</guid>
         
         
-        <category>jekyll</category>
+        <category>fondamentaux</category>
         
-        <category>update</category>
+      </item>
+    
+      <item>
+        <title>Section 1. Noix et chewing gum</title>
+        <description>&lt;h1 id=&quot;section-1-noix-et-chewing-gum&quot;&gt;Section 1: Noix et chewing gum&lt;/h1&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Certaines choses ne s’accordent pas. Par exemple, un chiot en peluche et une lampe-torche, ou des noisettes et du chewing-gum :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8516/8401143241_924a729397_n_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8516/8401143241_924a729397_n_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Novelty lamp, Albania, 2011. Photo: Tom Longley. Oui, l’abat-jour est monté sur la tête du chiot. License : certains droits réservés CC-BY-SA.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8237/8402232902_ec862773eb_n_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8237/8402232902_ec862773eb_n_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;‘Noix et Chewing-gum’. D’après la série The Simpsons, série 5, épisode 14 : Lisa vs. Malibu Stacy, 1994. Voir la vidéo : &lt;a href=&quot;http://vimeo.com/9372862&quot;&gt;http://vimeo.com/9372862&lt;/a&gt; Copyright: FOX. Reproduced under Fair Use.&lt;/p&gt;
+
+&lt;p&gt;Dans les feuilles de calcul, la mise en forme et les données ne se marient pas bien. Voici les conséquences de la mise en forme d’une feuille de calcul :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8503/8401143543_a8a9b1bb41_c_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8503/8401143543_a8a9b1bb41_c_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous avez déjà probablement reçu quelque chose d’aussi moche que l’image ci-dessus. Les créateurs de feuilles de calcul passent beaucoup de temps à mettre en forme les données à leur convenance. Ils changent la dimension du texte, la couleur des cellules, ajoutent des bordures et des lignes pour souligner ce qui les intéresse. Néanmoins, celles-ci ne vous sont pas nécessairement utiles en tant que destinataire des données et peuvent en perturber votre usage.&lt;/p&gt;
+
+&lt;p&gt;À la fin de cette section, vous aurez :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;une connaissance pratique de la mise en forme et des fonctionnalités de présentation des feuilles de calcul.&lt;/li&gt;
+  &lt;li&gt;les compétences pour transformer les données des autres, et faire de la lampe-chiot quelque chose de moins distrayant.&lt;/li&gt;
+  &lt;li&gt;des idées sur comment présenter vos données brutes à d’autres afin qu’ils vous aiment !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;un-peu-de-travail&quot;&gt;Un peu de travail&lt;/h2&gt;
+
+&lt;p&gt;Pour faire à la fois les tâches rapide et longue ci-dessous vous aurez besoin :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;d’un tableur, comme Excel ou Libre Office.&lt;/li&gt;
+  &lt;li&gt;d’une copie du jeu de données du cours, les données GRAIN (Genetic Resources Action International) sur l’accaparement de terres (disponible &lt;a href=&quot;http://datahub.io/dataset/grain-landgrab-data/resource/af57b7b2-f4e7-4942-88d3-83912865d116&quot;&gt;ici&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;une-tache-rapide-15-30-minutes&quot;&gt;Une tâche rapide (15-30 minutes)&lt;/h3&gt;
+
+&lt;p&gt;Prêt à mettre le bazar ? Essayons et pénetrons l’esprit des gens qui fabriquent des feuilles de calcul aussi laides que des lampes-chiots.&lt;/p&gt;
+
+&lt;p&gt;Dans son excellent ouvrage « The Art of Spreadsheets » (L’art des feuilles de calcul), John Raffensperger énumère &lt;a href=&quot;http://john.raffensperger.org/ArtOfTheSpreadsheet/Chapter09_ShowAllTheInformation.html&quot;&gt;37 manières de cacher les données d’une feuille de calcul&lt;/a&gt;. Voici 10 d’entre elles :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ne partagez pas le fichier. C’est la façon la plus commune de cacher l’information, et la plus efficace&lt;/li&gt;
+  &lt;li&gt;Cachez la feuille. Vous avez besoin d’au moins deux feuilles, puis : Format, Feuille, Masquer&lt;/li&gt;
+  &lt;li&gt;Cachez la ligne : Format, Ligne, Masquer&lt;/li&gt;
+  &lt;li&gt;Cachez la colonne : Format, Colonne, Masquer&lt;/li&gt;
+  &lt;li&gt;Cachez la cellule et protéger la feuille : Format, Cellule, Protéger la cellule, Masquer, et ensuite Outils, Protection. Cela montre le résultat mais cache la formule : =if(1, “Paix !”, “Attaquez à l’aube.”)&lt;/li&gt;
+  &lt;li&gt;Rétrécissez excessivement la largeur de la colonne : Format, Colonne, Largeur, 0.&lt;/li&gt;
+  &lt;li&gt;Pour les formules susceptibles d’être égales à 0, utilisez Outils, Options, Vue, et décochez la case Valeurs nulles. Par exemple : =IF(1, 0, “Attaquez à l’aube.”).&lt;/li&gt;
+  &lt;li&gt;Utilisez une formule qui retourne une valeur vide : =IF(1, “ ”, “Attaquez à l’aube.”).&lt;/li&gt;
+  &lt;li&gt;Créez une formule compliquée qui affiche l’information, mais formatez la comme du texte (avec Format, Cellule, Nombre, Texte, ou bien commencez la cellule par une apostrophe), de sorte que la formule s’affiche plutôt que le résultat.&lt;/li&gt;
+  &lt;li&gt;Utilisez la police Wingdings : Format, Cellule, Police, Wingdings. Cela affiche des caractères inintelligibles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Utilisez la liste de John Raffensperger comme source d’inspiration, votre tâche est de mettre le foutoir le plus possible dans les données de GRAIN. Des notes seront attribuées pour :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rendre la présentation juste assez mauvaise pour que quelqu’un utilisant les données puisse penser qu’il peut quand même les utiliser !&lt;/li&gt;
+  &lt;li&gt;l’usage d’effets de couleur et de police agressant réellement l’oeil&lt;/li&gt;
+  &lt;li&gt;l’ingéniosité à cacher des fragments de données à la vue normale&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Quand vous avez terminé de mettre le désordre, réfléchissez à la manière dont vous reviendriez en arrière et persuaderiez les autres de ne pas traiter leurs données de cette manière.&lt;/p&gt;
+
+&lt;h3 id=&quot;une-tache-plus-longue-30-60-minutes&quot;&gt;Une tâche plus longue (30-60 minutes)&lt;/h3&gt;
+
+&lt;p&gt;Partir du Problème 1 du Livre de Recettes (section Nettoyage des Données) : &lt;a href=&quot;http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-1-showing-the-data-plainly&quot;&gt;affichez les données en utilisant simplement les données de GRAIN.&lt;/a&gt;. Cela montre comment supprimer rapidement la mise en forme. C’est la première partie d’une « recette » plus longue sur le nettoyage des données.&lt;/p&gt;
+
+&lt;h2 id=&quot;lectures-complementaires&quot;&gt;Lectures complémentaires&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;La documentation pour les tableurs les plus courants met en valeur les différentes manières de modifier la façon dont une feuille de calcul présente les données. Selon le tableur que vous utilisez, visitez ces sites pour vous rafraîchir la mémoire : &lt;a href=&quot;https://help.libreoffice.org/Calc/Format&quot;&gt;Libre office – Mise en forme&lt;/a&gt;, &lt;a href=&quot;http://office.microsoft.com/en-us/excel-help/apply-create-or-remove-a-cell-style-HP001216732.aspx&quot;&gt;Excel – Style des cellules&lt;/a&gt;, &lt;a href=&quot;http://support.google.com/drive/bin/answer.py?hl=en&amp;amp;answer=46973&quot;&gt;Googles Docs – Style des cellules&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;« The Art of Spreadsheets » (l’art des feuilles de calcul), par John Raffensperger, énumère une liste de &lt;a href=&quot;http://john.raffensperger.org/ArtOfTheSpreadsheet/Chapter09_ShowAllTheInformation.html&quot;&gt;37 façons de cacher l’information dans les feuilles de calcul&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;La légende des feuilles de calcul Chandoo explore les moyens de s’assurer que &lt;a href=&quot;http://chandoo.org/wp/2009/11/03/make-better-excel-sheets/&quot;&gt;vos feuilles de calculs plairont à votre patron&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;L’option nucléaire : comment supprimer toute la mise en forme d’une feuille de calcul (&lt;a href=&quot;https://help.libreoffice.org/Common/Undoing_Direct_Formatting_for_a_Document#Removing_all_Direct_Formatting_in_a_LibreOffice_Calc_Spreadsheet&quot;&gt;Libre Office&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;reposez-vous-et-reflechissez&quot;&gt;Reposez-vous et réfléchissez&lt;/h2&gt;
+
+&lt;p&gt;Bien, vous devez être épuisé, faisons une petite pause et voyons ce que nous avons fait. Voici quelques questions pour démarrer :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Quels sont les moments où le formatage est utile ?&lt;/li&gt;
+  &lt;li&gt;Quels sont les inconvénients à supprimer la mise en forme d’une feuille de calcul ?&lt;/li&gt;
+  &lt;li&gt;Comment devrions-nous afficher les données dans les outils que nous utilisons quotidiennement ?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Si vous le souhaitez, discutez-en dans les commentaires.&lt;/p&gt;
+
+&lt;p&gt;Et maintenant précipitez-vous sur le prochain chapitre de ce cours, L’homme invisible est dans votre tableur, brouillant vos données.&lt;/p&gt;
+
+&lt;h3 id=&quot;note&quot;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;Ce cours a été conçu pour le projet École des données par &lt;a href=&quot;http://tacticaltech.org/&quot;&gt;Tactical Technology Collective&lt;/a&gt;. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.  &lt;/p&gt;
+
+&lt;p&gt;Article d’origine : &lt;a href=&quot;http://schoolofdata.org/handbook/courses/data-cleaning-nuts-and-gum/&quot;&gt;Section 1: Nuts and chewing gum&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-noix-et-gum/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-noix-et-gum/</guid>
+        
+        
+        <category>fondamentaux</category>
+        
+      </item>
+    
+      <item>
+        <title>Une brève introduction au nettoyage des données. Plan du cours.</title>
+        <description>&lt;h1 id=&quot;plan-du-cours--une-breve-introduction-au-nettoyage-des-donnees&quot;&gt;Plan du cours : Une brève introduction au nettoyage des données&lt;/h1&gt;
+
+&lt;p&gt;Ce cours a été conçu pour le projet École des données par &lt;a href=&quot;http://tacticaltech.org/&quot;&gt;Tactical Technology Collective&lt;/a&gt;. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.&lt;/p&gt;
+
+&lt;p&gt;Il est difficile de s’enthousiasmer pour des données, mais essayons ! Prenez une minute pour regarder l’image ci-dessous. Formidable, un ours jaune qui sourit… quel spectacle ! Il ne manque plus qu’un feu d’artifice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8219/8412778423_2b06c83e7b_o_d.jpg&quot; alt=&quot;http://farm9.staticflickr.com/8219/8412778423_2b06c83e7b_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Image source: China Daily / Reuters, 17 Janvier 2006. Droits réservés.&lt;/p&gt;
+
+&lt;p&gt;Maintenant imaginez votre déception si votre tentative de créer le plus grand gâteau glacé du monde échouait à cause d’une &lt;strong&gt;erreur dans votre feuille de calcul&lt;/strong&gt; due à un simple espace dans la colonne intitulée « quantité de glace ». Ce ne serait pas agréable ? (Heureusement, ça n’est pas arrivé et personne n’a probablement été licencié. Et tout le monde est satisfait de la réalisation d’&lt;a href=&quot;http://thelargest.net/ice-cream-cake&quot;&gt;un gâteau glacé de 8 tonnes&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Les erreurs dans les données sont tellement courantes qu’il existe même une organisation internationale, le European Spreadsheet Risks Interest Group (ESRIG), qui se donne pour mission de formuler des recommandations pour minimiser le nombre d’erreurs dans la manipulation d’un tableur. L’ESRIG repère les histoires les plus édifiantes (« horror stories ») &lt;a href=&quot;http://www.eusprig.org/horror-stories.htm&quot;&gt;où des erreurs dans les feuilles de calcul ont eu des conséquences réelles&lt;/a&gt;, telles que des milliards de revenus manquants du pétrole, des dizaines de milliers de tickets aux jeux olympiques vendus en trop, et des salaires versés exorbitants à cause de l’insertion accidentelle de zéros. Certaines erreurs sont délibérées et « criminelles ». D’autres sont dues à la complexité de la manipulation des données. D’autres encore sont dues à la manière dont les feuilles de calcul se comportent.&lt;/p&gt;
+
+&lt;p&gt;Ce cours de l’Ecole des Données est une brève introduction pour &lt;strong&gt;réduire le nombre d’erreurs en nettoyant des données&lt;/strong&gt;. Cela implique de :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Détecter et retirer les données non pertinentes&lt;/li&gt;
+  &lt;li&gt;Mettre en forme correctement les données&lt;/li&gt;
+  &lt;li&gt;Repérer les incohérences dans les données&lt;/li&gt;
+  &lt;li&gt;Structurer les données&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pre-requis&quot;&gt;Pré-requis&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Une brève introduction au nettoyage des données&lt;/strong&gt; s’appuie sur le cours des &lt;a href=&quot;http://ecoledesdonnees.org/handbook/cours/&quot;&gt;&lt;em&gt;Fondamentaux des données&lt;/em&gt;&lt;/a&gt; de l’Ecole des Données.&lt;/p&gt;
+
+&lt;p&gt;Pour réaliser ce cours, &lt;strong&gt;vous aurez besoin de &lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Un tableur, du type Excel (que vous devrez acheter) ou Calc de LibreOffice (téléchargeable gratuitement en ligne) installé sur votre ordinateur.&lt;/li&gt;
+  &lt;li&gt;Nous partons du principe que vous avez les compétences suivantes : connaissances basiques de gestion des feuilles de calcul, créer un fichier, insérer des données, copier, coller, créer des formules simples. Si vous avez besoin de cours de rattrapage sur ces aspects, la Knight Digital Media Centre a &lt;a href=&quot;http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/&quot;&gt;d’excellents tutoriels en ligne&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Une copie du jeu de données de GRAIN sur « &lt;a href=&quot;http://datahub.io/dataset/grain-landgrab-data&quot;&gt;l’accaparement des terres&lt;/a&gt;« . Nous utilisons ce jeu de données parce qu’il est à la fois intéressant et qu’il est parlant en termes de recherche et agrégation de données pour résoudre un problème. Ce jeu procure également une variété d’excellents problèmes que nous pouvons travailler à résoudre. Enfin, nous utiliserons ce jeu de données comme base du cours à venir sur l’analyse des données.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contenu-du-cours&quot;&gt;Contenu du cours&lt;/h2&gt;
+
+&lt;p&gt;Le contenu du cours est composé de la façon suivante :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le cours en ligne, qui est en fait la page que vous êtes en train de lire.&lt;/li&gt;
+  &lt;li&gt;Section 1: &lt;a href=&quot;https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-noix-et-gum/&quot;&gt;« Noix et chewing gum »&lt;/a&gt; aborde la façon dont les données sont présentées dans un tableau et comment une mauvaise présentation peut engendrer des erreurs.&lt;/li&gt;
+  &lt;li&gt;Section 2: &lt;a href=&quot;https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-homme-invisible/&quot;&gt;« L’homme invisible »&lt;/a&gt; aborde la question des blancs, espaces et caractères spéciaux et la façon dont ils altèrent les possibilités d’usage des données.&lt;/li&gt;
+  &lt;li&gt;Section 3: &lt;a href=&quot;https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-potion-magique/&quot;&gt;« La potion magique »&lt;/a&gt; aborde la question de la consistance des données et les manières de déterminer les bonnes unités et les bons formats de données.&lt;/li&gt;
+  &lt;li&gt;Section 4: &lt;a href=&quot;https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-mauvaise-valise/&quot;&gt;« La mauvaise valise »&lt;/a&gt; aborde la question du stockage et structuration des données.&lt;/li&gt;
+  &lt;li&gt;En complément de ces sections, &lt;a href=&quot;https://ecoledesdonnees.org/handbook/recipes/cleaning-data-with-spreadsheets/&quot;&gt;une recette pas-à-pas&lt;/a&gt; est mise à disposition pour nettoyer les données. Il s’agit d’un manuel d’une variété de ressources que nous abordons par section. Nous partons d’un ensemble de données « impropres » pour avancer à travers les différentes étapes vers leur transformation en données « propres ».&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Chaque section de cours contient :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Une &lt;strong&gt;introduction&lt;/strong&gt; au problème : nous avons tenté d’expliquer les problèmes de la manière la plus facile possible.&lt;/li&gt;
+  &lt;li&gt;Un &lt;strong&gt;bref exercice&lt;/strong&gt; d’une quinzaine de minutes pour vous familiariser avec la question. Nous vous proposerons généralement de faire quelque chose et de poster votre travail dans l’espace de discussion.&lt;/li&gt;
+  &lt;li&gt;Un &lt;strong&gt;exercice plus long&lt;/strong&gt; de nettoyage des données. Certaines tâches peuvent prendre jusqu’à une heure.&lt;/li&gt;
+  &lt;li&gt;Une &lt;strong&gt;liste de références et de ressources&lt;/strong&gt;. Nous avons inclus aussi bien des essais, que des manuels de logiciels ou même des blogs.&lt;/li&gt;
+  &lt;li&gt;Une &lt;strong&gt;question&lt;/strong&gt; sur le contenu du cours à laquelle vous pouvez répondre dans l’espace de discussion. N’hésitez pas à commenter chaque section et donner vos retours.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;comment-suivre-ce-cours&quot;&gt;Comment suivre ce cours&lt;/h2&gt;
+
+&lt;p&gt;Nous vous suggérons :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Parcourez les sections 1à 4 et effectuez le premier exercice, puis le refaire avec l’exercice plus long.&lt;/li&gt;
+  &lt;li&gt;Ne souffrez pas en silence ! Nous sommes là pour vous aider.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Prêt à vous lancer ?&lt;/p&gt;
+
+&lt;p&gt;Très bien, présentez vous dans l’espace de discussion et commencez avec la section 1.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-introduction/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-introduction/</guid>
+        
+        
+        <category>fondamentaux</category>
+        
+      </item>
+    
+      <item>
+        <title>Démonstration de data bullshit à Pas sage en Seine 2015</title>
+        <description>&lt;h1 id=&quot;demonstration-de-data-bullshit-a-pas-sage-en-seine-2015&quot;&gt;Démonstration de data bullshit à Pas sage en Seine 2015&lt;/h1&gt;
+
+&lt;p&gt;Dimanche 26 juillet 2015 par &lt;a href=&quot;http://www.pratiques-collaboratives.net/_Sabine-Blanc_.html&quot;&gt;Sabine Blanc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fr.okfn.org/files/2015/07/databullshit.jpg&quot;&gt;&lt;img src=&quot;http://www.pratiques-collaboratives.net/local/cache-vignettes/L640xH640/databullshit59e3-6dbeb.jpg&quot; alt=&quot;événement databullshit à Pas sage en Seine 2015&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;À &lt;a href=&quot;https://www.passageenseine.org/fr/accueil&quot;&gt;Pas sage en Seine&lt;/a&gt; (PSES), festival de hacking parisien, on célèbre, entre autres, la donnée libre et ouverte pendant quatre jours chaque mois de juin depuis 7 ans. Il était donc &lt;a href=&quot;https://www.passageenseine.org/fr/programme/2015/vendredi-19-juin/grande-salle/data-bullshit&quot;&gt;logique d’y proposer,&lt;/a&gt; dans le cadre de &lt;a href=&quot;http://ecoledesdonnees.org/&quot;&gt;l’Ecole des Données&lt;/a&gt;, une petite présentation sur le data bullshit, ou l’art de raconter des âneries avec les données, un exercice fort courant malheureusement. Pour ne pas nous contenter d’une conférence théorique trop passive, nous avons alterné principes généraux et mise en pratique sur des exemples, dans une micro-chasse au data bullshit. Le public plutôt aguerri de PSES n’a pas mis trop de temps à trouver les biais dans les cas exposés.&lt;/p&gt;
+
+&lt;p&gt;Un des participants a demandé s’il était possible d’automatiser la détection des erreurs, dans un contexte de flux permanent d’information. S’il existe effectivement des outils pour faciliter le fact checking, ils ont leur limite et sont à compléter par un regard humain. Il suppose aussi de les avoir sous la main, ce qui n’est pas toujours le cas, par exemple dans une conversation. Par cette question, la personne témoignait de son inquiétude face à cette masse de données : comment faire le tri sans passer des nuits à chercher ? A défaut de pouvoir redresser toutes les données erronées, visons déjà un objectif plus raisonnable : avoir des réflexes, souvent de l’ordre du bon sens, pour détecter les erreurs et titiller celui qui les avance. Les analyses plus poussées peuvent relever davantage des personnes dont c’est la spécialité : journaliste, blogueur expert d’un sujet, chercheur.se…&lt;/p&gt;
+
+&lt;p&gt;Ce petit exposé a vocation à être adapté en fonction de la demande, par exemple en thématisant les cas d’’école soumis : éducation, immigration, santé… Si vous êtes intéressé, contactez-nous : ecoledesdonnees [at] okfn.fr&lt;/p&gt;
+
+&lt;p&gt;La vidéo de la présentation, captée par la merveilleuse organisation de l’événement, &lt;a href=&quot;https://numaparis.ubicast.tv/permalink/v1253ae80063f3dq6qs0/&quot;&gt;est disponible ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fr.slideshare.net/clombion/databullshit&quot;&gt;La présentation est là&lt;/a&gt;, n’hésitez pas à la reprendre et la mettre à votre sauce.&lt;/p&gt;
+
+&lt;p&gt;Et le &lt;a href=&quot;https://storify.com/s_fredriksson/pses2015-databullshit&quot;&gt;Storify du talk&lt;/a&gt;, merci Sylvia !&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 26 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/blog/post/2015/07/26/Demonstration-de-data-bullshit-a-Pas-sage-en-Seine-2015/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/blog/post/2015/07/26/Demonstration-de-data-bullshit-a-Pas-sage-en-Seine-2015/</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Session de travail préparatoire avec les habitants du quartier Marx Dormoy-La Chapelle</title>
+        <description>&lt;h1 id=&quot;session-de-travail-preparatoire-avec-les-habitants-du-quartier-marx-dormoy-la-chapelle&quot;&gt;Session de travail préparatoire avec les habitants du quartier Marx Dormoy-La Chapelle&lt;/h1&gt;
+
+&lt;h2 id=&quot;session-de-travail-avec-les-habitants-du-quartier-marx-dormoy-la-chapelle-mise-en-uvre-le-19-juin-2015-a-lecole-normale-sociale&quot;&gt;Session de travail avec les habitants du quartier Marx Dormoy-La Chapelle mise en œuvre le 19 juin 2015 à L’École Normale Sociale.&lt;/h2&gt;
+
+&lt;p&gt;by &lt;a href=&quot;https://storify.com/s_fredriksson/school-of-data-session-preparatoire&quot;&gt;Sylvia Fredriksson&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Depuis deux ans, un groupe d’habitants de la Chapelle s’est regroupé en collectif à l’ENS pour produire un travail d’enquête sur les enjeux de qualité de vie de leur quartier (environ 50 habitants interrogés).&lt;br /&gt;
+Dans ce contexte, L’École des données propose d’articuler à cette démarche citoyenne un ensemble d’ateliers en vue de faciliter l’accès à des méthodes et outils de collecte et de traitement des données, mobilisables par tous.  &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Comment travailler avec les données d’un quartier ? Comment rendre possible l’élaboration de nouvelles stratégies de production et d’usage de l’information, élargissant le spectre des moyens d’action de la société civile sur le territoire ?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/e15/11352860_1602050123400435_1928905009_n.jpg&quot; alt=&quot;École Normale Sociale. Réunion du comité de quartier sur l'enquête menée par les habitants sur le bien-vivre dans le quartier #dormoylabs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;École Normale Sociale. Réunion du comité de quartier sur l’enquête menée par les habitants sur le bien-vivre dans le quartier #dormoylabs&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Les habitants de La Chapelle s’interrogent sur leur propre légitimité à mener une enquête de quartier en tant que citoyen &lt;a href=&quot;https://twitter.com/hashtag/DormoyLabs?src=hash&quot;&gt;#DormoyLabs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/s_fredriksson/status/611877373244514305&quot;&gt;Par @s_fredriksson&lt;/a&gt; sur Twitter&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Les cadres de l’enquête : certains citoyens sont rassurés si l’action se fait sous le couvert d’une institution &lt;a href=&quot;https://twitter.com/hashtag/DormoyLabs?src=hash&quot;&gt;#DormoyLabs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;L’action est une niche d’expérimentation, permettant d’explorer des questions et de faire avancer une problématique globale &lt;a href=&quot;https://twitter.com/hashtag/DormoyLabs?src=hash&quot;&gt;#DormoyLabs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;L’aspect expérimental se situe aussi dans la sociabilité que l’on construit via le processus d’enquête &lt;a href=&quot;https://twitter.com/hashtag/DormoyLabs?src=hash&quot;&gt;#DormoyLabs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;L’aspect politique : la démarche induit un processus d’interpellation à partir des problèmes et des ressources identifiées &lt;a href=&quot;https://twitter.com/hashtag/DormoyLabs?src=hash&quot;&gt;#DormoyLabs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enjeux : dégager des axes de travail à partir d’un consensus obtenu par le processus d’analyse de l’enquête &lt;a href=&quot;https://twitter.com/hashtag/DormoyLabs?src=hash&quot;&gt;#DormoyLabs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Le quartier est intuitivement redécoupé en 4 zones (frontières symboliques issues d’une connaissance endogène du quartier) &lt;a href=&quot;https://twitter.com/hashtag/DormoyLabs?src=hash&quot;&gt;#DormoyLabs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/blog/post/2015/06/19/session-preparatoire-habitants-quartier-Max-Dormoy-La-chapelle/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/blog/post/2015/06/19/session-preparatoire-habitants-quartier-Max-Dormoy-La-chapelle/</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Dissection d’une expédition de donnée. Les magazines de jeu vidéo</title>
+        <description>&lt;h2 id=&quot;dissection-dune-expedition-de-donnee--les-magazines-de-jeu-video&quot;&gt;Dissection d’une expédition de donnée : les magazines de jeu vidéo&lt;/h2&gt;
+
+&lt;p&gt;Le 18 mai 2015 dans &lt;a href=&quot;https://ecoledesdonnees.org/category/howto/&quot;&gt;HowTo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;Cet article est à la fois un tutoriel et une démonstration du processus que je suis pour réaliser une « expédition de donnée » seul, où en tant que participant durant un événement de l’École des données. Chaque étape va être détaillée : Trouver, Récupérer, Vérifier, Nettoyer, Explorer, Analyser, Visualiser, Publier.&lt;/p&gt;
+
+&lt;p&gt;En fonction de vos données, de votre source ou de vos outils, l’ordre dans lequel vous passerez ces étapes sera différent. Mais le processus est globalement le même.&lt;/p&gt;
+
+&lt;h3 id=&quot;trouver&quot;&gt;TROUVER&lt;/h3&gt;
+
+&lt;p&gt;Une expédition de données peut partir d’une question (i.e. quel est le niveau de pollution de l’air des capitales européennes ?) ou d’un jeu de données que vous voulez explorer. Dans le cas qui nous intéresse, j’avais une question : les marché des magazines de jeux vidéos a-t-il décliné ces dernières années ? Cela fait plusieurs semaine que j’étudie l’industrie du jeu vidéo et c’est une des nombreuses questions auxquelles j’ai cherché des réponses.&lt;/p&gt;
+
+&lt;p&gt;Evidemment, il y a d’autres questions intéressantes à explorer, mais il vaut mieux commencer avec une seule question et étendre le champ de recherche par la suite.&lt;/p&gt;
+
+&lt;p&gt;Après quelques recherches, la page Wikipedia anglophone s’est avérée être la source la plus complète sur les magazines de jeux vidéos. On y trouve même des informations contextuelles qui seront utiles plus tard (le contexte est essentiel dans l’analyse de données).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/05/image_0.png&quot; alt=&quot;image alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_video_game_magazines&quot;&gt;https://en.wikipedia.org/wiki/List_of_video_game_magazines&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;recuperer&quot;&gt;RECUPERER&lt;/h3&gt;
+
+&lt;p&gt;Les données Wikipedia sont sous forme de tableau. Parfait ! Les scraper est aussi simple que d’utiliser la fonction importHTML dans Google Spreadsheet. Je pourrais copier/coller le tableau, mais ça devient peu pratique lorsque le tableau est très long et le résultat serait mal formatté. LibreOffice et Excel ont des fonctionnalités d’import similaires, bien que moins intuitives.&lt;/p&gt;
+
+&lt;p&gt;importHTML requière 3 variables : le lien vers la page, le format des données (tableau ou liste) et le range du tableau (ou de la liste) dans la page. Si aucun rang n’est indiqué, la fonction récupérera le premier tableau qu’elle trouve.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/02/janv.-31-2015-2343.gif&quot; alt=&quot;image alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une fois que j’ai récupéré le tableau, je fais deux choses pour travailler plus rapidement :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;je change la police et la taille des cellules au minimum, pour voir plus d’éléments à la fois,&lt;/li&gt;
+  &lt;li&gt;je copie l’ensemble et je fais : Edition-&amp;gt;Collage spécial-&amp;gt;Coller uniquement les valeurs. De cette façon, le tableau n’est plus lié à importHTML, et je peux le modifier à souhait.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;verifier&quot;&gt;VERIFIER&lt;/h3&gt;
+
+&lt;p&gt;Ces données vont-elles répondre complèyement à ma question ? J’ai bien les données de base (nom, date de création, date de dépôt de bilan), mais est-ce que tous les magazines y sont ? Une vérification du côté de la &lt;a href=&quot;https://fr.wikipedia.org/wiki/Liste_de_magazines_de_jeux_vid%C3%A9o&quot;&gt;page wikipedia francophone&lt;/a&gt; sur les magazines de jeux vidéos montre que beaucoup de magazines français manquent à l’appel. La plupart des magazines présents sont des Etats-Unis ou de Grande Bretagne, et sans aucun doute uniquement les plus connus. Je devrai donc prendre cela en compte pour la suite.&lt;/p&gt;
+
+&lt;h3 id=&quot;nettoyer&quot;&gt;NETTOYER&lt;/h3&gt;
+
+&lt;p&gt;Travailler directement sur vos données brutes n’est jamais une bonne idée. Une bonne habitude est de travailler sur une copie ou de façon non-destructive – ainsi, si vous faites une erreur et que vous n’êtes pas certain de vous, vous pourrez retourner en arrière et comparer votre fichier à l’original.&lt;/p&gt;
+
+&lt;p&gt;Puisque je ne veux garder que les magazines de Grande Bretagne et des Etats Unis, je vais :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Renommer la feuille de calcul originale « Raw Data » (c’est à dire « Données brutes »)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Faire une copie de cette feuille et l’appeler « Clean Data » (c’est à dire « Données nettoyées »)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Trier par ordre alphabétique la feuille « Clean Data » selon la colonne « Country»&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Supprimer toutes les lignes correspondant aux pays autres que la Grande Bretagne et les Etats-Unis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/02/fe%CC%81vr.-01-2015-1327.gif&quot; alt=&quot;image alt text&quot; /&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/02/ordering-data.gif&quot; alt=&quot;image alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Astuce : pour éviter de faire bouger les en-têtes de colonnes quand vous triez vos données, aller à Affichage-&amp;gt;Figer une ligne.&lt;/p&gt;
+
+&lt;p&gt;D’autres ajustements mineurs doivent être réalisés, mais ils sont assez légers pour que j’ai pas recours à une outil spécialisé comme &lt;a href=&quot;http://openrefine.org/&quot;&gt;Open Refine&lt;/a&gt; :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Scinder les lignes où deux pays sont listés (i.e. PC Gamer devient PC Gamer UK et PC Gamer US)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Supprimer la colonne « ref », qui n’ajoute aucune information&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Supprimer une ligne où la date de création est manquante.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;explorer&quot;&gt;EXPLORER&lt;/h3&gt;
+
+&lt;p&gt;J’appelle « exploration » l’étape à laquelle je pense aux différentes réponses que mon jeu de données nettoyé peut donner à ma question initiale. Votre narration sera beaucoup plus riche si vous attaquez la question de plusieurs angles.&lt;/p&gt;
+
+&lt;p&gt;Il y a plusieurs choses que je pourrais chercher dans les données :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;des particularités intéressantes&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;des changements au cours du temps&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;des expériences personnelles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;des interactions surprenantes&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;des comparaisons qui permettent de contextualiser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Que puis-je donc faire ? Je peux :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;afficher le nombre de magazines en existence chaque année, ce qui me permettra de savoir si il y a eu un déclin ou non (changements au cours du temps)&lt;/li&gt;
+  &lt;li&gt;regarder le nombre de magazines créés par année, pour savoir si le marché est toujours dynamique (changements au cours du temps)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dans le cadre de ce tutoriel, je vais me concentrer sur la seconde question, c’est à dire le nombre de magazines créés par année. Un autre tutoriel sera dédié à la première, car elle demande une approche plus complexe en raison du format des données.&lt;/p&gt;
+
+&lt;p&gt;A ce stade, j’ai plein d’autres idées en tête : Est-ce que je peux déteminer l’année ayant produit le plus de magazines (particularités intéressantes) ? Est-ce que la comparaison avec les données sur les sites de jeu vidéo serait intéressante (comparaisons qui permettent de contextualiser) ? Quels magazines ont la plus grand longévité (particularité intéressante) ? Toutes ces questions valent le coup d’être explorées, mais elle ne le seront pas dans le cadre de ce tutoriel. Il vaut mieux à ce stade les noter afin de les revisiter plus tard : traiter les questions une à une permet d’éviter les erreurs.&lt;/p&gt;
+
+&lt;h3 id=&quot;analyse&quot;&gt;ANALYSE&lt;/h3&gt;
+
+&lt;p&gt;Il s’agit ici d’appliquer les techniques d’analyse de données à mon jeu de données et d’explorer les visualisations possibles.&lt;/p&gt;
+
+&lt;p&gt;La façon la plus rapide de répondre à la question « combien de magazines ont été créés chaque année ? » est d’utiliser un tableau croisé dynamique.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sélectionnez la portion des données qui répondent à la question (les colonnes « name » et « founded »)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Aller à Données -&amp;gt; Tableau croisé dynamique&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dans la feuille de calcul créée, sélectionnez le champ « Founded » dans le menu déroulant de Lignes. Les années de création (founded) sont ordonnées et groupées, ce qui nous permet de compter le nombre de magazines pour chaque année, en commençant par la plus éloignée.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Je sélectionne ensuite le champ « Name » dans le menu déroulant de Valeurs. Le tableau croisé dynamique s’attend à des nombres par défaut (il essaye de réaliser une addition), donc rien ne s’affiche. Il faut sélectionner COUNTA, qui est la formule qui va compter le nombre d’éléments.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/02/fe%CC%81vr.-01-2015-1208.gif&quot; alt=&quot;image alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ces données peuvent être visualisées avec un graphique de en barres.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/05/image_5.png&quot; alt=&quot;image alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;source: https://en.wikipedia.org/wiki/List_of_video_game_magazines&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;La ligne de tendance semble indiquer une déclin dans la dynamique du marché, mais il est difficile de déceler la tendance avec les barres seules. Si on groupe les années par demi-décades, la tendance est plus claire :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/02/fe%CC%81vr.-01-2015-1249.gif&quot; alt=&quot;image alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notre nouveau graphique en barre ressemble donc à ça :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/05/image_7.png&quot; alt=&quot;image alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;https://en.wikipedia.org/wiki/List_of_video_game_magazines&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Le nombre de magazines créée chaque 5 ans décroit beaucoup dans le années aux alentour de 2000. La baisse dramatique des années 1986-1990 est certainement une conséquence du &lt;a href=&quot;https://fr.wikipedia.org/wiki/Krach_du_jeu_vid%C3%A9o_de_1983&quot;&gt;krash du jeu vidéo de 1983&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Contrairement à ce que l’on aurait pu supposer, le marché est toujours dynamique, avec un magazine créé chaque année les 5 dernières années. L’histoire que l’on va pouvoir raconter n’en sera que plus nuancée et intéressante.&lt;/p&gt;
+
+&lt;h3 id=&quot;visualiser&quot;&gt;VISUALISER&lt;/h3&gt;
+
+&lt;p&gt;Dans le cadre de ce tutoriel, les graphiques créées durant l’étape d’analyse suffisent à ma narration. Mais dans l’hypothèse où mes résultats auraient requis une visualisation plus complexe, voire interactive, pour être communiqués, ce travail aurait été traité au sein de l’étape « visualiser ».&lt;/p&gt;
+
+&lt;h3 id=&quot;publier&quot;&gt;PUBLIER&lt;/h3&gt;
+
+&lt;p&gt;Où et comment publier est une question essentielle que vous devrez vous poser au moins une fois. Peut-être que vous faites partie d’une organisation qui a son site web et la question ne se pose pas. Mais si ce n’est pas le cas, et que vous n’avez pas encore de site web, la réponse peut-être plus longue à trouver. WordPress est un mastodonte qui en fait peut-être trop pour vos besoins. Tumblr est une possibilité, si vous êtes prêt à modifier le code à la main. Pour ceux qui baignent dans le milieu de la programmation, une combinaison de &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; et de Jekyll peut-être une bonne idée. Si vous avez besoin d’une base de données légère, jetez un oeil à &lt;a href=&quot;http://www.builtbybalance.com/tabletop&quot;&gt;tabletop.js&lt;/a&gt;, qui permet d’utiliser une Google spreadsheet comme une base de donnée basique.  &lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Toute expédition de donnée, quelque soit sa taille ou sa complexité, peut être gérée avec ce processus. En suivant les étapes listées ci-dessus, vous vous évitez de nombreux maux de tête et problèmes potentiels. Bien souvent vous aurez à récupérer et analyser des données supplémentaire pour contextualiser les données initiales, mais il s’agit alors simplement de répéter les différentes étapes autant de fois que nécessaire.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/blog/post/2015/05/18/dissection-dune-expedition-de-donnee-les-magazines-de-jeu-video/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/blog/post/2015/05/18/dissection-dune-expedition-de-donnee-les-magazines-de-jeu-video/</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Astuce. Copier tous les éléments d’une liste de plusieurs pages</title>
+        <description>&lt;h2 id=&quot;astuce-copier-tous-les-elements-dune-liste-de-plusieurs-pages&quot;&gt;Astuce: copier tous les éléments d’une liste de plusieurs pages&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Une technique très simple, mais qui peut toujours dépanner !&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ces-listes-de-plusieurs-pages&quot;&gt;Ces listes de plusieurs pages&lt;/h3&gt;
+
+&lt;p&gt;Sur le web, on tombe souvent sur des sites avec des listes comprenant plusieurs pages. Plus agréables pour naviguer, elles facilitent également le chargement. Mais quand il s’agit de “scraper” leur contenu, c’est plus embêtant.&lt;/p&gt;
+
+&lt;p&gt;Prenons le site d’&lt;a href=&quot;http://www.allflicks.net/&quot;&gt;Allflicks US&lt;/a&gt;. Par défaut, il affiche la liste des 7 365 métrages sur 295 pages (au 7 mai 2015) à raison de 25 métrages par page. Bon courage pour le copier/coller.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://france-schoolofdata.scoda.okfn.org/files/2015/05/Image-1.png&quot;&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/05/Image-1-1024x577.png&quot; alt=&quot;Allflicks.net&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Allflicks.net&lt;/p&gt;
+
+&lt;h3 id=&quot;attention&quot;&gt;Attention&lt;/h3&gt;
+
+&lt;p&gt;Cette astuce ne fonctionne que pour les listes qui proposent un menu pour choisir le nombre d’éléments à afficher et des boutons pour naviguer.&lt;/p&gt;
+
+&lt;p&gt;À l’inverse, cette méthode est très efficace pour des listes de taille moyenne qui affichent peu d’éléments par page sur un grand nombre de pages. Sur mes deux ordinateurs (Mac et Linux), j’ai réussi à afficher au maximum 20 000 éléments sur une seule page. Lors de ma tentative d’en afficher 40 000, ils ont planté.&lt;/p&gt;
+
+&lt;p&gt;Je vous propose toutefois une parade à la fin du tutoriel.&lt;/p&gt;
+
+&lt;h3 id=&quot;inspecter-lelement&quot;&gt;“Inspecter l’élément”&lt;/h3&gt;
+
+&lt;p&gt;Je vous le dis tout de suite, cette méthode n’est pas très propre.&lt;/p&gt;
+
+&lt;p&gt;L’idée est donc d’avoir les 7 365 métrages affichés sur une seule page. Pour cela, à l’aide du clic droit, on va inspecter l’élément (sur Chrome. Sur Firefox, c’est Examiner par exemple) “100” qui sert initialement à afficher 100 éléments par page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://france-schoolofdata.scoda.okfn.org/files/2015/05/Image-2.png&quot;&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/05/Image-2-300x169.png&quot; alt=&quot;Inspecter l'élément&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Inspecter l’élément&lt;/p&gt;
+
+&lt;p&gt;Une fois que vous avez cliqué sur la flèche déroulante (située à gauche), vous devriez voir ceci :&lt;/p&gt;
+
+&lt;p&gt;[&lt;img src=&quot;https://ecoledesdonnees.org/files/2015/05/Image-1.png&quot; alt=&quot;Code source &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Code source initial&lt;/p&gt;
+
+&lt;p&gt;Une seule chose nous intéresse : value=”100” qu’il faut remplacer par value=”7365” en double-cliquant dessus. Si ça vous amuse, vous pouvez aussi changer le texte du bouton en modifiant le deuxième 100 écrit en noir juste à côté.&lt;/p&gt;
+
+&lt;p&gt;Ce que l’on voit ensuite :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ecoledesdonnees.org/files/2015/05/Image-4.png&quot;&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/05/Image-4.png&quot; alt=&quot;Code source modifié&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code source modifié&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Il ne reste plus qu’à cliquer sur ce nouveau bouton !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;/!\ Il ne faut pas être placé sur ce bouton avant la manipulation.&lt;/p&gt;
+
+&lt;p&gt;/!\ Cela va prendre un peu de temps.&lt;/p&gt;
+
+&lt;h3 id=&quot;copiercoller&quot;&gt;Copier/coller&lt;/h3&gt;
+
+&lt;p&gt;Lorsque vous avez toute la liste, il ne vous reste plus qu’à la copier/coller dans votre tableur préféré (là encore, cela va prendre un peu de temps).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ecoledesdonnees.org/files/2015/05/Image-5.png&quot;&gt;&lt;img src=&quot;http://ecoledesdonnees.org/files/2015/05/Image-5.png&quot; alt=&quot;Tous les résultats sont affichés&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tous les résultats sont affichés&lt;/p&gt;
+
+&lt;h3 id=&quot;note&quot;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;Pour des très grandes listes, on peut réduire le nombre d’éléments affichés d’un coup car les boutons suivant/précédent fonctionnent même après la manipulation. Il vous suffit (en général, ça marche) de modifier, ici : value= »1000″ par exemple, pour avoir huit pages.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 08 May 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/blogpost/2015/05/08/astuce-copier-tous-les-elements-dune-liste-de-plusieurs-pages/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/blogpost/2015/05/08/astuce-copier-tous-les-elements-dune-liste-de-plusieurs-pages/</guid>
+        
+        
+        <category>blogpost</category>
+        
+      </item>
+    
+      <item>
+        <title>Nettoyer, explorer, cartographier. L’atelier cinéma de l’Ecole des données</title>
+        <description>&lt;h1 id=&quot;nettoyer-explorer-cartographier-latelier-cinema-de-lecole-des-donnees&quot;&gt;Nettoyer, explorer, cartographier : l’atelier cinéma de l’Ecole des données&lt;/h1&gt;
+
+&lt;p&gt;Dimanche 12 avril 2015 par &lt;a href=&quot;http://www.pratiques-collaboratives.net/_Cedric-Lombion_.html&quot;&gt;Cédric Lombion&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fr.okfn.org/files/2015/04/atelier-cinema.jpg&quot;&gt;&lt;img src=&quot;http://www.pratiques-collaboratives.net/local/cache-vignettes/L591xH394/atelier-cinefe49-b311b.jpg&quot; alt=&quot;Atelier cinema à Silicon Banlieue&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le samedi 7 mars l’Ecole des données, en partenariat avec &lt;a href=&quot;http://fr.okfn.org/feed/www.siliconbanlieue.fr/&quot;&gt;Silicon Banlieue&lt;/a&gt;, a organisé un nouvel atelier gratuit, cette fois-ci autour des données du cinéma. Après une introduction décrivant les grandes étapes du traitement des données, trois situations ont été abordées : le nettoyage des données textuelles, l’exploration et l’analyse des données, et enfin la visualisation géographique avec des outils gratuits en ligne.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fr.okfn.org/files/2015/04/Expe%CC%81dition-de-donne%CC%81es.png&quot;&gt;&lt;img src=&quot;http://www.pratiques-collaboratives.net/local/cache-vignettes/L591xH273/Expedition-ddfa1-e4b45.png&quot; alt=&quot;Les grandes étapes d’une expédition de donnée (cliquez pour voir en grand)&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Les grandes étapes d’une expédition de donnée (cliquez pour voir en grand)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Les données&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Les données utilisées ont été gracieusement fournies par la mission Images et Cinéma du Conseil général du Val d’Oise. Elles consistaient en un fichier de 1174 lignes représentant tous les tournages filmés sur le territoire du Val d’Oise depuis 1901. Elles ont été nettoyées avant l’atelier afin de les rendre plus facilement utilisables.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Le nettoyage des données textuelles&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Le fichier étant essentiellement composés de texte (titres, noms, commentaires…), c’était l’occasion d’utiliser &lt;a href=&quot;http://openrefine.org/&quot;&gt;OpenRefine&lt;/a&gt;, un outil gratuit de nettoyage de jeux de données, particulièrement adapté aux données textuelles.&lt;/p&gt;
+
+&lt;p&gt;Le logiciel a fait grande impression sur les participants : bien que très puissant, il reste facile à utiliser pour les tâches les plus simples.&lt;/p&gt;
+
+&lt;p&gt;A ne pas oublier :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sur Mac, le système d’exploitation risque de considérer le fichier d’installation de OpenRefine comme corrompu. Il suffit d’aller de changer temporairement le réglage suivant : Préférences Système -&amp;gt; Sécurité et confidentialité -&amp;gt; Général -&amp;gt; autoriser les applications téléchargées de n’importe où.&lt;/li&gt;
+  &lt;li&gt;Comme lors de l’ouverture d’un fichier .csv sur Excel/Libre Office, il faut choisir le format UTF-8 sur la page d’accueil d’OpenRefine, à côté de « Character Encoding ».&lt;/li&gt;
+  &lt;li&gt;Si OpenRefine est ouvert mais qu’aucune fenêtre ne s’ouvre, il suffit d’ouvrir un nouvel onglet du navigateur à l’adresse http://127.0.0.1:3333/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3. L’exploration et l’analyse de données&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;L’exploration consiste à poser des questions précises et pertinentes auxquelles le jeu de donnée pourrait répondre. Cette étape permet de cadrer la phase d’analyse, qui consiste à utiliser des outils mathématique et statistiques pour extraire des réponses des données. Elle permet aussi de poser la question des données supplémentaires qu’il faudrait récupérer pour mieux contextualiser le jeu de données.&lt;/p&gt;
+
+&lt;p&gt;Quelques exemples de questions posées par les participants :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Combien de différentes nationalités parmi les réalisateurs ?&lt;/li&gt;
+  &lt;li&gt;Quelle répartition des films dans le temps ?&lt;/li&gt;
+  &lt;li&gt;Quel genre de film est le plus représenté ?&lt;/li&gt;
+  &lt;li&gt;Quels sont les lieux les plus attractifs pour les équipes de tournages ?&lt;/li&gt;
+  &lt;li&gt;Certains des films tournés ont-ils été nominés ou primés aux Oscar ?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Certaines questions ont permis de voir la limite des données : la précision géographique est limitée au niveau ville, et le genre des films n’est pas présent dans le jeu de données.&lt;/p&gt;
+
+&lt;p&gt;Cependant les questions comme celles du genre et des Oscar, qui nécessitent la récupération de données additionnelles, sont possibles avec l’utilisation de l’outil &lt;a href=&quot;https://support.office.com/fr-fr/article/RECHERCHEV-RECHERCHEV-fonction-0bbc8083-26fe-4963-8ab8-93a18ad188a1&quot;&gt;RechercheV&lt;/a&gt; (Vlookup en anglais) dans Excel ou LibreOffice. Pour détailler l’usage de cette fonction, un tutoriel sera publié sur &lt;a href=&quot;http://ecoledesdonnnees.org/&quot;&gt;le site de l’Ecole des données&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. La visualisation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Quelques outils gratuits de visualisation ont été présentés, et en particulier &lt;a href=&quot;http://cartodb.com/&quot;&gt;CartoDB&lt;/a&gt;, un outil en ligne permettant de faire très rapidement des cartes personnalisables. CartoDB a la possibilité de géocoder les nom de ville ou adresses présentes dans votre fichier, ce qui évite d’avoir à chercher les coordonnées soi-même. D’autres outils comme &lt;a href=&quot;https://umap.openstreetmap.fr/&quot;&gt;Umap&lt;/a&gt; our &lt;a href=&quot;https://www.mapbox.com/&quot;&gt;Mapbox&lt;/a&gt; permettent d’arriver à des résultats similaires.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fr.okfn.org/files/2015/04/cartodb_edcinema.png&quot;&gt;&lt;img src=&quot;http://www.pratiques-collaboratives.net/local/cache-vignettes/L591xH283/cartodb_edcifa14-0abed.png&quot; alt=&quot; Carte du nombre de film présents tournés dans le Val d’Oise, par ville. https://clombion.cartodb.com/viz/e1885d00-d3a6-11e4-b5a2-0e018d66dc29/public_map&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Carte du nombre de film présents tournés dans le Val d’Oise, par ville. &lt;a href=&quot;https://clombion.cartodb.com/viz/e1885d00-d3a6-11e4-b5a2-0e018d66dc29/public_map&quot;&gt;https://clombion.cartodb.com/viz/e1885d00-d3a6-11e4-b5a2-0e018d66dc29/public_map&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://ecoledesdonnees.org/blogpost/2015/04/12/atelier-cinema/</link>
+        <guid isPermaLink="true">http://ecoledesdonnees.org/blogpost/2015/04/12/atelier-cinema/</guid>
+        
+        
+        <category>blogpost</category>
         
       </item>
     

@@ -202,7 +202,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .home div > a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link,
+button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link,
 input,
 optgroup,
 select,
@@ -217,7 +217,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .home div > a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link {
+button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link {
   overflow: visible; }
 
 /**
@@ -226,7 +226,7 @@ button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .home div > a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link,
+button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link,
 select {
   text-transform: none; }
 
@@ -237,7 +237,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .home div > a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link,
+button, .page-tools > ul > li.edit a.github, .page-tools > ul > li.edit a.github + a, .page-tools > ul > li.share a, .page-tools > ul > li.translate a, .page-tools > ul > li.add a, .page-tools > ul.pagination > li a, .stories .post-content .post-list li > a, .resources .results article > a, .app.post article.post-content .website-link, .app.post article.post-content .source-code-link,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -249,14 +249,14 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled], .page-tools > ul > li.edit a[disabled].github, .page-tools > ul > li.edit a.github + a[disabled], .page-tools > ul > li.share a[disabled], .page-tools > ul > li.translate a[disabled], .page-tools > ul > li.add a[disabled], .page-tools > ul.pagination > li a[disabled], .home div > a[disabled], .stories .post-content .post-list li > a[disabled], .resources .results article > a[disabled], .app.post article.post-content [disabled].website-link, .app.post article.post-content [disabled].source-code-link,
+button[disabled], .page-tools > ul > li.edit a[disabled].github, .page-tools > ul > li.edit a.github + a[disabled], .page-tools > ul > li.share a[disabled], .page-tools > ul > li.translate a[disabled], .page-tools > ul > li.add a[disabled], .page-tools > ul.pagination > li a[disabled], .stories .post-content .post-list li > a[disabled], .resources .results article > a[disabled], .app.post article.post-content [disabled].website-link, .app.post article.post-content [disabled].source-code-link,
 html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner, .page-tools > ul > li.edit a.github::-moz-focus-inner, .page-tools > ul > li.edit a.github + a::-moz-focus-inner, .page-tools > ul > li.share a::-moz-focus-inner, .page-tools > ul > li.translate a::-moz-focus-inner, .page-tools > ul > li.add a::-moz-focus-inner, .page-tools > ul.pagination > li a::-moz-focus-inner, .home div > a::-moz-focus-inner, .stories .post-content .post-list li > a::-moz-focus-inner, .resources .results article > a::-moz-focus-inner, .app.post article.post-content .website-link::-moz-focus-inner, .app.post article.post-content .source-code-link::-moz-focus-inner,
+button::-moz-focus-inner, .page-tools > ul > li.edit a.github::-moz-focus-inner, .page-tools > ul > li.edit a.github + a::-moz-focus-inner, .page-tools > ul > li.share a::-moz-focus-inner, .page-tools > ul > li.translate a::-moz-focus-inner, .page-tools > ul > li.add a::-moz-focus-inner, .page-tools > ul.pagination > li a::-moz-focus-inner, .stories .post-content .post-list li > a::-moz-focus-inner, .resources .results article > a::-moz-focus-inner, .app.post article.post-content .website-link::-moz-focus-inner, .app.post article.post-content .source-code-link::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -365,7 +365,6 @@ button,
 .page-tools > ul > li.translate a,
 .page-tools > ul > li.add a,
 .page-tools > ul.pagination > li a,
-.home div > a,
 .stories .post-content .post-list li > a,
 .resources .results article > a,
 .app.post article.post-content .website-link,
@@ -376,7 +375,7 @@ button,
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #00AEEE;
+  background-color: #7ab800;
   border-radius: 3px;
   border: none;
   color: #fff;
@@ -399,7 +398,6 @@ button,
   .page-tools > ul > li.translate a:hover,
   .page-tools > ul > li.add a:hover,
   .page-tools > ul.pagination > li a:hover,
-  .home div > a:hover,
   .stories .post-content .post-list li > a:hover,
   .resources .results article > a:hover,
   .app.post article.post-content .website-link:hover,
@@ -411,7 +409,6 @@ button,
   .page-tools > ul > li.translate a:focus,
   .page-tools > ul > li.add a:focus,
   .page-tools > ul.pagination > li a:focus,
-  .home div > a:focus,
   .stories .post-content .post-list li > a:focus,
   .resources .results article > a:focus,
   .app.post article.post-content .website-link:focus,
@@ -426,7 +423,6 @@ button,
   .page-tools > ul > li.translate a:disabled,
   .page-tools > ul > li.add a:disabled,
   .page-tools > ul.pagination > li a:disabled,
-  .home div > a:disabled,
   .stories .post-content .post-list li > a:disabled,
   .resources .results article > a:disabled,
   .app.post article.post-content .website-link:disabled,
@@ -2101,7 +2097,8 @@ p {
   line-height: 1.5; }
 
 a {
-  color: #7ab800;
+  /** color: $base-link-color; **/
+  color: #00aff0;
   text-decoration: none; }
 
 .headerlink {
@@ -2547,7 +2544,7 @@ body:not(.filters) .app-sub-menu .filter {
   background-color: #00aff0;
   width: 100%;
   z-index: 1;
-  height: 60px; }
+  height: 80px; }
   .site-header .show-menu {
     font-family: 'icomoon';
     speak: none;
@@ -2561,13 +2558,13 @@ body:not(.filters) .app-sub-menu .filter {
     -moz-osx-font-smoothing: grayscale;
     position: absolute;
     border-right: solid 1px #EDEDED;
-    height: 60px;
+    height: 105px;
     width: 60px; }
     .site-header .show-menu:before {
       content: "\e120";
       font-size: 22px;
       padding: 6px;
-      margin-top: 12px;
+      margin-top: 28px;
       margin-left: 12px;
       display: inline-block;
       color: #fff; }
@@ -2610,6 +2607,7 @@ body:not(.filters) .app-sub-menu .filter {
           height: 60px;
           line-height: 55px;
           margin-right: 5px;
+          margin-top: 12px;
           text-align: center; }
           .site-header .site-title .icon:before {
             content: "\e034"; } }
@@ -2981,11 +2979,22 @@ body:not(.filters) .app-sub-menu .filter {
 html,
 html.mm-background .mm-page,
 .site-footer {
-  background-color: #00aff0; }
+  background-color: #333333; }
 
 .site-footer {
   padding: 1.5em;
-  color: white; }
+  color: white;
+  /** 
+  Styles pour les donnees dans le footer
+  	
+  .footer-data {
+      color: #00aff0;
+      font-size: 21px;
+      align-items: center; }
+   .data-block {
+          margin-right: 20px;
+  	font-weight: 700; }
+  **/ }
   .site-footer > div {
     max-width: 100%;
     margin-left: auto;
@@ -3129,142 +3138,185 @@ html.mm-background .mm-page,
   background-color: #fff;
   position: relative; }
 
-.home .banner {
-  background-image: url(../img/home-banner.jpg);
-  background-repeat: no-repeat;
-  background-size: 102%;
-  background-position: center;
-  position: relative;
-  /* z-index: 0; */
-  overflow: hidden; }
-  .home .banner .wrapper {
-    padding: 160px 1.5em 15px 1.5em;
-    max-height: 333px; }
-    .home .banner .wrapper h1 {
-      text-transform: uppercase;
-      font-size: 28px;
-      letter-spacing: 2px;
-      margin-bottom: 10px;
-      position: absolute;
-      left: -999px; }
-      @media screen and (min-width: 40em) {
-        .home .banner .wrapper h1 {
-          position: static;
-          padding-top: 30px;
-          font-size: 42px; } }
-    .home .banner .wrapper p {
-      font-family: "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
-      font-style: italic;
-      text-shadow: 2px 2px 4px #000000; }
-      @media screen and (min-width: 40em) {
-        .home .banner .wrapper p {
-          font-size: 36px;
-          margin-top: 0px;
-          /*padding-top:30px;*/
-          opacity: 0.7;
-          white-space: pre-line; } }
-    .home .banner .wrapper:before {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 1315px;
-      left: 50%;
-      bottom: 0;
-      margin-left: -658px;
-      background-image: url("../img/home-banner.jpg");
-      background-repeat: no-repeat;
-      background-position: center bottom;
-      height: 215px;
-      z-index: -1; }
-      @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-        .home .banner .wrapper:before {
-          background-image: url("../img/home-banner_2x.jpg");
-          background-size: auto 215px; } }
-  .home .banner.ab-dark {
-    color: #fff; }
-    .home .banner.ab-dark p {
-      color: #fff;
-      opacity: 1; }
-@media (min-width: 1020px) {
-  .home {
-    padding-bottom: 1.5em; } }
-.home > .wrapper > div {
-  padding: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .home > .wrapper > div {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%;
-      position: relative;
-      padding-top: 3em; }
-      .home > .wrapper > div:last-child {
-        margin-right: 0; }
-      .home > .wrapper > div:after {
+.home {
+  background-color: #f6f6f6; }
+  .home .banner {
+    background-image: url(../img/home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: top;
+    position: relative;
+    height: 370px;
+    /* z-index: 0; */
+    overflow: hidden; }
+    .home .banner .wrapper {
+      padding: 160px 1.5em 15px 1.5em;
+      max-height: 333px; }
+      .home .banner .wrapper h1 {
+        text-transform: uppercase;
+        font-size: 28px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        position: absolute;
+        left: -999px; }
+        @media screen and (min-width: 40em) {
+          .home .banner .wrapper h1 {
+            position: static;
+            padding-top: 30px;
+            font-size: 42px; } }
+      .home .banner .wrapper p {
+        /** font-family:$serif; **/
+        font-family: OpenSans,sans-serif;
+        font-style: italic;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: 400;
+        font-size: 40pt;
+        line-height: 43pt; }
+        @media screen and (min-width: 40em) {
+          .home .banner .wrapper p {
+            font-size: 36px;
+            margin-top: 0px;
+            /*padding-top:30px;*/
+            opacity: 0.7;
+            white-space: pre-line; } }
+      .home .banner .wrapper:before {
         content: '';
-        background-color: #EDEDED;
         display: block;
         position: absolute;
-        top: 1.5em;
-        right: -0.75em;
+        width: 1315px;
+        left: 50%;
         bottom: 0;
-        width: 1px; }
-      .home > .wrapper > div:last-child:after {
-        display: none; } }
-.home div h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.375rem; }
-.home div p {
-  font-weight: 300;
-  font-size: 1rem;
-  margin-bottom: 0.9375rem; }
-.home .alpha {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  padding: 3em;
-  background-color: #fff; }
-  .home .alpha:last-child {
-    margin-right: 0; }
-  .home .alpha > div {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    .home .alpha > div::after {
-      clear: both;
-      content: "";
-      display: table; }
+        margin-left: -658px;
+        background-image: url("../img/home-banner.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        height: 370px;
+        z-index: -1; }
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+          .home .banner .wrapper:before {
+            background-image: url("../img/home-banner_2x.jpg");
+            background-size: auto 370px; } }
+    .home .banner.ab-dark {
+      color: #fff; }
+      .home .banner.ab-dark p {
+        color: #fff;
+        opacity: 1; }
   @media (min-width: 1020px) {
-    .home .alpha {
-      margin-top: 1.5em; } }
-.home .beta {
-  clear: left; }
-  .home .beta > div > div {
+    .home {
+      padding-bottom: 1.5em; } }
+  .home > .wrapper > div {
     padding: 1.5em; }
-  @media screen and (min-width: 40em) {
-    .home .beta {
-      width: 100%; } }
-  .home .beta > div {
-    padding: 2.35765%;
-    background-color: #fff; }
     @media screen and (min-width: 40em) {
-      .home .beta > div {
+      .home > .wrapper > div {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 48.82117%;
-        margin-top: 1.5em;
-        margin-bottom: 1.5em; }
-        .home .beta > div:last-child {
+        width: 31.76157%;
+        position: relative;
+        padding-top: 3em;
+        padding: 1.5em;
+        /** background-color: #fff; **/
+        margin-top: 5px;
+        border-radius: 5px; }
+        .home > .wrapper > div:last-child {
           margin-right: 0; }
-        .home .beta > div > div {
-          max-width: 32.3em;
-          margin-left: auto;
-          padding: 1.5em; } }
+        .home > .wrapper > div .post-wrap {
+          background-color: blue;
+          border-radius: 5px;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 25px; }
+        .home > .wrapper > div:after {
+          content: '';
+          background-color: #f6f6f6;
+          display: block;
+          position: absolute;
+          top: 1.5em;
+          right: -0.75em;
+          bottom: 0;
+          width: 1px; }
+        .home > .wrapper > div:last-child:after {
+          display: none; } }
+  .home div h2 {
+    /** font-size:rem(24); **/
+    /** margin-bottom:rem(6); **/
+    margin-bottom: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 18pt;
+    color: #00aff0; }
+  .home div h3 {
+    /** font-size:rem(24); **/
+    /** margin-bottom:rem(6); **/
+    margin-bottom: 10px; }
+  .home div h3 a {
+    /** font-size:rem(24); **/
+    /** margin-bottom:rem(6); **/
+    color: #000;
+    font-size: 22px;
+    line-height: 24px; }
+  .home div p {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0.9375rem;
+    /** margin-bottom: 1rem; **/ }
+  .home div > a {
+    /** @extend button; **/
+    background-color: #00aff0;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #FFF;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-weight: 700; }
+  .home .alpha {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 3em;
+    background-color: #fff; }
+    .home .alpha:last-child {
+      margin-right: 0; }
+    .home .alpha > div {
+      max-width: 68em;
+      margin-left: auto;
+      margin-right: auto; }
+      .home .alpha > div::after {
+        clear: both;
+        content: "";
+        display: table; }
+    @media (min-width: 1020px) {
+      .home .alpha {
+        margin-top: 1.5em; } }
+  .home .beta {
+    clear: left; }
+    .home .beta > div > div {
+      padding: 1.5em; }
     @media screen and (min-width: 40em) {
-      .home .beta > div:last-child > div {
-        margin-left: 0; } }
+      .home .beta {
+        width: 100%; } }
+    .home .beta > div {
+      padding: 2.35765%;
+      background-color: #fff; }
+      @media screen and (min-width: 40em) {
+        .home .beta > div {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          margin-top: 1.5em;
+          margin-bottom: 1.5em; }
+          .home .beta > div:last-child {
+            margin-right: 0; }
+          .home .beta > div > div {
+            max-width: 32.3em;
+            margin-left: auto;
+            padding: 1.5em; } }
+      @media screen and (min-width: 40em) {
+        .home .beta > div:last-child > div {
+          margin-left: 0; } }
 
 .docs .contributing ul.tools {
   max-width: 68em;
@@ -3606,7 +3658,8 @@ html.mm-background .mm-page,
                 opacity: 0.8;
                 text-shadow: 0 0 2px rgba(0, 0, 0, 0.8); } }
           .resources > section > ul li a h3 {
-            background-color: #7ab800;
+            /** background-color:$base-accent-color; **/
+            background-color: #00aff0;
             padding: 15px 20px; }
             @media screen and (min-width: 40em) {
               .resources > section > ul li a h3 {

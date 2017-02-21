@@ -3,7 +3,7 @@ layout: post
 title:   A la conquête des données sur la pollution de l’air
 date:   2014-11-07
 author : Cédric Lombion
-categories: Blog Post
+categories: blogpost
 description: "Le 15 juin 2014, durant le festival Futur en Seine, l’Open Knowledge Foundation France a organisé une “expédition de données” sur la pollution de l’air en Île-de-France, dans le cadre de l’Infolab organisé par la Fondation Internet Nouvelle Génération (FING). Les expéditions de données sont un des formats d’événement organisés dans le cadre du projet École des données. Comme leur nom l’indique, il s’agit d’un travail d’exploration : à partir d’une OKF - logo EDpollutionproblématique initiale, un groupe de participants accompagné d’un guide, choisit une ou plusieurs approches à analyser. Ils explorent ensuite la problématique en fonction de l’approche choisie avec pour objectif final de communiquer un résultat."
 ---
 

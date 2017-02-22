@@ -1,0 +1,24 @@
+- title: "A propos"
+  slug: "a-propos"
+
+- title: "Cours"
+  slug: "cours"
+  subitems:
+    - subtitle: "Fondamentaux"
+      subslug: "fondamentaux"
+    - subtitle: "DataViz Cardgame"
+      subslug: "cardgame"
+    - subtitle: "Outils pour les Expéditions de Données"
+      subslug: "outils"
+
+- title: "FAQ"
+  slug: "faq"
+
+- title: "Blog"
+  slug: "blog"
+
+- title: "Contribuer"
+  slug: "contribute"
+
+- title: "Contact"
+  slug: "contact"

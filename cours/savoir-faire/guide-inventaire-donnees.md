@@ -1,24 +1,12 @@
-Guide pour un inventaire des données
-
-<table>
-  <tr>
-    <td>Version </td>
-    <td>Modification</td>
-    <td>Auteur(s)</td>
-  </tr>
-  <tr>
-    <td>2 Janvier 2017</td>
-    <td>Création du document</td>
-    <td>Pierre Chrzanowski </td>
-  </tr>
-  <tr>
-    <td>6 Janvier 2017</td>
-    <td>Correction du document et ajout de la section Aide pour l’identification des données</td>
-    <td>Charles Nepote
-Pierre Chrzanowski</td>
-  </tr>
-</table>
-
+---
+layout: cours
+title:   Réaliser un inventaire des données
+date:   2017-02-22
+author : Pierre Chrzanowski
+categories: fondamentaux
+description: "Apprendre à réaliser et maintenir un inventaire des données"
+tags: [données, introduction]
+---
 
 # Pourquoi ce guide ?
 

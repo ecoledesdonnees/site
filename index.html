@@ -27,7 +27,7 @@ js:
      <div class="post-section">
      <h2>Les cours et les ressources</h2>
        <div class="post-wrap" style=" background-color: #fff; border-radius: 5px; padding-top: 20px; padding-left: 20px; padding-right: 20px; padding-bottom: 25px;">
-          {% for cours in site.categories.cours limit:1 %}
+          {% for cours in site.cours.savoir-faire.categories.fondamentaux limit:1 %}
             <h3><a href="{{ site.baseurl }}{{ cours.url }}">{{ cours.title }}</a></h3>
             {% if cours.author %}
             <span class="auteur">

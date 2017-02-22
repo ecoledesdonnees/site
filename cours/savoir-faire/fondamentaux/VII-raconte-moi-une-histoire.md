@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: cours
 title:   7 - Raconte-moi une histoire. Travailler sur ce qui est intéressant dans vos données
 date:   2017-02-06
 author : Pierre Chrzanowski	
-categories: fondamentaux
+categories: cours
 description: "Afin d'écrire une histoire avec vos données vous avez besoin de répondre à certaines questions. Pourquoi une personne s'intéresserait-elle à votre histoire ? Qui est cette personne ? Comment cette personne est-elle liée ou entre en intéraction avec ces données ?"
 ---
 

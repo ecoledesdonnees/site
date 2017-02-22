@@ -68,3 +68,25 @@
        <a href="{{ site.baseurl }}/">Contribuer</a>
     </li>
 </nav>
+  
+  
+  <nav id="menu-horizontal">
+			<ul>
+                {% for item in site.data.menu %}
+                {% if item.subitems != null %}
+                <li class="{% if current_page.last == item.slug %} active{% endif %}{% if item.subitems != null %} has-children{% endif %}">
+                <a href="{{ site.baseurl }}/{{ item.slug }}/">{{ item.title }}</a>
+                <ul>
+                    {% for subcategory in item.subitems %}
+                    <li{% if current_page.last == subcategory.subslug %} class='active'{% endif %}><a href="{{ site.baseurl }}/{{ item.slug }}/{{ subcategory.subslug }}/">{{ subcategory.subtitle }}</a></li>
+                    {% endfor %}
+                </ul>
+
+                {% else %}
+                <li{% if current_page.last == item.slug %} class='active'{% endif %}>
+                    <a href="{{ site.baseurl }}/{{ item.slug }}">{{ item.title }}</a>
+                {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+		</nav>

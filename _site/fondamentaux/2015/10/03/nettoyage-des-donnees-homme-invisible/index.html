@@ -1,0 +1,313 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Section 2. L’Homme Invisible est dans votre tableur</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/fondamentaux/2015/10/03/nettoyage-des-donnees-homme-invisible/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">Section 2. L’Homme Invisible est dans votre tableur</h1>
+    
+    <h1 id="section-2-lhomme-invisible-est-dans-votre-tableur-jouant-avec-vos-donnees">Section 2: l’Homme Invisible est dans votre tableur, jouant avec vos données</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Il y a quelque chose d’effrayant dans votre feuille de calcul, et ce n’est pas sympathique.</p>
+
+<p><img src="http://farm9.staticflickr.com/8092/8402327514_10a8f622fd_n_d.jpg" alt="http://farm9.staticflickr.com/8092/8402327514_10a8f622fd_n_d.jpg" /></p>
+
+<p>Illustration 1: Le poster du film de l’Homme invisible, 1933. Source de l’image. Reproduit sous licence [Fair Use].</p>
+
+<p>“Même la Lune est effrayée par moi”, hurle l’Homme invisible, connu sous le nom de Dr Griffen, un génie devenu fou après une expérimentation sur lui-même! Si vous avez le temps, regardez <a href="http://www.youtube.com/watch?v=pb3n0g2NenI">la bande-annonce du film de 1933</a>. Des choses effrayantes commencent à arriver aux gens dans une petite ville: de mystérieuses traces de pas dans la neige, des objets de maison qui semblent voler dans les airs, des gens qui sont poussés dans les escaliers (et depuis les collines !). Et dans notre cas, des changements impromptus dans votre feuille de calcul.</p>
+
+<p>Nous ne pouvons pas voir l’Homme invisible lui-même (évidemment, sinon il ne serait pas invisible). Mais nous arrivons à trouver des traces de son travail dans notre feuille de calcul, comme nous pouvons voir ses empreintes dans la neige :</p>
+
+<p><img src="http://farm9.staticflickr.com/8086/8402327534_fb1e33e0a7_o_d.png" alt="http://farm9.staticflickr.com/8086/8402327534_fb1e33e0a7_o_d.png" /></p>
+
+<p>Vous pouvez clairement voir une erreur qu’il a insérée, mais d’autres l’identifieront plus difficilement à l’oeil nu:</p>
+
+<ul>
+  <li>Des espaces en trop à la fin des insertions</li>
+  <li>Des tabulations insérées à la fin des lignes</li>
+  <li>Des retours à la ligne et des ‘retours chariot’, que vous insérez en appuyant sur Entrée (ou Ctrl-Entrée).</li>
+</ul>
+
+<p>Ces élements sont appelés des caractères non-imprimables, et ne sont pas affichés tout le temps dans les feuilles de calcul. Mais vous sentirez toujours leur sinistre présence qui gêne beaucoup l’analyse des données. C’est parce que les feuilles de calcul traitent ces types de caractères comme de véritables données. En ignorant la colonne d’étiquette, dans les données ci-dessus, vous pouvez voir quatre termes qui sont essentiellement les mêmes. La feuille de calcul, cependant, voit quatre morceaux de données différents et distincts. Si vous essayiez de compter le nombre de fois que “Your Data” est mentionné, une feuille de calcul vous montrerait seulement une seule entrée.</p>
+
+<p>Dans le film, la police déploie un piège pour attraper l’Homme invisible. Nous pouvons faire la même chose dans nos feuilles de calcul. A la fin de la section, vous aurez :</p>
+
+<ul>
+  <li>quelques connaissances sur les caractères non-imprimables qui sont source d’erreurs dans les données</li>
+  <li>essayé différentes fonctions et caractéristiques de votre tableur capable de les enlever</li>
+</ul>
+
+<h2 id="un-peu-de-travail">Un peu de travail</h2>
+
+<p>Pour faire les tâches rapide et plus longue ci-dessous, vous aurez besoin :</p>
+
+<ol>
+  <li>d’un outil de manipulation de feuilles de calcul, comme Excel ou Libre Office.</li>
+  <li>d’une copie de <a href="http://datahub.io/dataset/theinvisibleman">la feuille de calcul exemple</a> pour cette section.</li>
+  <li>d’une copie du jeu de données du cours, celui de GRAIN sur “<a href="http://datahub.io/dataset/grain-landgrab-data">l’accaparement des terres</a>”.</li>
+</ol>
+
+<h3 id="une-tache-rapide-15-minutes">Une tâche rapide (15 minutes)</h3>
+
+<ul>
+  <li>Téléchargez et ouvrez <a href="http://datahub.io/dataset/theinvisibleman">la feuille de calcul exemple</a> sur votre ordinateur. Dans la colonne A, on trouve les données présentées dans l’image ci-dessus, avec différent types de caractères non-imprimables. Dans les colonnes B à E on trouve quatres méthodes simples pour enlever les caractères non-imprimables de vos données: &gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py la fonction TRIM (dans la colonne B) &gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py la fonction CLEAN (dans la colonne C) &gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py les fonctions TRIM et CLEAN …. ensemble (dans la colonne D) &gt;md.png COPYING Config.plist CopyAsMarkdown-demo.mp4 README.md _Signature.plist html2md.sh html2text.py la fonction “Collage Spécial” (dans la colonne E)</li>
+  <li>Appliquez un “AutoFiltre” sur la donnée (Données → Filtre → AutoFiltre). Cliquez sur les petites flèches descendantes dans l’en-tête des colonnes et une liste de sélection va apparaître en se déroulant, affichant le nombre d’entrées distinctes dans chaque colonne. Si vous cliquez sur l’autofiltre pour chacune des colonnes A jusqu’à E, vous pouvez voir l’effet des différentes méthodes pour enlever les caractères non-imprimables.</li>
+  <li>Double-cliquez sur les cellules pour voir les formules et comment les fonctions marchent en pratique. Il y a plus d’informations sur chacune d’elles dans la partie ‘Etudes’ ci-dessous.</li>
+  <li>Maintenant, essayez par vous-même. Créez ou trouvez une colonne de données uniques par vous-même. Appliquez ces quatre méthodes dans le même format que notre jeu de données dans votre feuille de calcul.</li>
+</ul>
+
+<p>Utilisez les commentaires ci-dessous pour partager votre travail et des observations sur cette tâche.</p>
+
+<h3 id="une-tache-plus-longue-30-60-minutes">Une tâche plus longue (30-60 minutes)</h3>
+
+<p>Depuis le livre des recettes sur le Nettoyage des données, parcourez le problème 2 : <a href="http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-2-whitespace-and-new-lines-data-that-shouldnt-be-there">« Espaces-blancs et nouvelles lignes » – des données qui ne devraient pas être présentes</a> en utilisant le jeu de données GRAIN. Ce cours rentre plus dans les détails des fonctions CLEAN et TRIM.</p>
+
+<h2 id="lectures-complementaires">Lectures complémentaires</h2>
+
+<ul>
+  <li>Regardez cette vidéo YouTube très utile intitulée « <a href="http://www.youtube.com/watch?v=o-dBCS2wgO4&amp;feature=plcp">Excel is Fun</a> » à propos de l’utilisation de CLEAN et TRIM.</li>
+  <li>Lisez la page d’aide de Microsoft, étonnamment très utile, sur la suppression des espaces en trop et les caractères non-imprimables, <a href="http://office.microsoft.com/en-us/excel-help/top-ten-ways-to-clean-your-data-HA010221840.aspx#BMremoving_spaces_and_nonprinting_chara">ici</a>. La majorité des instructions fonctionnera dans LibreOffice et les feuilles de calcul Google, même si il y a quelques différences. Jetez un oeil sur la documentation des fonctions: TRIM (Excel, <a href="https://help.libreoffice.org/Calc/Text_Functions#TRIM">Libre Office</a>, Google Docs) et CLEAN (Excel, <a href="https://help.libreoffice.org/Calc/Text_Functions#CLEAN">Libre Office</a>, Google Docs).</li>
+  <li>Lisez les fonctionnalités de la documentation: Collage Spécial (Excel, <a href="https://help.libreoffice.org/Common/Paste_Special">Libre Office</a>, Google Docs), Auto-filtre (Excel, <a href="https://help.libreoffice.org/Calc/Applying_AutoFilter">Libre Office</a>, Google Docs)</li>
+  <li>Pour les chasseurs d’Homme invisible, vous pouvez en lire plus sur l’usage des expressions régulières dans LibreOffice, <a href="http://www.oooninja.com/2007/12/example-regular-expressions-for-writer.html">ici</a>. Nous couvrons aussi ceci dans la tâche plus longue ci-dessus, mais ce n’est pas vraiment simple et direct.</li>
+</ul>
+
+<h2 id="reposez-vous-et-reflechissez">Reposez-vous et réfléchissez</h2>
+
+<p>L’Homme invisible peut apparaître à n’importe quel moment, c’est pourquoi, nous devons être vigilant.</p>
+
+<ul>
+  <li>Comment cet espace blanc a été introduit dans notre donnée ?</li>
+  <li>Pouvez-vous penser à d’autres manières d’aborder le problème ?</li>
+</ul>
+
+<p>Partagez vos idées dans les commentaires.</p>
+
+<p>Maintenant, passons à la troisième section dans ce cours sur le nettoyage des données : Vos données sont une potion magique !</p>
+
+<h3 id="note">Note</h3>
+<p>Ce cours a été conçu pour le projet École des données par <a href="http://tacticaltech.org/">Tactical Technology Collective</a>. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.  </p>
+
+<p>Article d’origine : <a href="http://schoolofdata.org/handbook/courses/data-cleaning-invisible-man-in-spreadsheets/">Section 2: the Invisible Man is in your spreadsheet, messing with your data</a></p>
+
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/fondamentaux/2015/10/03/nettoyage-des-donnees-homme-invisible/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Section 2. L’Homme Invisible est dans votre tableur: http://ecoledesdonnees.org/fondamentaux/2015/10/03/nettoyage-des-donnees-homme-invisible/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/fondamentaux/2015/10/03/nettoyage-des-donnees-homme-invisible/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

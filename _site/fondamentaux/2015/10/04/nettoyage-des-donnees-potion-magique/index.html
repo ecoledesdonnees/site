@@ -1,0 +1,329 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Section 3. La potion magique</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-potion-magique/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">Section 3. La potion magique</h1>
+    
+    <h1 id="section-3-la-potion-magique">Section 3: La potion magique</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><img src="http://farm9.staticflickr.com/8075/8408290470_cf9905fb04_d.jpg" alt="http://farm9.staticflickr.com/8075/8408290470_cf9905fb04_d.jpg" /></p>
+
+<p><a href="http://www.wpclipart.com/fictional_characters/witches/witches_with_cauldron.jpg">Source de l’image</a> (avec adaptations) <a href="http://www.wpclipart.com/terms.html">dans le domaine public</a>.</p>
+
+<p>« Trois » n’est pas un nombre. « Un million » non plus. Du moins, pas quand ils sont tapés en forme de texte dans une cellule de feuille de calcul. « 3 » ou « 1 000 000 » sont par contre des nombres. N’oubliez jamais que votre feuille de calcul est un outil particulièrement simplet qui impose que vous soyez précis, structuré et cohérent. Si vous ne l’êtes pas et que vos données ne le sont pas, votre feuille de calcul va devenir incompréhensible et vous jeter de mauvais sorts. Voici quelques exemples qui montrent comment vous et votre feuille de calcul peuvent voir les choses différemment :</p>
+
+<p><img src="http://farm9.staticflickr.com/8514/8408290492_c3cd31ba41_o_d.png" alt="http://farm9.staticflickr.com/8514/8408290492_c3cd31ba41_o_d.png" /></p>
+
+<p>(Si les sorcières de Macbeth selon Shakespeare (voir acte IV, scènes 14-15) avaient une feuille de calcul, cela ressemblerait à l’image ci-haut).</p>
+
+<p>Avec les feuilles de calcul, il existe trois formes de données de base. Ou, en d’autres termes, trois façons dont vous pouvez entrer des données dans une cellule de feuille de calcul:</p>
+
+<ul>
+  <li>Sous forme de <strong>nombre</strong> : « 100 ».</li>
+  <li>Sous forme de <strong>texte</strong> : « cent ».</li>
+  <li>Sous forme de <strong>formule</strong> : = SOMME (99+1), ce qui crée une valeur calculée.</li>
+</ul>
+
+<p>Pour éviter de créer un mélange explosif digne d’une sorcière dans votre feuille de calcul, suivez les deux règles basiques suivantes :</p>
+
+<ul>
+  <li>Soyez cohérent et <strong>ne mélangez pas les données</strong> dans les colonnes</li>
+  <li>Faîtes en sorte que le tableur reconnaisse <strong>le type de données</strong> dans chaque colonne</li>
+</ul>
+
+<p>Si vous passez outre ces règles de base, votre feuille de calcul aura du mal à réaliser toutes les actions utiles et intéressantes que vous auriez pu réaliser à la base, comme additionner, soustraire, calculer, trier, filtrer, etc. Après avoir réalisé les tâches de cette section, vous aurez appris à:</p>
+
+<ul>
+  <li>Comprendre les différents types de données qui peuvent être utilisés dans une feuille de calcul</li>
+  <li>Trier les données pour découvrir les erreurs potentielles</li>
+  <li>Standardiser la saisie des données et utiliser des formules pour détecter les erreurs</li>
+</ul>
+
+<h2 id="un-peu-de-travail">Un peu de travail</h2>
+
+<p>Pour réaliser aussi bien les actions rapide et longue ci-dessous, vous aurez besoin de :</p>
+
+<ul>
+  <li>un tableur du type Excel ou Calc de Libre Office</li>
+  <li>une copie du jeu de données du cours, qui est le jeu de GRAIN sur “<a href="http://datahub.io/dataset/grain-landgrab-data/resource/af57b7b2-f4e7-4942-88d3-83912865d116">l’accaparement des terres</a>”</li>
+</ul>
+
+<h3 id="une-action-rapide-15-minutes">Une action rapide (15 minutes)</h3>
+
+<p>Téléchargez une copie du jeu de données GRAIN sur l’accaparement des terres sur votre ordinateur. Ouvrez la feuille de calcul et réalisez les actions suivantes :</p>
+
+<ol>
+  <li><strong>D’après vous, quels sont les types de données auxquels correspondent chaque colonne ?</strong> Découvrez le type de données auquel le tableur pense par un simple clic droit sur ​​l’en-tête des colonnes, puis sélectionnez « Format de cellule » et regardez l’onglet « Nombres ». Que voyez-vous? Essayez de choisir d’autres options dans les listes Catégorie et Format et regardez ce qu’il advient des données.</li>
+  <li><strong>Là où il y a des chiffres dans les colonnes, vous pouvez les additionner et voir ce qu’il se passe</strong>. Utilisez votre bon sens : la somme a l’air trop grande ou trop petite ? S’est-il produit une erreur ? Cela peut vous indiquer qu’il y a quelque chose qui ne va pas avec les données.</li>
+  <li><strong>Là où il y a du texte ou des chiffres, essayez le tri dans l’ordre croissant, et regardez ce qu’il se passe</strong>. Est-ce que ça s’est passé comme vous vouliez ?</li>
+  <li><strong>Utilisez l’Auto-Filtre pour afficher les valeurs distinctes dans une colonne, de sorte à ce que vous puissiez voir quel type de données est dans la colonne</strong>. Est-ce que quelque chose se démarque, vous paraît étrange, voire incohérent ? Pouvez-vous voir le mélange de différents types de données?</li>
+</ol>
+
+<p>Après avoir explorer les données de ces quatre manières différentes, quelle est votre impression sur la facilité avec laquelle les données peuvent être analysées en utilisant un tableur ? Comment pourriez-vous améliorer les données?</p>
+
+<p>Utilisez la zone de discussion pour nous faire savoir ce que vous en pensez.</p>
+
+<h3 id="une-action-plus-longue-1-heure">Une action plus longue (1 heure)</h3>
+
+<p>En vous appuyant sur le livre des recettes (section nettoyage des données), parcourez <a href="http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-4-fixing-numbers-that-arent-numbers">le problème 4: Corriger les nombres qui ne sont pas des nombres</a> sur le jeu de données de GRAIN. Cet exercice explique pas-à-pas comment des données sur la taille des investissements dans les différentes transactions foncières ont été enregistrées dans le jeu de données correspondant. Il explique aussi comment vous pouvez détecter et résoudre les problèmes en utilisant des formules, et comment vous pouvez utiliser des fonctionnalités telles que les tableaux croisés dynamiques pour vérifier que vos solutions fonctionnent. Il vous donnera une idée de la façon de combiner différentes fonctions et fonctionnalités des tableurs.</p>
+
+<h2 id="lectures-complementaires">Lectures complémentaires</h2>
+
+<ul>
+  <li>Voici une série détaillée de <a href="http://office.microsoft.com/en-us/excel-help/available-number-formats-HP001173902.aspx">fonctionnalités propres</a> aux tableurs (Excel, Calc de LibreOffice, Google spreadsheet…)</li>
+  <li>Ces fonctionnalités de base des tableurs sont utiles pour explorer et tester les données :
+    <ul>
+      <li><a href="http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/adding-numbers-using-sum-formula/">Ajout d’une colonne de chiffres</a></li>
+      <li><a href="http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/sorting-results/">Tri des données</a></li>
+      <li><a href="http://office.microsoft.com/en-us/excel-help/filter-data-in-a-range-or-table-HP010073941.aspx">Auto- filtre</a></li>
+      <li>Les fondamentaux <a href="http://schoolofdata.org/handbook/courses/sort-and-filter/">dans les filtres et classements des données</a></li>
+    </ul>
+  </li>
+  <li>Beaucoup de personnes sont confrontées à des problèmes de type de données lorsqu’ils commencent à utiliser des formes de chiffres spécifiques, telles que les numéros SIREN, numéro de sécurité sociale ou numéro national d’identité, numéros de téléphone, informations de localisation, latitude et longitude… Sachez que les feuilles de calcul peuvent créer des « formats de nombre personnalisés ». Voici un peu de lecture à leur sujet :
+    <ul>
+      <li>Un exemple simple de TechRepublic sur comment <a href="http://www.techrepublic.com/blog/msoffice/use-a-custom-format-in-excel-to-display-easier-to-read-millions/7544">gérer les problèmes </a>de formats numériques personnalisés</li>
+      <li>Une note détaillée sur comment fonctionnent l<a href="http://www.ozgrid.com/Excel/CustomFormats.htm">es formats numériques personnalisés</a>, par OzGrid.</li>
+      <li>Une introduction sur <a href="http://simoncpage.co.uk/blog/2008/09/excel-custom-and-conditional-number-formatting/">les formats numériques personnalisés</a> dans Excel, par Simon Page.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="reposez-vous-et-reflechissez">Reposez-vous et réfléchissez</h2>
+
+<p>Cela a été un exercice délicat. Comment cela s’est-il passé pour vous? Est-il facile d’utiliser une feuille de calcul pour vous aider à trouver et corriger les erreurs existantes ?</p>
+
+<p>La longue tâche était assez difficile aussi. Avez-vous tenu le coup ?</p>
+
+<p>Utilisez la zone de discussion pour partager vos retours sur cette section.</p>
+
+<p>Si vous êtes désireux de plus d’informations, dirigez-vous vers la quatrième section de ce cours, intitulée « La mauvaise valise ».</p>
+
+<h3 id="note">Note</h3>
+
+<p>Ce cours a été conçu pour le projet École des données par <a href="http://tacticaltech.org/">Tactical Technology Collective</a>. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.  </p>
+
+<p>Article d’origine : <a href="http://schoolofdata.org/handbook/courses/data-cleaning-witchs-brew/">Section 3: your data is a witch’s brew</a></p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-potion-magique/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Section 3. La potion magique: http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-potion-magique/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-potion-magique/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

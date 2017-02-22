@@ -1,0 +1,299 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Une brève introduction au nettoyage des données. Plan du cours.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-introduction/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">Une brève introduction au nettoyage des données. Plan du cours.</h1>
+    
+    <h1 id="plan-du-cours--une-breve-introduction-au-nettoyage-des-donnees">Plan du cours : Une brève introduction au nettoyage des données</h1>
+
+<p>Ce cours a été conçu pour le projet École des données par <a href="http://tacticaltech.org/">Tactical Technology Collective</a>. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.</p>
+
+<p>Il est difficile de s’enthousiasmer pour des données, mais essayons ! Prenez une minute pour regarder l’image ci-dessous. Formidable, un ours jaune qui sourit… quel spectacle ! Il ne manque plus qu’un feu d’artifice.</p>
+
+<p><img src="http://farm9.staticflickr.com/8219/8412778423_2b06c83e7b_o_d.jpg" alt="http://farm9.staticflickr.com/8219/8412778423_2b06c83e7b_o_d.jpg" /></p>
+
+<p>Image source: China Daily / Reuters, 17 Janvier 2006. Droits réservés.</p>
+
+<p>Maintenant imaginez votre déception si votre tentative de créer le plus grand gâteau glacé du monde échouait à cause d’une <strong>erreur dans votre feuille de calcul</strong> due à un simple espace dans la colonne intitulée « quantité de glace ». Ce ne serait pas agréable ? (Heureusement, ça n’est pas arrivé et personne n’a probablement été licencié. Et tout le monde est satisfait de la réalisation d’<a href="http://thelargest.net/ice-cream-cake">un gâteau glacé de 8 tonnes</a>).</p>
+
+<p>Les erreurs dans les données sont tellement courantes qu’il existe même une organisation internationale, le European Spreadsheet Risks Interest Group (ESRIG), qui se donne pour mission de formuler des recommandations pour minimiser le nombre d’erreurs dans la manipulation d’un tableur. L’ESRIG repère les histoires les plus édifiantes (« horror stories ») <a href="http://www.eusprig.org/horror-stories.htm">où des erreurs dans les feuilles de calcul ont eu des conséquences réelles</a>, telles que des milliards de revenus manquants du pétrole, des dizaines de milliers de tickets aux jeux olympiques vendus en trop, et des salaires versés exorbitants à cause de l’insertion accidentelle de zéros. Certaines erreurs sont délibérées et « criminelles ». D’autres sont dues à la complexité de la manipulation des données. D’autres encore sont dues à la manière dont les feuilles de calcul se comportent.</p>
+
+<p>Ce cours de l’Ecole des Données est une brève introduction pour <strong>réduire le nombre d’erreurs en nettoyant des données</strong>. Cela implique de :</p>
+
+<ul>
+  <li>Détecter et retirer les données non pertinentes</li>
+  <li>Mettre en forme correctement les données</li>
+  <li>Repérer les incohérences dans les données</li>
+  <li>Structurer les données</li>
+</ul>
+
+<h2 id="pre-requis">Pré-requis</h2>
+
+<p><strong>Une brève introduction au nettoyage des données</strong> s’appuie sur le cours des <a href="http://ecoledesdonnees.org/handbook/cours/"><em>Fondamentaux des données</em></a> de l’Ecole des Données.</p>
+
+<p>Pour réaliser ce cours, <strong>vous aurez besoin de </strong>:</p>
+
+<ul>
+  <li>Un tableur, du type Excel (que vous devrez acheter) ou Calc de LibreOffice (téléchargeable gratuitement en ligne) installé sur votre ordinateur.</li>
+  <li>Nous partons du principe que vous avez les compétences suivantes : connaissances basiques de gestion des feuilles de calcul, créer un fichier, insérer des données, copier, coller, créer des formules simples. Si vous avez besoin de cours de rattrapage sur ces aspects, la Knight Digital Media Centre a <a href="http://multimedia.journalism.berkeley.edu/tutorials/spreadsheets/">d’excellents tutoriels en ligne</a>.</li>
+  <li>Une copie du jeu de données de GRAIN sur « <a href="http://datahub.io/dataset/grain-landgrab-data">l’accaparement des terres</a>« . Nous utilisons ce jeu de données parce qu’il est à la fois intéressant et qu’il est parlant en termes de recherche et agrégation de données pour résoudre un problème. Ce jeu procure également une variété d’excellents problèmes que nous pouvons travailler à résoudre. Enfin, nous utiliserons ce jeu de données comme base du cours à venir sur l’analyse des données.</li>
+</ul>
+
+<h2 id="contenu-du-cours">Contenu du cours</h2>
+
+<p>Le contenu du cours est composé de la façon suivante :</p>
+
+<ul>
+  <li>Le cours en ligne, qui est en fait la page que vous êtes en train de lire.</li>
+  <li>Section 1: <a href="https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-noix-et-gum/">« Noix et chewing gum »</a> aborde la façon dont les données sont présentées dans un tableau et comment une mauvaise présentation peut engendrer des erreurs.</li>
+  <li>Section 2: <a href="https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-homme-invisible/">« L’homme invisible »</a> aborde la question des blancs, espaces et caractères spéciaux et la façon dont ils altèrent les possibilités d’usage des données.</li>
+  <li>Section 3: <a href="https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-potion-magique/">« La potion magique »</a> aborde la question de la consistance des données et les manières de déterminer les bonnes unités et les bons formats de données.</li>
+  <li>Section 4: <a href="https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-mauvaise-valise/">« La mauvaise valise »</a> aborde la question du stockage et structuration des données.</li>
+  <li>En complément de ces sections, <a href="https://ecoledesdonnees.org/handbook/recipes/cleaning-data-with-spreadsheets/">une recette pas-à-pas</a> est mise à disposition pour nettoyer les données. Il s’agit d’un manuel d’une variété de ressources que nous abordons par section. Nous partons d’un ensemble de données « impropres » pour avancer à travers les différentes étapes vers leur transformation en données « propres ».</li>
+</ul>
+
+<p>Chaque section de cours contient :</p>
+
+<ul>
+  <li>Une <strong>introduction</strong> au problème : nous avons tenté d’expliquer les problèmes de la manière la plus facile possible.</li>
+  <li>Un <strong>bref exercice</strong> d’une quinzaine de minutes pour vous familiariser avec la question. Nous vous proposerons généralement de faire quelque chose et de poster votre travail dans l’espace de discussion.</li>
+  <li>Un <strong>exercice plus long</strong> de nettoyage des données. Certaines tâches peuvent prendre jusqu’à une heure.</li>
+  <li>Une <strong>liste de références et de ressources</strong>. Nous avons inclus aussi bien des essais, que des manuels de logiciels ou même des blogs.</li>
+  <li>Une <strong>question</strong> sur le contenu du cours à laquelle vous pouvez répondre dans l’espace de discussion. N’hésitez pas à commenter chaque section et donner vos retours.</li>
+</ul>
+
+<h2 id="comment-suivre-ce-cours">Comment suivre ce cours</h2>
+
+<p>Nous vous suggérons :</p>
+
+<ul>
+  <li>Parcourez les sections 1à 4 et effectuez le premier exercice, puis le refaire avec l’exercice plus long.</li>
+  <li>Ne souffrez pas en silence ! Nous sommes là pour vous aider.</li>
+</ul>
+
+<p>Prêt à vous lancer ?</p>
+
+<p>Très bien, présentez vous dans l’espace de discussion et commencez avec la section 1.</p>
+
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-introduction/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Une brève introduction au nettoyage des données. Plan du cours.: http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-introduction/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/fondamentaux/2015/07/26/nettoyage-des-donnees-introduction/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

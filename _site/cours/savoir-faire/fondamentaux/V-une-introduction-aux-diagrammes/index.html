@@ -1,0 +1,374 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>5 - Des données aux diagrammes, une introduction aux diagrammes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">5 - Des données aux diagrammes, une introduction aux diagrammes</h1>
+    
+    <h2 id="introduction">Introduction</h2>
+
+<p>Le tutoriel précédent n’était fait que de texte et de tableaux, rajoutons un peu d’éclat au monde de la donnée : la Data Visualisation. Faire de la visualisation de données ne se réduit pas à rendre joli ce que vous avez trouvé. C’est souvent un moyen pour donner de la perspicacité votre donnée.
+Il est plus facile de comprendre des informations traitées sous une forme de graphique que sous forme de chiffres et de tableaux. Regardez l’exemple ci dessous : combien de temps faut il pour voir la tendance dans le tableau et maintenant dans le graphique. </p>
+
+<p><img src="http://farm9.staticflickr.com/8305/7982104847_5a4be76fc7_o_d.png" alt="" />
+<img src="http://farm9.staticflickr.com/8458/7982109326_463cede881_o_d.png" alt="" /></p>
+
+<p>La visualisation de données est une compétence importante et si elle est mise en oeuvre correctement elle apporte une grande plus-value. En revanche, si elle est mal utilisée, vous allez égarer les lecteurs et les envoyer vers des idées erronées. 
+Souvenez vous : de grands pouvoirs sont accompagnés de grandes responsabilités. </p>
+
+<h3 id="dans-ce-tutoriel-nous-avons-deux-missions-">Dans ce tutoriel nous avons deux missions :</h3>
+
+<p>Comprendre quel type de graphique est le plus approprié pour présenter vos données.
+Apprendre la procédure de base afin d’insérer des graphiques dans une feuille de calcul Google.</p>
+
+<p>Pour ce tutoriel vous allez avoir besoin de paramétrer le partage de votre feuille de calcul sur “Public sur le web”.
+Sinon certaines choses dont nous allons traiter ne fonctionneront pas. Pour passer en mode “Public sur le web”, allez dans les paramètres de votre feuille en cliquant sur le bouton bleu “partager” en haut à droite. </p>
+
+<p>Dans le cas où vous n’auriez pas été jusqu’a la fin du module précédent, vous trouverez la feuille de calcul utilisée dans cet exemple ici.</p>
+
+<h2 id="comment-prsenter-sa-donne-">Comment présenter sa donnée ?</h2>
+
+<p>Nous avons un grand nombre de données quantitatives dans notre exemple. La question que l’on doit se poser est : est ce qu’on compare une donnée au cours du temps, de multiples données entre elles ou souhaitons nous savoir comment deux variables interagissent entre elles.  En fonction des réponses nous choisirons différents formats de présentation.</p>
+
+<p>Pour présenter d’importants jeux de données de différentes natures : l’histogramme.
+Un histogramme est l’une des formes graphiques les plus répandues pour présenter une importante quantité de données.
+Il est assez facile à créer et à comprendre. Il s’agit d’une bonne méthode pour comparer des données de différentes catégories. Exemple, les plus dix plus importantes dépenses publiques de santé et à la onzième colonne votre pays. Un graphique de ce type ressemblerait à ça : </p>
+
+<p><img src="http://farm9.staticflickr.com/8300/7893055570_a291658647_o_d.jpg" alt="" /></p>
+
+<p>Lire un graphique par colonne est assez simple : nous avons en général quelques valeurs, ordonnées en catégories sur l’axe des abscisses et des ordonnées dans l’exemple utilisé ici.
+Puis nous avons les valeurs exprimées sur l’axe des abscisses (barre horizontale) ou des ordonnées (barre verticale). La taille de la barre représente la valeur.</p>
+
+<p>Aussi simple que cela puisse être, voici quelques règles à garder à l’esprit :</p>
+
+<p><strong>Ne surchargez pas vos histogrammes.</strong> 
+Bien que vous puissiez utiliser différentes couleurs ou cumuler deux catégories, quand il y a trop de catégories cela devient confus.
+Nommez systématiquement vos axes. Quelque soit la personne qui regarde votre graphique, elle doit toujours savoir quelles sont les valeurs qu’elle regarde. 
+Commencez vos échelles de valeur par 0. La plus part des outils de feuille de calcul vont automatiquement ajuster leur échelle de valeur : ne les laissez pas faire et réinitialisez cela à 0. Cela montre le contraste sur une échelle appropriée. Nous vous montrerons pourquoi c’est important dans le prochain module.</p>
+
+<p>–</p>
+
+<h2 id="pas--pas-crer-un-histogramme-des-10-premiers-pays">Pas à pas: Créer un histogramme des 10 premiers pays.</h2>
+<p>Créons on histogramme depuis notre jeu de données.
+Ce n’est pas vraiment une bonne pratique d’avoir trop de colonnes différentes : le diagramme devient très difficile à lire.
+Nous allons donc nous limiter aux 10 pays ayant les plus fortes dépenses de santé.
+C’est un choix arbitraire et vous pouvez très bien regarder l’ensemble des pays.
+Ce faisant, vous pourriez découvrir des choses cachées dans les données.</p>
+
+<ol>
+  <li>Pour ce faire, filtrer le jeu de données de la Banque Mondiale sur une seule année (ex: 2009).</li>
+  <li>Trier le jeu de données filtré sur la colonne “Health care expenditure total per person (US$)” qui est 
+l’une des colonnes créée lors de l’exercice précédent.
+N’oubliez pas de sélectionner toute la feuille de calcul et pas seulement la colonne que vous triez.</li>
+  <li>Sélectionnez les 10 premiers pays (les 11 premières lignes en incluant la ligne d’entête) et copiez les dans une autre feuille de calcul. (Pour cela, appuyez sur CTRL + C pour copier puis insérez une nouvelle feuille de calcul et appuyez sur CTRL + V dans celle-ci pour coller)</li>
+  <li>Du fait de la façon dont fonctionne Google Docs, nous devons maintenant associer les colonnes
+qui nous intéressent pour la suite avec les noms de pays (colonne A)</li>
+  <li>Cliquez sur le libellé gris pour le sélectionner.
+Relâchez le bouton de la souris puis cliquez et glissez le jusqu’à ce qu’il soit positionné.
+Votre colonne A doit maintenant être “Country Names”, la colonne B “Healthcare expenditure per person total US$”.
+Votre feuille de calcul devrait ressembler à ceci:
+<img src="http://farm9.staticflickr.com/8314/7982157782_0384c5c2d5_o_d.jpg" alt="Feuille de calcul à l'étape 5" /></li>
+  <li>
+    <p>Maintenant, sélectionnez les deux premières colonnes et ouvrez le graphique… depuis le menu insérer.</p>
+
+    <p><img src="http://farm9.staticflickr.com/8189/8079297402_11385187fe_o_d.png" alt="" /></p>
+  </li>
+  <li>
+    <p>L’un des graphiques proposé devrait être un histogramme</p>
+
+    <p><img src="http://farm9.staticflickr.com/8189/8079306740_de45bdca7c_o_d.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Cliquez dessus et vous verrez un aperçu. Avez-vous remarqué l’intervalle de l’axe y ?</p>
+
+    <p><img src="http://farm9.staticflickr.com/8297/7982162404_1a5c6502ef_o_d.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Il commence à 4000 et donne l’impression que la Belgique dépense seulement une fraction de ce que le Luxembourg dépense dans la santé. Changeons cela !</p>
+  </li>
+  <li>
+    <p>Ouvrez l’onglet Personnaliser et faites défiler vers le bas jusqu’à “Axe”.
+Maintenant sélectionnez “Gauche Vertical” depuis le menu déroulant.
+<img src="http://farm9.staticflickr.com/8333/8079355505_d06c8ced0f_o_d.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Voyez-vous les champs min et max ? Entrez juste 0 dans le champs min et l’intervalle débutera à 0.
+De cette façon le contraste entre les pays semble plus réaliste.
+<img src="http://farm9.staticflickr.com/8310/7982158841_6e728dd3eb_o_d.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Amusez-vous à personnaliser les réglages. Essayez de supprimer ou repositionner la légende, changer la couleur des barres…</p>
+  </li>
+  <li>
+    <p>Lorsque vous avez terminé, cliquez sur Insérer et votre graphique apparaîtra.</p>
+  </li>
+  <li>Si vous cliquez sur le graphique vous pouvez le déplacer.
+Avez-vous remarqué le triangle en haut à droite ? C’est le menu des options.
+Sélectionnez Editer le diagramme pour changer ses réglages.
+Pouvez-vous le transformer en diagramme en bâton ?</li>
+</ol>
+
+<h3 id="exercice--crez-un-histogramme-avec-dautres-donnes-de-la-banque-mondiale">Exercice : Créez un histogramme avec d’autres données de la Banque Mondiale.</h3>
+
+<p>Vous savez maintenant comment créer un histogramme – sentez vous libre d’expérimenter avec d’autres types de graphiques en utilisant les recettes du Manuel pour vous guider. Les sections suivantes vous enseigneront quand sélectionner un type spécifique de graphique et à quelles données il est adapté. Nous traiterons des graphiques les plus communs : les courbes, les cartes choroplèthes (cartes thématiques colorées) et les diagrammes de dispersion. Pour chacun de ceux-là, vous pouvez trouver une recette pratique correspondante dans le manuel.</p>
+
+<p>Présenter des données de catégories dans le temps – les courbes
+parfois vous n’avez pas seulement des catégories comme des pays, mais vous avez aussi des valeurs dans le temps. C’est là que les courbes sont assez pratiques. Un graphique en courbes ressemble à cela :</p>
+
+<p><img src="http://farm9.staticflickr.com/8461/7893223088_a24d3c1c59_o_d.jpg" alt="" /></p>
+
+<p>Sur l’axe des y nous avons toujours nos valeurs et sur l’axe des x nous avons la mesure du temps. Ce graphique fonctionne bien si tous les intervalles de temps sont égaux (bien sûr les courbes ne sont pas réservées aux séries temporelles). Pour mémoire, il est important, quand nous comparons plusieurs catégories, de démarrer votre axe des y à 0. Il est possible de ne pas partir de 0 mais seulement quand il n’y a qu’une seule courbe – et toujours en mentionnant clairement les valeurs minimales et maximales.</p>
+
+<h3 id="exercice--comparez-le-luxembourg-aux-autres-pays-les-plus-dpensiers----crez-un-graphique-en-courbes-avec-les-diffrents-pays-sur-un-seul-graphique">Exercice : comparez le Luxembourg aux autres pays les plus dépensiers – créez un graphique en courbes avec les différents pays sur un seul graphique.</h3>
+
+<p>Représenter des données géographiques – cartographier
+Dans notre cas nous n’avons pas seulement des données numériques mais aussi des données numériques reliées à des lieux géographiques. Vite une carte ! Quand vous avez un grand nombre de pays ou de régions, représenter des données sur une carte est pertinent. Si vous avez des pays ou des régions vous créez une carte choroplèthe. Ce type particulier de carte représente à l’aide de couleurs des valeurs données pour une région spécifique. Voici un exemple de carte choroplèthe à partir de nos données :</p>
+
+<p><img src="http://farm9.staticflickr.com/8466/8079925578_6ee66193ff_b_d.jpg" alt="" /></p>
+
+<p>La carte représente les dépenses de santé rapportées au PIB. Elle nous permet de découvrir des aspects intéressants de notre jeu de données. Exemple : rapporté au PIB, l’Europe de l’ouest dépense plus que l’Europe de l’est en matière de santé, et le Liberia dépense plus que tout autre pays d’Afrique.</p>
+
+<h3 id="a-savoir-lorsque-vous-utilisez-une-cartes-choroplthes-">A savoir lorsque vous utilisez une cartes choroplèthes :</h3>
+
+<p>Une limite des cartes choroplèthes est qu’elles donnent plus de visibilité aux pays de grande taille, pénalisant ainsi les petits pays.
+Par ailleurs, faites attention à l’échelle de couleur. L’échelle standard rouge-verte n’est pas très adaptée pour tout un tas de raisons comme la difficulté à être vue par les daltoniens (vous pouvez en savoir plus à travers l’article de Gregor Aisch cité dans les références bibliographiques ci-dessous). Des dégradés monochromes sont souvent plus faciles à lire. Enfin, si votre plage de valeurs devient trop grande alors il devient difficile de différencier les valeurs proches.</p>
+
+<p>Exercice : essayez un autre jeu de données sur une carte choroplèthe. Comment cela fonctionne-t-il ?</p>
+
+<p>Rechercher l’interaction entre les variables – les diagrammes de dispersion
+Que se passe-t-il si nous ne sommes pas intéressés seulement par une variable mais par l’interdépendance de variables entre elles ? Et bien dans ce cas nous avons les diagrammes de dispersion – utiles pour regarder les interactions entre deux variables.</p>
+
+<p><img src="http://farm9.staticflickr.com/8481/8229057265_cb3e48f1b6_o_d.png" alt="" /></p>
+
+<p>Regardez le diagramme de dispersion suivant : nous avons une valeur numérique sur l’axe de X et une autre sur l’axe des Y. Les points matérialisent une donnée. Ce graphique a aussi certaines limites : les points se superposent et s’il y en a beaucoup vous ne voyez pas vraiment où ils sont. Cela pourrait être résolu en ajoutant de la transparence ou en affichant seulement une certaine plage. Néanmoins une tendance émerge : au-delà d’une certaine espérance de vie, les coûts de santé augmentent soudainement et fortement. Avez-vous également noté les trois points en bas à gauche ? Intéressantes aberrations – nous les verrons dans un module ultérieur.</p>
+
+<p>Exercice : faites un diagramme de dispersion comparant d’autres données dans le jeu utilisé. Est-ce que cela fonctionne ? Des points étonnants, des problèmes, d’intéressantes découvertes ?</p>
+
+<h3 id="rsum">Résumé</h3>
+
+<p>Dans ce tutoriel nous avons couvert les bases de la visualisation de données. Nous avons vu des graphiques simples et les avons créé. Dans le tutoriel suivant nous allons discuter de certains pièges à éviter lors de la manipulation et l’interprétation des données.</p>
+
+<h3 id="rfrence-bibliographiques">Référence bibliographiques</h3>
+<p>“Graphiques de courbes efficaces” (“Doing the Line Charts Right”) par Gregor Aisch [NDT : en anglais].
+Toujours par Gregor Aisch : Dites adieu aux échelles de couleur rouge-vert (Say Goodbye to Red-Green Color Scales) [NDT : en anglais].</p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=5 - Des données aux diagrammes, une introduction aux diagrammes: http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

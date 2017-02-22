@@ -1,0 +1,277 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>7 - Raconte-moi une histoire. Travailler sur ce qui est intéressant dans vos données</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">7 - Raconte-moi une histoire. Travailler sur ce qui est intéressant dans vos données</h1>
+    
+    <h2 id="introduction">Introduction</h2>
+
+<p>La donnée en soi n’est pas si compréhensible. Il s’agit cependant d’une très bonne base sur laquelle s’appuyer. Pour créer de l’information depuis des données, il faut les rendre palpables. Raconter une histoire avec ces données est le moyen le plus simple d’y parvenir.</p>
+
+<p>Afin d’écrire une histoire avec vos données vous avez besoin de répondre à certaines questions. Pourquoi une personne s’intéresserait-elle à votre histoire ? Qui est cette personne ? Comment cette personne est-elle liée ou entre en intéraction avec ces données ?</p>
+
+<p>## Le processus
+ Le processus visant à raconter l’histoire est tout à fait similaire à cette leçon. Il s’agit de :</p>
+
+<ul>
+  <li>Trouver les données : Celles qui vous permettront de répondre à votre question</li>
+  <li>Manipuler les données : Les convertir dans un format utilisable</li>
+  <li>Combiner les jeux de données : Rassembler les différents jeux de données</li>
+  <li>Filtrer et trier les données : Sélectionner uniquement les données intéressantes</li>
+  <li>Analyser les données : Que peut-on y trouver ?</li>
+  <li>Visualiser les données : Si les données présentent des aspects intéressants comment les mettre en avant pour vos lecteurs ?</li>
+</ul>
+
+<p>Trouver une histoire dans les données</p>
+
+<p>Parfois vous commencerez par explorer un jeu de données avec une question précise en tête. Parfois vous n’aurez pas cette question précise et vous voudrez trouver une histoire qui s’y cache. Dans les deux cas, visualiser les données vous aidera à en tirer les aspects intéressants. Un bon moyen de dénicher ces aspects est d’avoir un outil intéractif de visualisation. Un diagramme intéractif à bulles est un bon exemple puisque cela nous permet de comparer plusieurs valeurs en même temps.
+ Choisir les données pertinentes et proches des problèmes des gens est un des enjeux les plus durs à maîtriser, et le meilleur moyen d’apprendre est de s’inspirer des gens qui excellent sur le sujet. Voici une courte liste pour commencer à y réfléchir :</p>
+
+<ul>
+  <li>
+    <p>Argumenter un point de vue politique avec verve : Hans Rosling a fait une carrière de son talent théatral à donner vie aux données sur le développement mondial. Sa présentation est une des vidéos TED les plus vues. Dans la section des recettes, vous apprendrez comment faire des diagrammes intéractifs à bulles comme celui qu’il présente dans cette vidéo.</p>
+  </li>
+  <li>
+    <p>Data-Journalisme: Si vous voulez passer maître dans l’art de raconter des histoires avec les données, il faut naturellement prendre exemple sur les journalistes. Le Guide du Datajournalisme met en avant certaines des meilleurs histoires racontées avec des données et détaille comment et pourquoi celles-ci ont été écrites par les mots des Datajournalistes les plus reconnus de part le monde.</p>
+  </li>
+  <li>
+    <p>Campagnes de communication narrative : Tactical Technology Collective a rédigé un excellent guide sur comment choisir les informations visuelles afin de répandre votre message et cibler correctement votre audience. Drawing By Numbers nous apprend à identifier le niveau de détail souhaité ou requis par le lecteur, de sorte qu’il ne soit pas submergé ou qu’il ne s’ennuie pas avec la quantité de données présentée. Les auteurs regroupent la conception de l’information autour de trois principaux élements. Votre approche doit dépendre de ce que votre audience souhaite : Comprendre l’idée, Comprendre la situation, Comprendre les détails. Ils donnent également des exemples pertinents de campagnes de communication avec un réel impact visuel.</p>
+  </li>
+  <li>
+    <p>Appropriation des données : A qui essayez-vous de vous adresser dans la présentation de vos données ? Le niveau de compréhension des citoyens permet-il de parler des dépenses du gouvernement britannique en milliards ou est-il préférable d’utiliser une échelle qu’ils peuvent se représenter ou qui signifie quelque chose pour eux ? Par exemple, “Where Does My Money Go ?” montre aux utilisateurs, sur une base journalière, comment les impôts qu’ils versent sont répartis en différents champs d’action et montre au public des chiffres qu’ils peuvent mieux se représenter. </p>
+  </li>
+</ul>
+
+<p>Raconter l’histoire
+ Tout d’abord passez par les étapes suivantes : 
+ Comment déterminez-vous vos donnnées ? Comment définissez-vous le contexte ?  Quel format allez-vous choisir ? Cela peut être un article, un billet de blog, une infographie, ou un site interactif qui traite uniquement de cette question. La manière dont vous allez racontrer l’histoire dépend autant du format que vous allez choisir. Etes-vous une ONG et souhaitez-vous utiliser des données dans une campagne d’information ? Etes-vous un journaliste qui veut s’appuyer sur des données pour un article ? Etes-vous un chercheur qui souhaite donner du sens à des données de terrain ? Ou êtes-vous juste un bloggueur curieux qui cherche des sujets intéressants ? Vos publics seront différents et le sens de votre histoire ne sera pas le même. N’hésitez pas à partager très tôt votre travail avec vos amis ou vos collègues - ils peuvent vous donner un avis éclairé sur la manière d’améliorer votre présentation ou votre histoire.</p>
+
+<p>### Tâche : Quelles histoires peuvent être racontées à partir des données de la Banque Mondiale ? Pouvez-vous identifier des informations complémentaires ou d’autres données pour améliorer votre histoire ?</p>
+
+<p>## Publier vos résultats en ligne
+ Une fois que vous avez tiré le meilleur parti de vos données, vous êtes prêt à les publier en ligne. Plusieurs services vous permettent d’incruster des visualisations et des données, comme par exemple les iframes que vous pouvez copier-coller dans votre blog ou site web. Dans tous les cas, s’il vous est difficile de mettre votre publication en ligne, nous vous proposons quelques démarches rapides pour vous aider à publier vos résultats directement en ligne.</p>
+
+<p>### Résumé
+ Tout au long de ce cours sur “Les Fondamentaux des Données”, nous avons commençé à collecter et sauvegarder un jeu de données dans une feuille de calcul, en faire l’exploration et les calculs complémentaires, et visualiser le tout pour enfin raconter une histoire. Bien sûr, il y a encore bien plus à apprendre sur les données que ce cours de base. Ne vous inquiétez pas, l’Ecole des Données ne sera jamais loin et pourra vous aider. Maintenant foncez : allez voir ce que d’autres ont réalisé et surtout n’hésitez pas à explorer le monde des données !</p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=7 - Raconte-moi une histoire. Travailler sur ce qui est intéressant dans vos données: http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

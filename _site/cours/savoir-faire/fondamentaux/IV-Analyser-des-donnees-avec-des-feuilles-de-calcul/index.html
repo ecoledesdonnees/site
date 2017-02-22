@@ -1,0 +1,319 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>4 - Analyser des données avec des feuiles de calcul</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">4 - Analyser des données avec des feuiles de calcul</h1>
+    
+    <h2 id="introduction">Introduction</h2>
+
+<p>Une fois votre jeu de données nettoyé et filtré, il faudra passer à son analyse. Analyser des données nous aidera à comprendre ce que nos données pourraient signifier et nous aider à trouver des réponses à nos questions à l’aide du jeu de données.</p>
+
+<p>Observez les données que nous venons d’importer (ne vous inquiétez pas si vous vous n’avez pas terminé le tutoriel précédent, vous pouvez copier un exemple de feuille de calcul ici).</p>
+
+<p>Voici des données de la Banque Mondiale contenant des informations sur le PIB, la population, les dépenses de santé et l’espérance de vie pour la période 2000 - 2011. Prenez quelques minutes pour observer les données. Plutôt intéressant - mais que peuvent-elles nous enseigner ?</p>
+
+<h3 id="tche-">Tâche :</h3>
+
+<p>Brainstormez, réfléchissez… Que pourriez vous rechercher / découvrir en utilisant ces données ?</p>
+
+<ol>
+  <li>Combien (en USD) est dépensé pour la santé au total ans dans chaque pays ?</li>
+  <li>Combien (en USD) est dépensé par habitant dans chaque pays ?</li>
+  <li>Dans quel pays dépense-t-on le plus par personne ? Dans quel pays dépense-t-on le moins ? Quelle est la moyenne pour chaque continent ? Dans le monde ?</li>
+  <li>Quelle est la relation entre les dépenses de santé privées et publiques dans chaque pays ? Où les citoyens dépensent-ils le plus (dépenses privées) ? Où l’Etat dépense-t-il le plus (dépenses publiques) ?</li>
+  <li>Existe-t-il un lien entre les dépenses de santé et et l’espérance de vie moyenne ?</li>
+  <li>Le fait que la dépense soit publique ou privée fait-il une différence ?</li>
+</ol>
+
+<p>NOTE :
+En ce qui concerne les deux dernières questions, vous devez être extrêmement prudent. Même si vous trouvez des liens, cela ne signifie pas nécessairement que l’une a provoqué l’autre ! Par exemple : imaginez qu’il y ait eu une épidémie soudaine de peste. La maladie n’est pas toujours fatale, mais de nombreuses personnes l’ayant contractée mourront. Les dépenses de santé publiques risquent d’augmenter. L’espérance de vie baisse immédiatement. Cela ne veut pas dire que votre système de santé est soudainement devenu moins efficace ! Vous devez toujours être EXTREMEMENT prudent quant aux conclusions possibles pour ce genre de données… mais il peut toujours être intéressant de calculer les chiffres.
+IL y a de nombreuses autres questions auxquelles on pourrait répondre en utilisant ces données, dont de nombreuses en lien étroit avec les débats actuels sur les politiques publiques. Par exemple, si mon pays était en plein débat sur ses dépenses de santé, je pourrais utiliser ces données pour explorer et analyser de quelle manière la dépense dans mon pays a évolué au fil du temps, et commencer à comprendre comment mon pays se situe par rapport aux autres.  </p>
+
+<h2 id="formules">Formules</h2>
+<p>Plongeons au coeur du sujet. Les données dont nous disposons ne sont pas complètes. Pour l’instant, les dépenses de santé sont présentées en tant que pourcentage du PIB. Afin de pouvoir comparer les dépenses totales dans différents pays, ce chiffre doit être converti en dollars US (USD).</p>
+
+<p>Pour faire ce calcul, laissez-nous vous présenter les formules. </p>
+
+<p>Les formules ont permis aux tableurs de devenir des outils importants. Mais comment fonctionnent-elles ? Découvrons-le ensemble en jouant avec…</p>
+
+<p>Indice :
+Lorsque vous téléchargez un jeu de données, la toute première chose que vous devriez faire est d’en faire une copie. Chaque changement que vous pourriez faire devrait être fait dans cette copie du document - les données d’origine doivent rester inchangées et non modifiées ! Ainsi, vous pouvez vous y référer et y retourner à n’importe quel moment. Il est également recommandé de noter la provenance des données et quand et comment elles ont été récupérées.
+Une fois que vous aurez fait votre propre copie de données (essayez d’ajouter “copie de travail” où quelque chose de similaire après le nom d’origine), créez une nouvelle feuille de travail dans votre tableur. Cette “feuille-test” vous permettra d’essayer différentes choses tout en développant vos connaissances sur les formules. </p>
+
+<p>Passons à présent sur la colonne “Total fruits vendus”. Commencez dans la première ligne. Il est temps à présent d’écrire une formule…</p>
+
+<h3 id="explication-dtaille--utiliser-les-feuilles-de-calcul-pour-ajouter-des-valeurs">Explication détaillée : utiliser les feuilles de calcul pour ajouter des valeurs.</h3>
+
+<ol>
+  <li>Accédez aux données et créez une copie de travail.</li>
+  <li>Pour commencer, mettez-vous sur la première ligne</li>
+  <li>Chaque formule dans une feuille de calcul commence par = </li>
+  <li>Insérez le caractère “=” et sélectionnez la première cellule que vous voulez ajouter. Remarquez la manière dont la référence de la cellule apparait dans la formule.
+http://farm9.staticflickr.com/8179/8073780056_05b170a958_o_d.png</li>
+  <li>Tapez + et sélectionnez la deuxième cellule que vous souhaitez ajouter
+http://farm9.staticflickr.com/8173/8073780166_59fb9bcaa0_o_d.png</li>
+  <li>Validez en appuyant sur Enter ou tabulation</li>
+  <li>La formule disparaît et est remplacée par la valeur
+http://farm9.staticflickr.com/8176/8073780244_836ef3f299_o_d.png</li>
+  <li>Essayez de changer le nombre dans l’une des cellules d’origine (pommes ou prunes)</li>
+  <li>Vous pouvez taper chaque formule individuellement, mais il est aussi possible de copier/coller ou de glisser/déposer des formules sur un ensemble de cellules. </li>
+  <li>Copiez la formule que vous venez d’écrire (en utilisant ctrl + c) et collez la dans la cellule du dessous (en utilisant ctrl + v), vous obtiendrez la somme des deux nombres dans la cellule du dessous. </li>
+  <li>Alternativement, cliquez sur le coin inférieur droit de la cellule (le carré bleu), et glissez la formule jusqu’au pied de la colonne. Remarquez la mise à jour du total de la colonne. C’est magique !</li>
+</ol>
+
+<h3 id="tche-rdigez-une-formule-calculant-le-montant-total-de-pommes-et-de-prunes-vendues-pendant-la-semaine">Tâche: rédigez une formule calculant le montant total de pommes et de prunes vendues pendant la semaine.</h3>
+
+<p>Avez vous ajouté toutes les cellules manuellement ? : C’est beaucoup de clics - pour les grandes feuilles de calcul, ajoute chaque cellule à la main peut prendre beaucoup de temps. Jetez un oeil à la section “formules” dans le guide de l’école des données, y trouvez vous une solution simple d’additionner un groupe de cellules ou de colonnes ?</p>
+
+<p>Et maintenant ?</p>
+
+<p>Maintenant que vous savez rédiger une formule simple, vous n’avez plus de limites ! Le guide de l’école des données vous permettra eventuellement de vous familiariser avec :</p>
+
+<ul>
+  <li>Multiplications dans une feuille de calcul</li>
+  <li>Divisions dans une feuille de calcul</li>
+  <li>Copier des formules sur les cotés</li>
+  <li>Déterminer les valeurs minimales et maximales</li>
+  <li>Gérer les cellules vides dans vos données (formules complexes). Cette étape utilise la logique booléenne.</li>
+  <li>Vous aurez besoin de vous référer à ces chapitres pour aller au bout des défis à venir.</li>
+</ul>
+
+<h2 id="dfi-de-multiplication-et-de-division">Défi de multiplication et de division</h2>
+
+<h3 id="tche--utilisez-les-donnes-de-la-banque-mondiale-si-vous-ne-les-avez-pas-tlchargez-les-ici-dans-ces-donnes-nous-trouvons-des-informations-sur-les-dpenses-de-sant-en-pourcentage--du-pib-calculez-le-montant-total-des-dpenses-de-sant-en-usd-en-afghanistan-pour-lanne-2001-si-vos-connaissances-en-calcul-de-pourcentages-sont-rouilles-jetez-un-oeil--la-section-sur-les-formules-dans-le-guide">Tâche : utilisez les données de la Banque Mondiale (si vous ne les avez pas, téléchargez les ici). Dans ces données nous trouvons des informations sur les dépenses de santé en pourcentage (%) du PIB. Calculez le montant total des dépenses de santé en USD en Afghanistan pour l’année 2001. Si vos connaissances en calcul de pourcentages sont “rouillées” jetez un oeil à la section sur les formules dans le guide.</h3>
+
+<h3 id="tche-toujours-en-utilisant-les-donnes-de-la-banque-mondiale-dterminez-quel-montant-en-usd-est-dpens-pour-la-sant-par-personne-en-albanie-en-2001">Tâche: toujours en utilisant les données de la Banque Mondiale, déterminez quel montant (en USD) est dépensé pour la santé par personne en Albanie en 2001</h3>
+
+<h3 id="tche--calculez-les-valeurs-moyennes-et-mdianes-pour-toutes-les-colonnes">Tâche : calculez les valeurs moyennes et médianes pour toutes les colonnes.</h3>
+
+<h3 id="tche-quelle-est-la-formule-calculant-les-dpenses-de-sant-par-personne--pouvez-vous-la-modifier-afin-de-ne-la-calculer-que-lorsque-les-donnes-sont-prsentes-comprendre-que-lorsque-la-cellule-nest-pas-vide-">Tâche: quelle est la formule calculant les dépenses de santé par personne ? Pouvez-vous la modifier afin de ne la calculer que lorsque les données sont présentes (comprendre “que lorsque la cellule n’est pas vide”) ?</h3>
+
+<h3 id="bilan-et-pour-aller-plus-loin">Bilan et pour aller plus loin</h3>
+<p>Dans ce module nous avons approfondi l’analyse. Nous avons exploré notre jeu de données et notamment ses bornes. Nous avons abordé les formules à conditions pour gérer les valeurs manquantes et développé pas à pas une formule plutôt complexe. Pour finir nous avons efleuré la question de la normalisation des données dans le but de comparer des éléments.</p>
+
+<ol>
+  <li>Liste des fonction du tableur Google Apps</li>
+  <li>Introduction à la logique booléenne sur Wikiversity</li>
+</ol>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=4 - Analyser des données avec des feuiles de calcul: http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,318 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Section 4. Vous avez pris la mauvaise valise (encore une fois) ?</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-mauvaise-valise/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">Section 4. Vous avez pris la mauvaise valise (encore une fois) ?</h1>
+    
+    <h1 id="section-4-vous-avez-pris-la-mauvaise-valise-encore-une-fois-">Section 4: Vous avez pris la mauvaise valise (encore une fois) ?</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Tout ce que notre tableau exige de nous est que chaque cellule de données soit comme une mallette d’argent prête à être déposée par un banquier dans un paradis fiscal.</p>
+
+<p><img src="http://farm9.staticflickr.com/8071/8413876946_529bb56d80_z_d.jpg" alt="http://farm9.staticflickr.com/8071/8413876946_529bb56d80_z_d.jpg" /></p>
+
+<p>Image de <a href="http://hairinthegate-ajuk.blogspot.co.uk/2012/06/suitcase-full-of-money.html">Hair in the Gate</a>. Licence non spécifiée</p>
+
+<p>Il contient un seul type d’objet, parfaitement rangé, et de manière prévisible en unités standards. Et peut-être même qu’il sent bon. Le tableau est heureux dans cette situation et peut-être nous récompensera-t-il en comptant, triant, livrant des graphes, etc. Cependant ce que nous donnons souvent à notre tableau ressemble plus à un choix enfantin de choses essentielles à emmener à la plage.</p>
+
+<p><img src="http://farm9.staticflickr.com/8372/8412778391_56424a2a10_o_d.jpg" alt="http://farm9.staticflickr.com/8372/8412778391_56424a2a10_o_d.jpg" /></p>
+
+<p>Image de <a href="http://serc.carleton.edu/details/images/26933.html">Science Education Resource Centre</a>. Licence CC-NC-SA 3.0.</p>
+
+<p>Mais notre tableau nous punira de ce genre de bazar : beaucoup d’objets, avec des caractéristiques différentes, tous mélangés dans le même espace étroit. Que peut-on faire pour organiser ce bazar ?</p>
+
+<p>A la fin de cette section, vous aurez :</p>
+
+<ul>
+  <li>analysé les données pour mettre en évidence les problèmes de structure</li>
+  <li>changé la structure des données afin de rendre le tableau plus utile</li>
+  <li>des idées sur ce qu’il faut éviter dans votre propre travail avec les données</li>
+</ul>
+
+<h2 id="un-peu-de-travail">Un peu de travail</h2>
+
+<p>Pour faire à la fois les tâches rapide et longue ci-dessous, vous aurez besoin de :</p>
+
+<ul>
+  <li>un tableur comme Excel ou Libre Office</li>
+  <li>une copie du jeu de données du cours : les données de GRAIN sur “<a href="http://datahub.io/dataset/grain-landgrab-data/resource/af57b7b2-f4e7-4942-88d3-83912865d116">l’accaparement de terre</a>”</li>
+</ul>
+
+<h3 id="une-tache-rapide-15-minutes">Une tâche rapide (15 minutes)</h3>
+
+<p>Téléchargez cette <a href="http://datahub.io/dataset/data-structures">feuille de calcul</a> et suivez les étapes qui suivent. Cette section utilise des fonctionnalités des feuilles de calcul pour lesquelles de l’aide peut être trouvée plus loin, dans les lectures complémentaires. Mais essayez d’abord !</p>
+
+<p>Pour commencer, appliquez un AutoFiltre aux données. Continuez de revenir sur l’Autofiltre pour voir comment les données changent à chaque étape.</p>
+
+<p>Pour illustrer ce problème, disons que vous collectez les données des participants aux réunions dans votre entreprise, pour vérifier l’activité de vos collègues. (On espère que votre organisation n’a pas atteint un tel niveau de confiance !) La manière la plus intuitive de faire serait de faire comme dans cette feuille de calcul :</p>
+
+<p><img src="http://farm9.staticflickr.com/8352/8413876968_4c80101fd5_o_d.png" alt="http://farm9.staticflickr.com/8352/8413876968_4c80101fd5_o_d.png" /></p>
+
+<p><strong>Mais les feuilles de calcul ne sont pas intuitives</strong>. Vous ne pouvez pas utiliser ces données pour produire un simple rapport de participation avec des outils pratiques comme AutoFiltre ou un tableau croisé dynamique. La raison : le tableur voit le texte dans chaque cellule comme un paquet de données, comme si une seule personne “Allan, Rastus, Carl, Tito” avait participé au rendez-vous de lundi. Pour utiliser plus facilement les données que vous avez en face de vous, la situation idéale est d’avoir <strong>une seule information du même type dans une cellule</strong>.</p>
+
+<p>Alors, séparons les données, d’abord dans différentes colonnes. Cela peut être fait automatiquement en utilisant la fonctionnalité de conversion de « Texte à Colonnes ». Sélectionnez les données dans la colonne B, et cliquez sur Données –&gt; Texte à colonnes. Sélectionnez la virgule comme « séparateur ». Vous obtiendrez quelque chose comme ceci (vous devez donner un nom aux colonnes vous-même) :</p>
+
+<p><img src="http://farm9.staticflickr.com/8331/8413876976_7cf07b0fbb_o_d.png" alt="http://farm9.staticflickr.com/8331/8413876976_7cf07b0fbb_o_d.png" /></p>
+
+<p>(Après avoir fait cela, vous allez avoir des espaces blancs (invisibles). Révisez ce problème dans l’exercice précédent « <a href="https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-homme-invisible/">L’Homme Invisible</a>« …)</p>
+
+<p>Eclatez le paquet de données entre différentes colonnes améliore les chances d’analyser les données, mais pas tant que ça. Si votre équipe est plus grande, cette feuille de calcul peut devenir difficile à utiliser. Pourquoi ne pas prendre les données et les mettre sous une forme verticale ? On appelle cela « transposer ». Vous pouvez faire cela manuellement ou essayer automatiquement en utilisant la fonctionnalité « Collage spécial » :</p>
+
+<p><img src="http://farm9.staticflickr.com/8213/8412778355_1dfb32daef_o_d.png" alt="http://farm9.staticflickr.com/8213/8412778355_1dfb32daef_o_d.png" /></p>
+
+<p>C’est bien mieux comme ça ! Pour donner du sens aux données, nous avons du ajouter de la mise en forme, mais désormais des données manquent dans la colonne du jour de la réunion. C’est une très mauvaise idée (pour savoir pourquoi, regardez la section 1 : « <a href="https://ecoledesdonnees.org/handbook/cours/nettoyage-des-donnees-noix-et-gum/">Noix et chewing gum</a>« ). Il nous faudra ajouter des données dans la colonne A comme ici :</p>
+
+<p><img src="http://farm9.staticflickr.com/8351/8412778335_22c13b66d6_o_d.png" alt="http://farm9.staticflickr.com/8351/8412778335_22c13b66d6_o_d.png" /></p>
+
+<p>Cette approche permet de trier, filtrer et créer un tableau croisé dynamique. Essayez-le ! Vous pouvez maintenant facilement produire des reports de participation aux réunions.</p>
+
+<h3 id="une-tache-longue-30-minutes--2-heures">Une tâche longue (30 minutes – 2 heures)</h3>
+
+<p>Dans le chapitre relatif au nettoyage des données dans le livre des recettes, parcourez le Problème 5 : « <a href="http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-5-structural-problems-data-in-inconvenient-places">problèmes de structure – des données à des places inappropriées</a>” utilisant le jeu de données de GRAIN. C’est un exercice plus détaillé qui se penche sur ce que des investisseurs fonciers ont dit de l’utilisation qu’ils feraient de ces terres. Il montre comment le problème est catégorisé et fait remonter les difficultés à enregistrer les multiples usages de terres dans un tableau. Il vous montre comment utiliser le filtrage pour surmonter les difficultés liées à des données mal structurées.</p>
+
+<p>Si vous vous sentez très courageux, essayez aussi le Problème 6 : « <a href="http://schoolofdata.org/handbook/recipes/cleaning-data-with-spreadsheets/#problem-6-from-banabas-to-bananas-dealing-with-inconsistencies-in-data">des babanes aux bananes » ou comment traiter les incohérences dans les données</a>”. C’est un exercice avancé qui vous mènera à travers le processus d’éclatement, de correction et de reconstitution d’un jeu de données volontairement erroné, pour vous permettre d’en tirer de la valeur. Il fait appel à une série de fonctionnalités de tableur incluant des colonnes au format texte, des expressions régulières, des tableaux croisés dynamiques, la mise en forme conditionnelle, la validation et la concaténation de données. C’est un chemin escarpé, mais à la fin, vous verrez les données différemment.</p>
+
+<h2 id="lectures-complementaires">Lectures complémentaires</h2>
+
+<ul>
+  <li>Dans le court exercice, nous avons utilisé les fonctions suivantes :
+    <ul>
+      <li>La fonction <strong>« texte à colonnes »</strong>, qui est extrêmement utile pour le traitement de la question de la « mauvaise valise ». Voici un <a href="http://office.microsoft.com/en-gb/excel-help/split-names-by-using-the-convert-text-to-columns-wizard-HA010342911.aspx">tutoriel</a> pour utiliser cette fonction dans Excel, <a href="http://www.oooninja.com/2008/01/text-columns-calc-convert-openoffice.html">un autre pour Open Office</a> (et Libre Office). Il se peut que vous soyez contrarié par le fait que Google Spreadsheet n’a pas à proprement parler de fonction « texte à colonnes » ! Cependant, la <a href="http://support.google.com/drive/bin/answer.py?hl=en&amp;answer=155358">fonction « SPLIT »</a> fait la même chose, comme décrit dans <a href="http://googledocstips.com/2011/03/11/how-to-split-the-contents-of-a-cell/">ce tutoriel</a>.</li>
+      <li>La fonctionnalité « <strong>transposer</strong>« , qui échange les lignes et les colonnes, est parfaitement décrite pour Excel dans le <a href="http://www.techrepublic.com/blog/msoffice/transpose-excel-data-from-rows-to-columns-or-vice-versa/630">tutoriel de Tech Republic</a>, et pour <a href="http://openoffice.blogs.com/openoffice/2007/02/very_cool_featu.html">Open Office par Solveig Haugland</a> sur son « Open Office Training Blog » (blog d’entraînement à Open Office)</li>
+    </ul>
+  </li>
+  <li>Le Guide de la Data et du Design du Tactical Technology Collective comporte un court chapitre nommé « Growing out of Spreadsheets », qui traite principalement du problème de la « mauvaise valise ». Il se penche sur les difficultés de l’utilisation de feuilles de calcul lorsque vous avez <a href="http://drawingbynumbers.org/data-design-basics/note-2-data-basics#anchor-4">des données qui décrivent des relations dynamiques et complexes.</a>.</li>
+</ul>
+
+<h2 id="reposez-vous-et-reflechissez">Reposez-vous et réfléchissez</h2>
+
+<p>Qu’est-ce que le problème de la « mauvaise valise » nous révèle des enregistrements de données dans les tableurs ?</p>
+
+<h3 id="note">Note</h3>
+
+<p>Ce cours a été conçu pour le projet École des données par <a href="http://tacticaltech.org/">Tactical Technology Collective</a>. Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.  </p>
+
+<p>Article d’origine : <a href="http://schoolofdata.org/handbook/courses/data-cleaning-wrong-suitcase/">Section 4: Did you bring the wrong suitcase (again)?</a></p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-mauvaise-valise/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Section 4. Vous avez pris la mauvaise valise (encore une fois) ?: http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-mauvaise-valise/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/fondamentaux/2015/10/04/nettoyage-des-donnees-mauvaise-valise/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

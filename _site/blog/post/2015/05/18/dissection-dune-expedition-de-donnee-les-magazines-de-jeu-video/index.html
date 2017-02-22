@@ -1,0 +1,381 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dissection d’une expédition de donnée. Les magazines de jeu vidéo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//a.okfn.org/html/oki/panel/assets/css/frontend.css">
+
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="/css/widescreen.css" media="all and (min-width: 1280px)">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+    <link rel="canonical" href="http://ecoledesdonnees.org/blog/post/2015/05/18/dissection-dune-expedition-de-donnee-les-magazines-de-jeu-video/">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+      <div>
+        
+
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
+  <a class="site-title" href="/"><img class="icon" src="/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="/">Accueil</a>
+    </li>
+    <li>
+      <a href="/">À propos</a>
+    </li>
+    <li>
+      <a href="/posts/">Cours</a>
+      <ul>
+        <li >
+          <a href="/cours/savoir-faire/">Savoir-Faire</a>
+              <ul>
+                <li >
+                  <a href="/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
+                  <ul>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
+                    </li>
+                    <li>
+                      <a href="/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
+                    </li>
+                  </ul>
+              <li>
+                  <a href="/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
+                </li>
+              </ul>
+        </li>
+            <li >
+          <a href="/resources/">Thématiques</a>
+        </li>
+      </ul>
+    </li>
+    <li >
+      <a href="/posts/">Blog</a>
+    </li>
+    <li>
+        <a href="/">Nous rejoindre</a>
+    </li>
+    <li>
+       <a href="/">Contribuer</a>
+    </li>
+</nav>
+
+        <div class="page-content">
+          
+
+
+
+<div class="post">
+  <article class="post-content">
+    <a href="//" class="pre-header"></a>
+    <h1 class="post-title">Dissection d’une expédition de donnée. Les magazines de jeu vidéo</h1>
+    
+    <h2 id="dissection-dune-expedition-de-donnee--les-magazines-de-jeu-video">Dissection d’une expédition de donnée : les magazines de jeu vidéo</h2>
+
+<p>Le 18 mai 2015 dans <a href="https://ecoledesdonnees.org/category/howto/">HowTo</a></p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Cet article est à la fois un tutoriel et une démonstration du processus que je suis pour réaliser une « expédition de donnée » seul, où en tant que participant durant un événement de l’École des données. Chaque étape va être détaillée : Trouver, Récupérer, Vérifier, Nettoyer, Explorer, Analyser, Visualiser, Publier.</p>
+
+<p>En fonction de vos données, de votre source ou de vos outils, l’ordre dans lequel vous passerez ces étapes sera différent. Mais le processus est globalement le même.</p>
+
+<h3 id="trouver">TROUVER</h3>
+
+<p>Une expédition de données peut partir d’une question (i.e. quel est le niveau de pollution de l’air des capitales européennes ?) ou d’un jeu de données que vous voulez explorer. Dans le cas qui nous intéresse, j’avais une question : les marché des magazines de jeux vidéos a-t-il décliné ces dernières années ? Cela fait plusieurs semaine que j’étudie l’industrie du jeu vidéo et c’est une des nombreuses questions auxquelles j’ai cherché des réponses.</p>
+
+<p>Evidemment, il y a d’autres questions intéressantes à explorer, mais il vaut mieux commencer avec une seule question et étendre le champ de recherche par la suite.</p>
+
+<p>Après quelques recherches, la page Wikipedia anglophone s’est avérée être la source la plus complète sur les magazines de jeux vidéos. On y trouve même des informations contextuelles qui seront utiles plus tard (le contexte est essentiel dans l’analyse de données).</p>
+
+<p><img src="http://ecoledesdonnees.org/files/2015/05/image_0.png" alt="image alt text" /></p>
+
+<p><a href="https://en.wikipedia.org/wiki/List_of_video_game_magazines">https://en.wikipedia.org/wiki/List_of_video_game_magazines</a></p>
+
+<h3 id="recuperer">RECUPERER</h3>
+
+<p>Les données Wikipedia sont sous forme de tableau. Parfait ! Les scraper est aussi simple que d’utiliser la fonction importHTML dans Google Spreadsheet. Je pourrais copier/coller le tableau, mais ça devient peu pratique lorsque le tableau est très long et le résultat serait mal formatté. LibreOffice et Excel ont des fonctionnalités d’import similaires, bien que moins intuitives.</p>
+
+<p>importHTML requière 3 variables : le lien vers la page, le format des données (tableau ou liste) et le range du tableau (ou de la liste) dans la page. Si aucun rang n’est indiqué, la fonction récupérera le premier tableau qu’elle trouve.</p>
+
+<p><img src="http://ecoledesdonnees.org/files/2015/02/janv.-31-2015-2343.gif" alt="image alt text" /></p>
+
+<p>Une fois que j’ai récupéré le tableau, je fais deux choses pour travailler plus rapidement :</p>
+
+<ul>
+  <li>je change la police et la taille des cellules au minimum, pour voir plus d’éléments à la fois,</li>
+  <li>je copie l’ensemble et je fais : Edition-&gt;Collage spécial-&gt;Coller uniquement les valeurs. De cette façon, le tableau n’est plus lié à importHTML, et je peux le modifier à souhait.</li>
+</ul>
+
+<h3 id="verifier">VERIFIER</h3>
+
+<p>Ces données vont-elles répondre complèyement à ma question ? J’ai bien les données de base (nom, date de création, date de dépôt de bilan), mais est-ce que tous les magazines y sont ? Une vérification du côté de la <a href="https://fr.wikipedia.org/wiki/Liste_de_magazines_de_jeux_vid%C3%A9o">page wikipedia francophone</a> sur les magazines de jeux vidéos montre que beaucoup de magazines français manquent à l’appel. La plupart des magazines présents sont des Etats-Unis ou de Grande Bretagne, et sans aucun doute uniquement les plus connus. Je devrai donc prendre cela en compte pour la suite.</p>
+
+<h3 id="nettoyer">NETTOYER</h3>
+
+<p>Travailler directement sur vos données brutes n’est jamais une bonne idée. Une bonne habitude est de travailler sur une copie ou de façon non-destructive – ainsi, si vous faites une erreur et que vous n’êtes pas certain de vous, vous pourrez retourner en arrière et comparer votre fichier à l’original.</p>
+
+<p>Puisque je ne veux garder que les magazines de Grande Bretagne et des Etats Unis, je vais :</p>
+
+<ul>
+  <li>Renommer la feuille de calcul originale « Raw Data » (c’est à dire « Données brutes »)</li>
+  <li>
+    <p>Faire une copie de cette feuille et l’appeler « Clean Data » (c’est à dire « Données nettoyées »)</p>
+  </li>
+  <li>
+    <p>Trier par ordre alphabétique la feuille « Clean Data » selon la colonne « Country»</p>
+  </li>
+  <li>Supprimer toutes les lignes correspondant aux pays autres que la Grande Bretagne et les Etats-Unis.</li>
+</ul>
+
+<p><img src="http://ecoledesdonnees.org/files/2015/02/fe%CC%81vr.-01-2015-1327.gif" alt="image alt text" /><img src="http://ecoledesdonnees.org/files/2015/02/ordering-data.gif" alt="image alt text" /></p>
+
+<p>Astuce : pour éviter de faire bouger les en-têtes de colonnes quand vous triez vos données, aller à Affichage-&gt;Figer une ligne.</p>
+
+<p>D’autres ajustements mineurs doivent être réalisés, mais ils sont assez légers pour que j’ai pas recours à une outil spécialisé comme <a href="http://openrefine.org/">Open Refine</a> :</p>
+
+<ul>
+  <li>Scinder les lignes où deux pays sont listés (i.e. PC Gamer devient PC Gamer UK et PC Gamer US)</li>
+  <li>
+    <p>Supprimer la colonne « ref », qui n’ajoute aucune information</p>
+  </li>
+  <li>Supprimer une ligne où la date de création est manquante.</li>
+</ul>
+
+<h3 id="explorer">EXPLORER</h3>
+
+<p>J’appelle « exploration » l’étape à laquelle je pense aux différentes réponses que mon jeu de données nettoyé peut donner à ma question initiale. Votre narration sera beaucoup plus riche si vous attaquez la question de plusieurs angles.</p>
+
+<p>Il y a plusieurs choses que je pourrais chercher dans les données :</p>
+
+<ul>
+  <li>des particularités intéressantes</li>
+  <li>
+    <p>des changements au cours du temps</p>
+  </li>
+  <li>
+    <p>des expériences personnelles</p>
+  </li>
+  <li>
+    <p>des interactions surprenantes</p>
+  </li>
+  <li>des comparaisons qui permettent de contextualiser</li>
+</ul>
+
+<p>Que puis-je donc faire ? Je peux :</p>
+
+<ul>
+  <li>afficher le nombre de magazines en existence chaque année, ce qui me permettra de savoir si il y a eu un déclin ou non (changements au cours du temps)</li>
+  <li>regarder le nombre de magazines créés par année, pour savoir si le marché est toujours dynamique (changements au cours du temps)</li>
+</ul>
+
+<p>Dans le cadre de ce tutoriel, je vais me concentrer sur la seconde question, c’est à dire le nombre de magazines créés par année. Un autre tutoriel sera dédié à la première, car elle demande une approche plus complexe en raison du format des données.</p>
+
+<p>A ce stade, j’ai plein d’autres idées en tête : Est-ce que je peux déteminer l’année ayant produit le plus de magazines (particularités intéressantes) ? Est-ce que la comparaison avec les données sur les sites de jeu vidéo serait intéressante (comparaisons qui permettent de contextualiser) ? Quels magazines ont la plus grand longévité (particularité intéressante) ? Toutes ces questions valent le coup d’être explorées, mais elle ne le seront pas dans le cadre de ce tutoriel. Il vaut mieux à ce stade les noter afin de les revisiter plus tard : traiter les questions une à une permet d’éviter les erreurs.</p>
+
+<h3 id="analyse">ANALYSE</h3>
+
+<p>Il s’agit ici d’appliquer les techniques d’analyse de données à mon jeu de données et d’explorer les visualisations possibles.</p>
+
+<p>La façon la plus rapide de répondre à la question « combien de magazines ont été créés chaque année ? » est d’utiliser un tableau croisé dynamique.</p>
+
+<ol>
+  <li>Sélectionnez la portion des données qui répondent à la question (les colonnes « name » et « founded »)</li>
+  <li>
+    <p>Aller à Données -&gt; Tableau croisé dynamique</p>
+  </li>
+  <li>
+    <p>Dans la feuille de calcul créée, sélectionnez le champ « Founded » dans le menu déroulant de Lignes. Les années de création (founded) sont ordonnées et groupées, ce qui nous permet de compter le nombre de magazines pour chaque année, en commençant par la plus éloignée.</p>
+  </li>
+  <li>Je sélectionne ensuite le champ « Name » dans le menu déroulant de Valeurs. Le tableau croisé dynamique s’attend à des nombres par défaut (il essaye de réaliser une addition), donc rien ne s’affiche. Il faut sélectionner COUNTA, qui est la formule qui va compter le nombre d’éléments.</li>
+</ol>
+
+<p><img src="http://ecoledesdonnees.org/files/2015/02/fe%CC%81vr.-01-2015-1208.gif" alt="image alt text" /></p>
+
+<p>Ces données peuvent être visualisées avec un graphique de en barres.</p>
+
+<p><img src="http://ecoledesdonnees.org/files/2015/05/image_5.png" alt="image alt text" /></p>
+
+<p><em>source: https://en.wikipedia.org/wiki/List_of_video_game_magazines</em></p>
+
+<p>La ligne de tendance semble indiquer une déclin dans la dynamique du marché, mais il est difficile de déceler la tendance avec les barres seules. Si on groupe les années par demi-décades, la tendance est plus claire :</p>
+
+<p><img src="http://ecoledesdonnees.org/files/2015/02/fe%CC%81vr.-01-2015-1249.gif" alt="image alt text" /></p>
+
+<p>Notre nouveau graphique en barre ressemble donc à ça :</p>
+
+<p><img src="http://ecoledesdonnees.org/files/2015/05/image_7.png" alt="image alt text" /></p>
+
+<p><em>https://en.wikipedia.org/wiki/List_of_video_game_magazines</em></p>
+
+<p>Le nombre de magazines créée chaque 5 ans décroit beaucoup dans le années aux alentour de 2000. La baisse dramatique des années 1986-1990 est certainement une conséquence du <a href="https://fr.wikipedia.org/wiki/Krach_du_jeu_vid%C3%A9o_de_1983">krash du jeu vidéo de 1983</a>.</p>
+
+<p>Contrairement à ce que l’on aurait pu supposer, le marché est toujours dynamique, avec un magazine créé chaque année les 5 dernières années. L’histoire que l’on va pouvoir raconter n’en sera que plus nuancée et intéressante.</p>
+
+<h3 id="visualiser">VISUALISER</h3>
+
+<p>Dans le cadre de ce tutoriel, les graphiques créées durant l’étape d’analyse suffisent à ma narration. Mais dans l’hypothèse où mes résultats auraient requis une visualisation plus complexe, voire interactive, pour être communiqués, ce travail aurait été traité au sein de l’étape « visualiser ».</p>
+
+<h3 id="publier">PUBLIER</h3>
+
+<p>Où et comment publier est une question essentielle que vous devrez vous poser au moins une fois. Peut-être que vous faites partie d’une organisation qui a son site web et la question ne se pose pas. Mais si ce n’est pas le cas, et que vous n’avez pas encore de site web, la réponse peut-être plus longue à trouver. WordPress est un mastodonte qui en fait peut-être trop pour vos besoins. Tumblr est une possibilité, si vous êtes prêt à modifier le code à la main. Pour ceux qui baignent dans le milieu de la programmation, une combinaison de <a href="https://pages.github.com/">Github Pages</a> et de Jekyll peut-être une bonne idée. Si vous avez besoin d’une base de données légère, jetez un oeil à <a href="http://www.builtbybalance.com/tabletop">tabletop.js</a>, qui permet d’utiliser une Google spreadsheet comme une base de donnée basique.  </p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Toute expédition de donnée, quelque soit sa taille ou sa complexité, peut être gérée avec ce processus. En suivant les étapes listées ci-dessus, vous vous évitez de nombreux maux de tête et problèmes potentiels. Bien souvent vous aurez à récupérer et analyser des données supplémentaire pour contextualiser les données initiales, mais il s’agit alors simplement de répéter les différentes étapes autant de fois que nécessaire.</p>
+
+  </article>
+
+</div>
+
+<div class="page-tools">
+ 
+  
+  <ul>
+    
+    
+
+    
+    <li class="share tooltip-item">
+      Share
+      
+      <span class="tooltip">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://ecoledesdonnees.org/blog/post/2015/05/18/dissection-dune-expedition-de-donnee-les-magazines-de-jeu-video/" class="facebook" rel="external">Share on Facebook</a>
+        <a href="https://twitter.com/home?status=Dissection d’une expédition de donnée. Les magazines de jeu vidéo: http://ecoledesdonnees.org/blog/post/2015/05/18/dissection-dune-expedition-de-donnee-les-magazines-de-jeu-video/" class="twitter" rel="external">Share on Twitter</a>
+      </span>
+    </li>
+    
+    
+  </ul>
+  
+</div>
+
+        </div>
+      </div>
+    <!--  </div> -->
+ <footer class="site-footer">
+
+  <div>
+    <div class="primary">
+        <h6>Développé avec le soutien de : </h6>
+        <ul>
+          <li>
+              <a href="https://okfn.fr/" rel="external"><img src="/img/OK_LG_LOGO_FRANCE_WHITE_RGB.png" height="96" alt="Open Knowledge France"></a>
+               <a href="https://okfn.org/" rel="external"><img src="/img/okfn-logo-200x206.png" height="96" alt="Open Knowledge International"></a>
+          </li>
+        </ul>
+      </div>
+    <div class="secondary">
+      <ul>
+        <li><a href="/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      
+      <div>
+        <h6>Projets voisins </h6>
+        <ul>
+          
+          <li><a href="http://schoolofdata.org/">SchoolOfData.org</a></li>
+          
+          <li><a href="http://openspending.org/">OpenSpending.org</a></li>
+          
+          <li><a href="http://opendefinition.org/">OpenDefinition.org</a></li>
+          
+        </ul>
+      </div>
+      
+      <ul class="icons">
+        
+        
+        
+        <li class="source"><a href="https://github.com//ecoledesdonnees" rel="external"><span class="text">Source</span></a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</footer>
+ 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+    
+    <script src="//a.okfn.org/html/oki/panel/assets/js/frontend.js"></script>
+
+    <script>
+        // Append headings with link to ID
+        function headingLink(heading) {
+          $.each($(heading), function() {
+            var headingID = $(this).attr('id');
+            var headingURL = '#' + headingID;
+            if(typeof headingID != 'undefined') {
+              $( this ).append( '<span class="headerlink"><a class="icon-section"></a><span class="url"><a class="icon-link" href="'+headingURL+'"></a>http://ecoledesdonnees.org/blog/post/2015/05/18/dissection-dune-expedition-de-donnee-les-magazines-de-jeu-video/'+headingURL+'</span></span>' );
+            }
+          });
+        }
+        headingLink('.post h1');
+        headingLink('.post h2');
+        headingLink('.post h3');
+        headingLink('.post h4');
+        headingLink('.post h5');
+        headingLink('.post h6');
+
+        $(".headerlink a").click(function() {
+          $(this).parent('.headerlink').toggleClass("active");
+        });
+    </script>
+
+    
+
+  </body>
+
+</html>

@@ -1438,13 +1438,15 @@ Styles pour les donnees dans le footer
       border-radius: 5px;
 	      
     .post-wrap {
-    background-color: blue;
+    background-color: white;
     border-radius: 5px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 25px;
     }
+	      span p { height: 0;
+		      }
 
         &:after {
           content:'';

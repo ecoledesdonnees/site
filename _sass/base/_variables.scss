@@ -1,6 +1,6 @@
 // Typography
 $serif: 'Lora', Georgia, Cambria, "Times New Roman", Times, serif;
-$sans-serif: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$sans-serif: OpenSans,sans-serif;
 
 $monospaced: monaco,Consolas,"Lucida Console",monospace;
 
@@ -21,7 +21,7 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$base-accent-color: rgb(122,184,0);
+$base-accent-color: rgb(0, 175, 240);
 $dark-gray: #333;
 $medium-gray: #EDEDED;
 $light-gray: #FAFAFA;
@@ -39,3 +39,11 @@ $base-border: 1px solid $base-border-color;
 // Forms
 $form-box-shadow: none;
 $form-box-shadow-focus: none;
+
+// Header
+$header-colour: $base-accent-color;
+$header-text-colour: #fff;
+
+//Nav
+$nav-radius: 6px;
+$dropdown-bg: #fff;

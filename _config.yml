@@ -1,39 +1,87 @@
 # Site settings
-short_title: École des Données 
-url: "http://ecoledesdonnees.org" # the base hostname & protocol for your site
-github_repo: ecoledesdonnees
+title: L'école des données
+short_title: Ecole des données
+description: |
+  Apprendre à rendre les données utiles pour vous, et pour les autres
+baseurl: ""
+url: "" # the base hostname & protocol for your site
+github_username:  
+github_repo:  
+paypal: 
+contact: 
+
+gems:
+  - jekyll-redirect-from
 
 devs:
   -
       name: Sam Smith
-      github: mintcanary
+      github: smth
+  -
+      name: Rufus Pollock
+      github: rgrp
+  -
+      name: Paul Walsh
+      github: pwalsh
 
 contributors:
   -
-      name: Pierre Chrzanowski 
-      link: https://ecoledesdonnees.github.io/site/
+      name: Daniel Dietrich
+      link: http://ddie.me/
   -
-      name: Cécile Le Guen
-      link: https://ecoledesdonnees.github.io/site/
+      name: Jonathan Gray
+      link: http://jonathangray.org/
   -
-      name: Samuel Goëta
-      link: https://ecoledesdonnees.github.io/site/
+      name: Tim McNamara
+      link: http://timmcnamara.co.nz/
   -
-      name: Sylvia Fredriksson
-      link: https://ecoledesdonnees.github.io/site/
-      
-#googleanalytics: UA-XXXXX-X
+      name: Antti Poikola
+      link: http://poikola.fi/
+  -
+      name: Rufus Pollock
+      link: http://rufuspollock.org/
+  -
+      name: Julian Tait
+      link: http://www.littlestar.tv/
+  -
+      name: Ton Zijlstra
+      link: http://www.zylstra.org/blog/
+  -
+      name: Sam Smith
+      link: http://smth.uk/
 
+supporters:
+  -
+    name: Open Knowledge France
+    logo: 
+    footer_logo: OK_LG_LOGO_FRANCE_WHITE_RGB.png
+    url: https://okfn.fr/
+  -
+    name: Open Knowledge International
+    logo: 
+    footer_logo: okfn-logo-200x206.png
+    url: https://okfn.org/
+
+
+googleanalytics: 
+google_verification: 
+
+# Build settings
 markdown: kramdown
 
 permalink: pretty
+
+languages:
+  -
+    - fr
+    - Français
 
 meta:
   resources:
     label: resources
     output: true
     has_translation: false
-    title: Cours
+    title: Open Data Resources
     filters:
       - Topic
       - Language
@@ -42,18 +90,19 @@ meta:
 
 defaults:
   -
-    scope:
-      path: "pages"
+    scope: #this should be removed once more specific paths are defined
+      path: ""
     values:
+      lang: fr
       layout: page
-      section: pages
   -
     scope:
-      path: "posts"
+      path: "contribute"
     values:
-      layout: post
-      section: posts
-
+      lang: fr
+      section: contribute
+      layout: docs
+      edit: true
 
 related_projects:
   -
@@ -65,4 +114,3 @@ related_projects:
   -
       name: OpenDefinition.org
       link: http://opendefinition.org/
-

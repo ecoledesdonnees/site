@@ -1,76 +1,9 @@
-{% assign url_parts = page.url | split: '/' %}
-{% assign url_last = url_parts |last  %}
-
 <header class="site-header">
-  <a href="#menu" class="show-menu"><span class="text">Menu</span></a>
-  <a class="site-title" href="{{ site.baseurl }}/"><img class="icon" src="{{ site.baseurl }}/img/EDD_horiz_blanc_sur_bleu.png" alt="logo École des données"></a>
-</header>
-
-<nav id="menu">
-  <ul>
-    <li>
-      <a href="{{ site.baseurl }}/">Accueil</a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/">À propos</a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}/posts/">Cours</a>
-      <ul>
-        <li {% if url_last == 'cours' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/cours/savoir-faire/">Savoir-Faire</a>
-              <ul>
-                <li {% if url_last == 'cours' %}class="Selected"{% endif %}>
-                  <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/">Fondamentaux</a>
-                  <ul>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/I-qu_est_ce_qu_une_donnee/">1. Qu'est ce qu'une donnée ?</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/II-trouver-des-donnees/">2. Trouver des données</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/III-trier-et-filtrer/">3. Trier et filtrer les données</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/IV-Analyser-des-donnees-avec-des-feuilles-de-calcul/">4. Analyser des données grâce aux feuilles de calcul</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/V-une-introduction-aux-diagrammes/">5. Une introduction aux diagrammes</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/VI-idees-fausses/">6. Les faux amis</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/VII-raconte-moi-une-histoire/">7. Raconter une histoire avec des données</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.baseurl }}/cours/savoir-faire/fondamentaux/VIII-origine-des-donnees/">8. L'origine des données</a>
-                    </li>
-                  </ul>
-              <li>
-                  <a href="{{ site.baseurl }}/cours/savoir-faire/dataviz-cardgame">Dataviz cardgame</a>
-                </li>
-              </ul>
-        </li>
-            <li {% if url_last == 'page-two' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/resources/">Thématiques</a>
-        </li>
-      </ul>
-    </li>
-    <li {% if url_parts contains 'posts' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/posts/">Blog</a>
-    </li>
-    <li>
-        <a href="{{ site.baseurl }}/">Nous rejoindre</a>
-    </li>
-    <li>
-       <a href="{{ site.baseurl }}/">Contribuer</a>
-    </li>
-</nav>
   
-  
-  <!-- <nav id="menu-horizontal">
+  	<div class="wrapper">
+        <a class="logo" href="{{ site.baseurl }}/"><img src="/img/logo.png" alt="logo école des données - retour à l'accueil" id="header-logo"></a>
+        {% assign current_page = page.url | downcase | split: '/' %}
+		<nav>
 			<ul>
                 {% for item in site.data.menu %}
                 {% if item.subitems != null %}
@@ -89,4 +22,8 @@
                 </li>
             {% endfor %}
             </ul>
-		</nav> -->
+		</nav>
+	</div>
+	<a id="cd-menu-trigger" href="#0"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
+</header>
+

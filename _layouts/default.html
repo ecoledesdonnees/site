@@ -7,19 +7,47 @@
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <!--<div id="ok-panel" class="closed"><div class="container"><iframe src="//a.okfn.org/html/oki/panel/panel.html" scrolling="no"></iframe></div></div>
+    <div>-->
+      <!--<div id="ok-panel-wrapper">
+        <a class="white ok-ribbon" href="https://okfn.org/"><img src="//a.okfn.org/html/oki/panel/assets/images/oki-ribbon.png" alt="Open Knowledge International"></a>
+      </div>-->
       <div>
         {% include header.html %}
 
         <div class="page-content">
           {{ content }}
         </div>
-      </div>
-    <!--  </div> -->
- {% include footer.html %} 
 
+        {% include footer.html %}
+      </div>
+    </div>
+
+    <!-- RESPONSIVE LATERAL MENU -->
+    <nav id="cd-lateral-nav">
+            <ul class="cd-navigation">
+                {% for item in site.data.menu %}
+                {% if item.subitems != null %}
+                <li class="item-has-children">
+                <a href="{{ site.baseurl }}/{{ item.slug }}/">{{ item.title }}</a>
+                <ul class="sub-menu">
+                    {% for subcategory in item.subitems %}
+                    <li><a href="{{ site.baseurl }}/{{ item.slug }}/{{ subcategory.subslug }}/">{{ subcategory.subtitle }}</a></li>
+                    {% endfor %}
+                </ul>
+
+                {% else %}
+                <li>
+                    <a href="{{ site.baseurl }}/{{ item.slug }}">{{ item.title }}</a>
+                {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </nav>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="{{ "/js/plugins.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/vendor/twitterFetcher_min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
     {% if page.js %}
     {% for file in page.js %}

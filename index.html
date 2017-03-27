@@ -1,62 +1,59 @@
 ---
 layout: default
-js: 
- - vendor/jquery.adaptive-backgrounds.min
- - home
+lang: en
 ---
 
 <div class="home">
-  <section class="banner" data-adaptive-background='1' data-ab-css-background='1'>
+  <section class="banner">
     <div class="wrapper">
-      <p>Apprendre à rendre les données utiles</br>pour vous, et pour les autres</p>
-      <!-- </p> -->
+      <h1>L'École des données</h1>
+      <p>{{ site.description }}</p>
+      <a href="#" class="button"><strong>contribuez</strong> à l'aventure</a>
+      <a href="#" class="button"><strong>suivez</strong> nos cours</a>
     </div>
   </section>
+  
 
-  <div class="wrapper">
 
-    <div class="post-section">  
-        <h2>À propos</h2>
-        <div class="post-wrap">
-        <h3><a href="#">L'École des Données</a></h3>
-         <p>L'École des Données est un projet de l’Open Knowledge Foundation lancé en mai 2012 qui a pour but de donner plus de pouvoir à la société civile en enseignant les compétences nécessaires pour réutiliser des données. Nous proposons des cours gratuits en ligne ainsi que des expéditions de données pour explorer en détails une thématique.</p>
-        <a href="{{ "/pages/" | prepend: site.baseurl }}">En savoir plus</a>
-      </div> <!-- end div post-wrap -->
-     </div> <!-- end div post-section -->
+  <section class="wrapper" id="site-content">
+      <div class="home-col">
+        <h2>à propos</h2>
+        <h3>L'école des données</h3>
+        <p>L'École des Données est un projet de l’Open Knowledge Foundation lancé en mai 2012 qui a pour but de donner plus de pouvoir à la société civile en enseignant les compétences nécessaires pour réutiliser des données. Nous proposons des cours gratuits en ligne ainsi que des expéditions de données pour explorer en détails une thématique.</p>
+        <a href="{{ site.baseurl | append: 'guide/'| append: page.lang | append: '/'}}" class="savoir-plus">en savoir plus</a>
+      </div>
+      <div class="home-col">
+          <h2>cours et ressources</h2>
+          <h3>Lorem ipsum...</h3>
+          <p>Use cases, stories and case studies highlighting the social and economic value, the impact and the varied applications of open data from cities and countries across the globe.</p>
+          <a href="{{ site.baseurl | append: 'value-stories/' | append: page.lang | append: '/' }}" class="savoir-plus">en savoir plus</a>
+      </div>
+      <div class="home-col">
+          <h2>dernier post</h2>
+          <h3>Astuce. Copier tous les éléments d’une liste de plusieurs pages</h3>
+          <p>A curated collection of open data resources, including articles, longer publications, how to guides, presentations and videos, produced by the global open data community.</p>
+          <p>A curated collection of open data resources, including articles, longer publications, how to guides, presentations and videos, produced by the global open data community.</p>
+          <a href="{{ site.baseurl | append: 'resources/' }}" class="savoir-plus">en savoir plus</a>
+      </div>
+  </section>
+      
 
-     <div class="post-section">
-     <h2>Les cours et les ressources</h2>
-       <div class="post-wrap">
-          {% for cours in site.categories.cours limit:1 %}
-            <h3><a href="{{ site.baseurl }}{{ cours.url }}">{{ cours.title }}</a></h3>
-            {% if cours.author %}
-            <span class="auteur">
-              Publié par {{ cours.author }}{% if cours.author_affiliation %}{% endif %}
-            </span>
-            {% endif %}
-            <span>{{ cours.description | truncate: 250 | markdownify }}</span>
-            <a href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
-          {% endfor %}
-       </div> <!-- end div post-wrap -->
-      </div>  <!-- end div post-section -->
-   
-      <div class="post-section">
-       <h2>Dernier Blogpost</h2>
-        <div class="post-wrap">
-          {% for post in site.categories.blogpost limit:1  %}
-            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-            {% if post.author %}
-            <span class="authorhome">
-              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
-            </span>
-            {% endif %}
-            <span>{{ post.description | truncate: 250 | markdownify }}</span>
-            <a href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
-          {% endfor %}
-       </div> <!-- end div post-wrap -->
-      </div>  <!-- end div post-section -->
 
-  </div> <!-- end div class.wrapper -->
-<!-- </div> -->
-<!-- {% include footer.html %} -->
+    <div class="tweets">
+      <div>
+        <div class="item" id="twitter-follow-us">
+          <h2><strong>Follow</strong> us on</h2><span class="twitter-icon"></span>
+        </div>
+        <div class="item" id="EDD-tweet">
 
+        </div>
+        <!--<div class="item">
+          <blockquote class="twitter-tweet" data-lang="fr" data-chrome="noheader%20nofooter%20transparent" data-cards="hidden" data-width:80%;style="border:none">
+            <p lang="fr" dir="ltr">[ article ] Pour une pratique féministe de la visualisation de données via <a href="https://twitter.com/internetactu">@internetactu</a> w/ <a href="https://twitter.com/kanarinka">@kanarinka</a> : <a href="https://t.co/iKKv4RbfjR">https://t.co/iKKv4RbfjR</a></p>
+            &mdash; Ecole des Données (@Ecoledesdonnees) <a href="https://twitter.com/Ecoledesdonnees/status/824259766193164288">25 janvier 2017</a>
+          </blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>-->
+    </div>
+    </div>
+</div>

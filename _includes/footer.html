@@ -13,7 +13,7 @@
 
       {% if site.supporters %}
       <div class="supporters">
-        <h6>Développé avec le soutien de :</h6>
+        <h6>Développé avec le soutien de</h6>
         {% for supporter in site.supporters %}
           {% if supporter.footer_logo %}
           <a href="{{ supporter.url }}" rel="external"><img src="{{ site.baseurl }}/img/supporters/{{ supporter.footer_logo }}" alt="{{ supporter.name }}"></a>

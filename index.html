@@ -23,7 +23,7 @@ lang: en
         <a href="{{ site.baseurl | append: 'guide/'| append: page.lang | append: '/'}}" class="savoir-plus">en savoir plus</a>
       </div>
       <div class="home-col">
-          <h2>cours et ressources</h2>
+          <h2>Les cours et ressources</h2>
         {% for cours in site.categories.cours limit:1 %}
           <h3><a href="{{ site.baseurl }}{{ cours.url }}">{{ cours.title }}</a></h3>
           {% if cours.author %}
@@ -36,11 +36,17 @@ lang: en
           <a class="savoir-plus" href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
       </div>
       <div class="home-col">
-          <h2>dernier post</h2>
-          <h3>Astuce. Copier tous les éléments d’une liste de plusieurs pages</h3>
-          <p>A curated collection of open data resources, including articles, longer publications, how to guides, presentations and videos, produced by the global open data community.</p>
-          <p>A curated collection of open data resources, including articles, longer publications, how to guides, presentations and videos, produced by the global open data community.</p>
-          <a href="{{ site.baseurl | append: 'resources/' }}" class="savoir-plus">en savoir plus</a>
+          <h2>Dernier Blogpost</h2>
+         {% for post in site.categories.blogpost limit:1  %}
+          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+          {% if post.author %}
+            <span class="authorhome">
+              Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
+            </span>
+            {% endif %}
+            <span>{{ post.description | truncate: 250 | markdownify }}</span>
+          <a class="savoir-plus" href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
+          {% endfor %}
       </div>
   </section>
       

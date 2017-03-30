@@ -4,9 +4,9 @@ short_title: Ecole des données
 description: |
   Apprendre à rendre les données utiles pour vous, et pour les autres
 baseurl: ""
-url: "" # the base hostname & protocol for your site
-github_username:  
-github_repo:  
+url: "http://ecoledesdonnees.org" # the base hostname & protocol for your site
+github_username: ecoledesdonnees
+github_repo: site
 paypal: 
 contact: 
 
@@ -26,29 +26,21 @@ devs:
 
 contributors:
   -
-      name: Daniel Dietrich
-      link: http://ddie.me/
+      name: Pierre Chrzanowski 		 
+      link: https://ecoledesdonnees.github.io/site/
+      
   -
-      name: Jonathan Gray
+      name: Cécile Le Guen
       link: http://jonathangray.org/
   -
-      name: Tim McNamara
+      name: Samuel Goëta	
       link: http://timmcnamara.co.nz/
   -
-      name: Antti Poikola
+      name: Sylvia Fredriksson
       link: http://poikola.fi/
   -
-      name: Rufus Pollock
-      link: http://rufuspollock.org/
-  -
-      name: Julian Tait
-      link: http://www.littlestar.tv/
-  -
-      name: Ton Zijlstra
-      link: http://www.zylstra.org/blog/
-  -
-      name: Sam Smith
-      link: http://smth.uk/
+      name: Agathe Sevegrand
+      link: #
 
 supporters:
   -
@@ -81,20 +73,22 @@ meta:
     label: resources
     output: true
     has_translation: false
-    title: Open Data Resources
+    title: Cours
     filters:
       - Topic
       - Language
       - Region
       - MediaType
 
-defaults:
-  -
+defaults:		
+
+   -
     scope: #this should be removed once more specific paths are defined
-      path: ""
+      path: "pages"
     values:
       lang: fr
       layout: page
+      section: pages		
   -
     scope:
       path: "contribute"
@@ -103,6 +97,15 @@ defaults:
       section: contribute
       layout: docs
       edit: true
+      
+  -
+    scope:
+      path: "posts"
+    values:
+      lang: fr
+      section: posts
+      layout: post
+    
 
 related_projects:
   -

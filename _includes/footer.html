@@ -3,7 +3,7 @@
     <div>
       <div class="item">600<sup>+</sup> <strong>PERSONNES</strong> initiées</div>
       <div class="item">15 <strong>COURS</strong> gratuits et en ligne</div>
-      <div class="item">1 <strong>RÉSEAU</strong> nternational</div>
+      <div class="item">1 <strong>RÉSEAU</strong> international</div>
       <div class="item">plusieurs <strong>EXPÉDITIONS</strong> de données par an</div>
     </div>
   </div>
@@ -13,7 +13,7 @@
 
       {% if site.supporters %}
       <div class="supporters">
-        <h6>Supported by</h6>
+        <h6>Développé avec le soutien de :</h6>
         {% for supporter in site.supporters %}
           {% if supporter.footer_logo %}
           <a href="{{ supporter.url }}" rel="external"><img src="{{ site.baseurl }}/img/supporters/{{ supporter.footer_logo }}" alt="{{ supporter.name }}"></a>
@@ -25,9 +25,9 @@
 
     <div class="secondary">
       <ul>
-        <li><a href="{{ site.baseurl }}/contribute/">Contribute</a></li>
-        <li><a href="https://okfn.org/terms-of-use/" rel="external">Terms of use</a></li>
-        <li><a href="https://okfn.org/privacy-policy/" rel="external">Privacy policy</a></li>
+        <li><a href="{{ site.baseurl }}/contribute/">Contribuer</a></li>
+        <li><a href="https://okfn.org/terms-of-use/" rel="external">Conditions d'utilisation</a></li>
+        <li><a href="https://okfn.org/privacy-policy/" rel="external">Confidentialité</a></li>
         <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="{{ site.baseurl }}/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
       </ul>
     </div>
@@ -35,7 +35,7 @@
     <div class="tertiary">
       {% if site.related_projects %}
       <div>
-        <h6>Related Projects</h6>
+        <h6>Projets voisins</h6>
         <ul>
           {% for project in site.related_projects %}
           <li><a href="{{ project.link }}">{{ project.name }}</a></li>

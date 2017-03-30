@@ -1848,7 +1848,7 @@ html.mm-background .mm-page,
           height: 64px;
           vertical-align: middle;
           display: inline-block;
-          background: url(/img/twitter.svg) center no-repeat;
+          background: url({{ site.baseurl }}/img/twitter.svg) center no-repeat;
       }
       .user{
       display:none;

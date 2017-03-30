@@ -44,7 +44,7 @@ lang: en
               Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
             </span>
             {% endif %}
-            <span>{{ post.description | truncate: 250 | markdownify }}</span>
+            <span>{{ post.description | truncate: 260 | markdownify }}</span>
           <a class="savoir-plus" href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
           {% endfor %}
       </div>

@@ -1,10 +1,10 @@
 # Site settings
-title: "L'école des données"
-short_title: "Ecole des données"
+short_title: "École des Données" 
 description: |
   "Apprendre à rendre les données utiles pour vous, et pour les autres"
-baseurl: ""
 url: "http://ecoledesdonnees.org" # the base hostname & protocol for your site
+baseurl: ""
+
 github_username: ecoledesdonnees
 github_repo: site
 paypal: 
@@ -80,15 +80,21 @@ meta:
       - Region
       - MediaType
 
-defaults:		
 
-   -
-    scope: #this should be removed once more specific paths are defined
+defaults:
+  -
+    scope:
       path: "pages"
     values:
-      lang: fr
       layout: page
-      section: pages		
+      section: pages
+  -
+    scope:
+      path: "posts"
+    values:
+      layout: post
+      section: posts
+
   -
     scope:
       path: "contribute"
@@ -98,14 +104,6 @@ defaults:
       layout: docs
       edit: true
       
-  -
-    scope:
-      path: "posts"
-    values:
-      lang: fr
-      section: posts
-      layout: post
-    
 
 related_projects:
   -

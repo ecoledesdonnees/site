@@ -1,8 +1,8 @@
 # Site settings
-title: L'école des données
-short_title: Ecole des données
+title: "L'école des données"
+short_title: "Ecole des données"
 description: |
-  Apprendre à rendre les données utiles pour vous, et pour les autres
+  "Apprendre à rendre les données utiles pour vous, et pour les autres"
 baseurl: ""
 url: "http://ecoledesdonnees.org" # the base hostname & protocol for your site
 github_username: ecoledesdonnees

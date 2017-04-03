@@ -1421,7 +1421,6 @@ padding-right: 20px;
 padding-bottom: 25px;
              }
 	      
-
         &:after {
           content:'';
           background-color:$medium-gray;
@@ -1469,6 +1468,11 @@ padding-bottom: 25px;
     }
  
    .auteur span {
+    font-size: 12px;
+    margin-bottom: 20px;
+    }
+	  
+    .authorhome {
     font-size: 12px;
     margin-bottom: 20px;
     }

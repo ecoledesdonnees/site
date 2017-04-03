@@ -1443,6 +1443,12 @@ html.mm-background .mm-page,
     text-transform: uppercase;
     font-size: 12pt;
     }
+	  
+    div .post-wrap {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    }
 
     h3 {
     margin-bottom: 1.67em;
@@ -1455,7 +1461,7 @@ html.mm-background .mm-page,
     font-weight: 600;
     }
  
-   .auteur span {
+   .auteur span p{
     font-size: 12px;
     margin-bottom: 20px;
     }

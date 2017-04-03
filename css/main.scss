@@ -594,6 +594,7 @@ body:not( .filters ) {
   background-color: $base-accent-color;
   width:100%;
   z-index:1;
+  height:80px;
 
   /* CHANGED STYLE */
   /*.show-menu {
@@ -1787,7 +1788,7 @@ html.mm-background .mm-page,
 
 /* AGATHE STYLE */
 #header-logo {
-  max-height: 3em;
+  max-height: 5em;
 }
 
 #site-content {
@@ -1847,7 +1848,7 @@ html.mm-background .mm-page,
           height: 64px;
           vertical-align: middle;
           display: inline-block;
-          background: url(/img/twitter.svg) center no-repeat;
+          background: url({{ site.baseurl }}/img/twitter.svg) center no-repeat;
       }
       .user{
       display:none;

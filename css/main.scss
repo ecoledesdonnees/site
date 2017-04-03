@@ -1461,9 +1461,14 @@ html.mm-background .mm-page,
     }
 
     p {
-      font-weight:300;
-      font-size:rem(16);
-      margin-bottom:rem(15);
+      font-weight:100;
+      color: #333;
+      font-size: 11pt;
+      line-height: 22px;
+      margin-bottom: 0.9375rem;
+      margin-top: 20px;
+      /*font-size:rem(16);/*
+      /*margin-bottom:rem(15);*/    
     }
 
     & > a {

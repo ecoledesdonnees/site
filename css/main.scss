@@ -1087,6 +1087,8 @@ html.mm-background .mm-page,
 .site-footer {
   color:$light-gray;
   padding:$base-spacing;
+  padding-left: 150px;
+  padding-right: 150px;	
 
   & > div {
     @include outer-container(100%);
@@ -1981,18 +1983,6 @@ strong {
   text-transform: uppercase;
   font-size: 12.8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

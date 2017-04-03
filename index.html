@@ -17,13 +17,13 @@ lang: en
 
   <section class="wrapper" id="site-content">
       <div class="home-col">
-        <h2>à propos</h2>
+        <h2><strong>à propos</strong>de l'École des Données</h2>
         <h3>L'école des données</h3>
         <p>L'École des Données est un projet de l’Open Knowledge Foundation lancé en mai 2012 qui a pour but de donner plus de pouvoir à la société civile en enseignant les compétences nécessaires pour réutiliser des données. Nous proposons des cours gratuits en ligne ainsi que des expéditions de données pour explorer en détails une thématique.</p>
         <a href="{{ site.baseurl | append: 'guide/'| append: page.lang | append: '/'}}" class="savoir-plus">en savoir plus</a>
       </div>
       <div class="home-col">
-          <h2>Les cours et ressources</h2>
+          <h2><strong>Derniers</strong> Cours et Ressources</h2>
         {% for cours in site.categories.cours limit:1 %}
           <h3><a href="{{ site.baseurl }}{{ cours.url }}">{{ cours.title }}</a></h3>
           {% if cours.author %}
@@ -36,7 +36,7 @@ lang: en
           <a class="savoir-plus" href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
       </div>
       <div class="home-col">
-          <h2>Dernier Blogpost</h2>
+          <h2><strong>Dernier</strong> Blogpost</h2>
          {% for post in site.categories.blogpost limit:1  %}
           <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
           {% if post.author %}

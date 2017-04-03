@@ -36,7 +36,7 @@ lang: en
               Publié par {{ cours.author }}{% if cours.author_affiliation %}{% endif %}
             </span>
             {% endif %}
-            <span>{{ cours.description | truncate: 280 | markdownify }}</span>
+            <span>{{ cours.description | truncate: 300 | markdownify }}</span>
           {% endfor %}
           <a class="savoir-plus" href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
              </div> <!-- End div class="post-wrap" -->
@@ -51,7 +51,7 @@ lang: en
               Published by {{ post.author }}{% if post.author_affiliation %} on <em>{% if post.date %}{% endif %}</em>{% endif %}
             </span>
             {% endif %}
-            <span>{{ post.description | truncate: 280 | markdownify }}</span>
+            <span>{{ post.description | truncate: 300 | markdownify }}</span>
           <a class="savoir-plus" href="{{ "/posts/" | prepend: site.baseurl }}">En savoir plus</a>
           {% endfor %}
            </div>   <!-- End div class="post-wrap" -->

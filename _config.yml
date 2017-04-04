@@ -1,7 +1,8 @@
 # Site settings
 short_title: "École des Données" 
 description: |
-  "Apprendre à rendre les données utiles pour vous, et pour les autres"
+  Apprendre à rendre les données utiles pour vous, et pour les autres. 
+  Savoir c'est pouvoir. 
 url: "http://ecoledesdonnees.org" # the base hostname & protocol for your site
 # baseurl: "http://ecoledesdonnees.org"
 

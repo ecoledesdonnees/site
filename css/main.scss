@@ -1364,12 +1364,14 @@ html.mm-background .mm-page,
       /* END CHANGED */
 
       p {
-        font-family:$serif;
+        /*font-family:$serif;*/
         /*font-style:italic;*/
         /* CHANGED */
         /* Add color */
+	font-family: OpenSans,sans-serif;      
         color: #fff;
-        font-size: 22px;
+        font-size: 18px;
+        line-height: 24px;      
         /*text-shadow: 1px 1px 2px $dark-gray;*/
 
         @include media($medium-screen) {

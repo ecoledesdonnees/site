@@ -19,6 +19,13 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+h2 {
+  color: $base-accent-color;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 18pt
+}
+
 p {
   margin: 0 0 $small-spacing;
 }

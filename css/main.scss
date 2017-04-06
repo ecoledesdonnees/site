@@ -2073,22 +2073,23 @@ strong {
                 margin-left: 3px;
 
                 & > a {
-                    border: solid 2px $header-colour;
+                    // CHANGED STYLE//
+                    //border: solid 2px $header-colour;//
                     border-radius: $nav-radius;
                     font-weight: 600;
                 }
 
                 &.active {
                     & > a {
-                        border-color: $header-text-colour;
+                        //border-color: $header-text-colour;//
                     }
                 }
 
                 &:hover {
                     & > a {
-                        border-color: $header-text-colour;
-                        background-color: $header-text-colour;
-                        color: $header-colour;
+                        //border-color: $header-text-colour;//
+                        background-color: #23a1d4;
+                        color: $header-text-colour;
                     }
                 }
 
@@ -2096,8 +2097,8 @@ strong {
                   position: relative;
 
                   & > a {
-                    border-radius: $nav-radius $nav-radius 0 0;
-                    border-color: $light-gray;
+                    //border-radius: $nav-radius $nav-radius 0 0;
+                    //border-color: $light-gray;//
                   }
 
                   &:after {
@@ -2110,8 +2111,8 @@ strong {
                     right: 0;
                     bottom: -2px;
                     z-index: 2;
-                    border-left: solid 2px $light-gray;
-                    border-right: solid 2px $light-gray;
+                    //border-left: solid 2px $light-gray;//
+                    //border-right: solid 2px $light-gray;//
                   }
 
                 }
@@ -2124,11 +2125,12 @@ strong {
                 left:0;
                 background-color: $dropdown-bg;
                 padding:0;
-                border: solid 2px $light-gray;
-                border-radius: 0 $nav-radius $nav-radius $nav-radius;
+                //border: solid 2px $light-gray;//
+                border-radius: 0 $nav-radius $nav-radius $nav-radius;//
                 overflow: hidden;
                 z-index: 1;
-                color:$base-font-color;
+                color: $base-font-color;
+                font-weight: 600;
 
                 li {
                     float:none;
@@ -2138,7 +2140,8 @@ strong {
                         background:$light-gray;
 
                         & > a {
-                            color: inherit;
+                            //color: inherit;//
+                            color: $base-font-color;
                         }
                     }
                 }
@@ -2147,10 +2150,14 @@ strong {
                   padding-top: 0.2em;
                   padding-bottom: 0.2em;
                   font-size: 0.9em;
-                  color: $base-accent-color;
+                  //color: $base-accent-color;//
+                  color: $base-font-color;
+
 
                     &:hover {
-                        background-color: $light-gray;
+                        //background-color: $light-gray;//
+                        background-color: $dropdown-bg;
+                        color: $header-text-colour;
                     }
                 }
 

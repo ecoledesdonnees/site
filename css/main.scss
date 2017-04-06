@@ -1087,13 +1087,17 @@ html.mm-background .mm-page,
 .site-footer {
   color:$light-gray;
   padding:$base-spacing;
-  padding-left: 150px;
-  padding-right: 150px;	
 
   & > div {
     @include outer-container(100%);
   }
 
+  & > div.wrapper {
+      width:68em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
   a {
     color:$light-gray;
   }

@@ -15,32 +15,30 @@ lang: en
 
 
   <section class="wrapper" id="site-content">
-
-      <div class="home-col">
+    <div class="home-col">
       
          <h2><strong>à propos</strong> du projet</h2>
       
           <div class="post-wrap">
-            <h3><a href="#">L'École des Données en quelques mots</a></h3>
-            <p>L'École des Données est un projet de l’Open Knowledge Foundation lancé en mai 2012 qui a pour but de donner plus de pouvoir à la société civile en enseignant les compétences nécessaires pour réutiliser des données. Nous proposons des cours gratuits en ligne ainsi que des expéditions de données pour explorer en détails une thématique.</p>
-            <a href="{{ site.baseurl | append: 'guide/'| append: page.lang | append: '/'}}" class="savoir-plus">en savoir plus</a>
+          <h3><a href="#">L'École des Données en quelques mots</a></h3>
+          <p>L'École des Données est un projet de l’Open Knowledge Foundation lancé en mai 2012 qui a pour but de donner plus de pouvoir à la société civile en enseignant les compétences nécessaires pour réutiliser des données. Nous proposons des cours gratuits en ligne ainsi que des expéditions de données pour explorer en détails une thématique.</p>
+          <a href="{{ site.baseurl | append: 'guide/'| append: page.lang | append: '/'}}" class="savoir-plus">en savoir plus</a>
           </div> <!-- End div class="post-wrap" -->
-          
+      
       </div>
-
       <div class="home-col">
           <h2><strong>Derniers</strong> Cours et Ressources</h2>
         {% for cours in site.categories.cours limit:1 %}
            <div class="post-wrap"> 
-              <h3><a href="{{ site.baseurl }}{{ cours.url }}">{{ cours.title }}</a></h3>
-                {% if cours.author %}
-                  <span class="authorhome">
-                    Publié par {{ cours.author }}{% if cours.author_affiliation %}{% endif %}
-                  </span>
-                  {% endif %}
-                  <span>{{ cours.description | truncate: 300 | markdownify }}</span>
-                {% endfor %}
-                <a class="savoir-plus" href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
+        <h3><a href="{{ site.baseurl }}{{ cours.url }}">{{ cours.title }}</a></h3>
+          {% if cours.author %}
+            <span class="authorhome">
+              Publié par {{ cours.author }}{% if cours.author_affiliation %}{% endif %}
+            </span>
+            {% endif %}
+            <span>{{ cours.description | truncate: 300 | markdownify }}</span>
+          {% endfor %}
+          <a class="savoir-plus" href="{{ "/resources/" | prepend: site.baseurl }}">En savoir plus</a>
              </div> <!-- End div class="post-wrap" -->
       </div>
       <div class="home-col">
@@ -58,7 +56,6 @@ lang: en
           {% endfor %}
            </div>   <!-- End div class="post-wrap" -->
       </div>
-    
   </section>
 
   

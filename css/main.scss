@@ -1372,7 +1372,7 @@ html.mm-background .mm-page,
         /*font-style:italic;*/
         /* CHANGED */
         /* Add color */
-	      font-family: OpenSans,sans-serif;      
+	font-family: OpenSans,sans-serif;      
         color: #fff;
         font-size: 18px;
         line-height: 24px;      
@@ -1416,56 +1416,33 @@ html.mm-background .mm-page,
         @include span-columns(4);
         position:relative;
         padding-top: $base-spacing * 2;
-	      padding: 1.5em;
+	padding: 1.5em;
         margin-top: 5px;
         border-radius: 5px;
-  	      
-          &:after {
-            content:'';
-            background-color:$medium-gray;
-            display: block;
-            position: absolute;
-            top:$base-spacing;
-            right: - $base-spacing / 2;
-            bottom:0;
-            width: 1px;
-          }
-
-          &:last-child:after {
-            display:none;
-          }   
-      }
-    }
-    & > div.home-col {
-      padding:$base-spacing;
-      @include media($medium-screen) {
-        @include span-columns(12);
-          position:initial;
-
-          .post-wrap {
-            background-color: white;
-            border-radius: 5px;
-            padding-top: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 25px;
-            position:relative;
-            min-height: 250px;
-          }
+	      
+	.post-wrap {
+background-color: white;
+border-radius: 5px;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 25px;
+             }
+	      
+        &:after {
+          content:'';
+          background-color:$medium-gray;
+          display: block;
+          position: absolute;
+          top:$base-spacing;
+          right: - $base-spacing / 2;
+          bottom:0;
+          width: 1px;
         }
-      @include media($large-screen) {
-        @include span-columns(4);
-          position:initial;
 
-          .post-wrap {
-            min-height: 450px;
-
-            .savoir-plus {
-              position: absolute;
-              bottom: 25px;
-              margin-top: 2em;
-            }
-          }
+        &:last-child:after {
+          display:none;
+        }
       }
     }
   }
@@ -1520,11 +1497,11 @@ html.mm-background .mm-page,
       @extend button;
     }
 
-    /*& >  div .post-wrap {
+    & >  div .post-wrap {
     background-color: white;
     border-radius: 5px;
     padding-top: 20px;
-    }*/
+    }
 	  
   }
 
@@ -1873,6 +1850,29 @@ html.mm-background .mm-page,
 /* AGATHE STYLE */
 #header-logo {
   max-height: 5em;
+}
+
+#site-content {
+
+  @include media($medium-screen) {
+
+      > .home-col {
+        min-height: 650px;
+        height: auto;
+        position: relative;
+        margin-bottom: 2em;
+      }
+
+      .savoir-plus {
+        /*position: absolute; removed to include the buttons into the white wrapper  */
+        bottom: 0;
+      }
+  }
+  @include media($large-screen) {
+      > .home-col {
+        min-height: 450px;
+      }
+  }
 }
 
 

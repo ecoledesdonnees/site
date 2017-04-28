@@ -1,8 +1,8 @@
 ---
 layout: post
 title:   Running Data Expeditions in a context of low tech literacy
-date:   2015-05-08
-author : Jérémie Poiroux
+date:   2017-04-22
+author : Cecile LE GUEN
 categories: blogpost
 description: "How to be inclusive while driving social change initiatives involving data and technology? An example of bridging links and value every single voice."
 ---

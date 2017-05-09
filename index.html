@@ -45,7 +45,7 @@ lang: en
       </div>
       <div class="home-col">
           <h2><strong>Dernier</strong> Blogpost</h2>
-         {% for post in site.categories.blogpost limit:1  %}
+         {% for post in site.categories.fondamentaux limit:1  %}
             <div class="post-wrap">      
         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
           {% if post.author %}

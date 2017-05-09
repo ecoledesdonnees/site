@@ -7,7 +7,7 @@ categories: cours
 description: "Ce cours de l’Ecole des Données est une brève introduction au nettoyage des données pour réduire les erreurs. Il a été conçu par Tactical Technology Collective et offre un aperçu clair des erreurs qu’on peut trouver dans les feuilles de calcul, tout en donnant les méthodes pour les corriger (si nécessaire). Si vous voulez savoir pourquoi il est important de nettoyer des données et apprendre comment le faire, ce cours est pour vous."
 ---
 
-# Plan du cours : Une brève introduction au nettoyage des données
+## Plan du cours : Une brève introduction au nettoyage des données
 
 Ce cours a été conçu pour le projet École des données par [Tactical Technology Collective](http://tacticaltech.org/). Tactical Tech est une ONG internationale travaillant sur le lien entre la défense des droits, l’information et la technologie.
 

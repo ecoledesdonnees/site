@@ -10,7 +10,7 @@ title: Liste des cours disponibles
     <article class="posts">
 <div class="liste-cours">
     	
-        <a href="{{ post.url }}">
+        <a href="{{ site.baseurl }}{{ post.url }}">
           {% if post.imageURL %} 
             <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }} headline">
           {% endif %}

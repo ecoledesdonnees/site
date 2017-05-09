@@ -7,7 +7,7 @@ categories: fondamentaux
 description: "How to be inclusive while driving social change initiatives involving data and technology? An example of bridging links and value every single voice."
 ---
 
-# How to be inclusive while driving social change initiatives involving data and technology? An example of bridging links and value every single voice
+## How to be inclusive while driving social change initiatives involving data and technology? An example of bridging links and value every single voice
 
 This saturday morning in the social center of the Chevaleret neighborhood located in the 13th district of Paris, a few inhabitants are timidly drinking a cup of coffee, while a team of social professionals are bustling around, a bit anxious, getting the place ready for the first data expedition of a serie of three, to come in the month of March and April in three neighborhood of Paris with high social priorities. 
 

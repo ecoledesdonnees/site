@@ -1,6 +1,6 @@
 ---
 layout: post
-title:   test. Une brève introduction au nettoyage des données.
+title:  Une brève introduction au nettoyage des données.
 date:   2015-07-26
 author : Tactical Tech
 categories: cours

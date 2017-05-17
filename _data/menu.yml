@@ -11,15 +11,18 @@
       subslug: "cardgame"
     - subtitle: "Outils pour les Expéditions de Données"
       subslug: "outils"
-
-- title: "FAQ"
-  slug: "faq"
+      
+- title: "Ressources"
+  slug: "ressources"
 
 - title: "Blog"
   slug: "blog"
 
 - title: "Contribuer"
   slug: "contribute"
+  
+ - title: "FAQ"
+  slug: "faq"
 
 - title: "Contact"
   slug: "contact"

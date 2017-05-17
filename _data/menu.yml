@@ -11,9 +11,6 @@
       subslug: "cardgame"
     - subtitle: "Outils pour les Expéditions de Données"
       subslug: "outils"
-      
-- title: "Ressources"
-  slug: "ressources"
 
 - title: "Blog"
   slug: "blog"
